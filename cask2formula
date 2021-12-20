@@ -138,16 +138,18 @@ class CaskConverter
       transform = CaskTransform.new
       parser = CaskParser.new
       ignores = IO.readlines('.caskignore', chomp: true)
-      Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select{|file|
+      Dir.glob('./homebrew-cask-fonts/Casks/*.rb').select do |file|
         ignores.all? { |ignore| !File.fnmatch(ignore, file) }
-      }.each{|cask|
+      end.each do |cask|
         p "< #{cask}"
         recipe = File.read(cask)
         recipe = transform.apply(parser.parse(recipe))
         formula = cask.sub(%r{homebrew-cask-fonts/Casks}, 'Formula')
         File.write(formula, recipe)
         p "> #{formula}"
-      }
+      rescue StandardError => e
+        p "Error: #{e}"
+      end
     end
 
     def commit
