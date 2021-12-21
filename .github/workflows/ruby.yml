@@ -20,7 +20,8 @@ jobs:
       run: |
         git submodule update --init --remote
         gem install bundler
-        bundle install --jobs 4 --retry 3 --without development
+        bundle config set --local without 'development'
+        bundle install --jobs 4 --retry 3
         bundle exec ruby cask2formula convert
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
