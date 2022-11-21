@@ -4,8 +4,8 @@ class FontSofiaSans < Formula
   desc "Opentype family with large character set"
   homepage "https://github.com/lettersoup/Sofia-Sans"
   def install
-    (share/"fonts").install "SofiaSans-Italic[wdth,wght].ttf"
-    (share/"fonts").install "SofiaSans[wdth,wght].ttf"
+    (share/"fonts").install "SofiaSans-Italic[wght].ttf"
+    (share/"fonts").install "SofiaSans[wght].ttf"
   end
   test do
   end
