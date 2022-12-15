@@ -6,14 +6,14 @@ class FontBitstreamVeraSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf"
     (share/"fonts").install "Bitstream Vera Sans Mono Bold Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf"
+    (share/"fonts").install "Bitstream Vera Sans Mono Bold Nerd Font Complete.ttf"
     (share/"fonts").install "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Bitstream Vera Sans Mono Bold Oblique Nerd Font Complete.ttf"
     (share/"fonts").install "Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf"
     (share/"fonts").install "Bitstream Vera Sans Mono Nerd Font Complete.ttf"
-    (share/"fonts").install "Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf"
     (share/"fonts").install "Bitstream Vera Sans Mono Oblique Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Bitstream Vera Sans Mono Oblique Nerd Font Complete.ttf"
   end
   test do
   end
