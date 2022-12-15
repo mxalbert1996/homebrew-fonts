@@ -10,8 +10,8 @@ class FontDejavuSansMonoNerdFont < Formula
     (share/"fonts").install "DejaVu Sans Mono Bold Nerd Font Complete.ttf"
     (share/"fonts").install "DejaVu Sans Mono Bold Oblique Nerd Font Complete Mono.ttf"
     (share/"fonts").install "DejaVu Sans Mono Bold Oblique Nerd Font Complete.ttf"
-    (share/"fonts").install "DejaVu Sans Mono Nerd Font Complete.ttf"
     (share/"fonts").install "DejaVu Sans Mono Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "DejaVu Sans Mono Nerd Font Complete.ttf"
     (share/"fonts").install "DejaVu Sans Mono Oblique Nerd Font Complete Mono.ttf"
     (share/"fonts").install "DejaVu Sans Mono Oblique Nerd Font Complete.ttf"
   end
