@@ -6,14 +6,14 @@ class FontCousineNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Cousine Bold Nerd Font Complete.ttf"
-    (share/"fonts").install "Cousine Bold Nerd Font Complete Mono.ttf"
     (share/"fonts").install "Cousine Bold Italic Nerd Font Complete Mono.ttf"
     (share/"fonts").install "Cousine Bold Italic Nerd Font Complete.ttf"
-    (share/"fonts").install "Cousine Regular Nerd Font Complete.ttf"
-    (share/"fonts").install "Cousine Regular Nerd Font Complete Mono.ttf"
-    (share/"fonts").install "Cousine Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Cousine Bold Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Cousine Bold Nerd Font Complete.ttf"
     (share/"fonts").install "Cousine Italic Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Cousine Italic Nerd Font Complete.ttf"
+    (share/"fonts").install "Cousine Regular Nerd Font Complete Mono.ttf"
+    (share/"fonts").install "Cousine Regular Nerd Font Complete.ttf"
   end
   test do
   end
