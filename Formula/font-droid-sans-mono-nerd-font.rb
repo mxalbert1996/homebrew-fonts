@@ -6,8 +6,8 @@ class FontDroidSansMonoNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Droid Sans Mono Nerd Font Complete.otf"
     (share/"fonts").install "Droid Sans Mono Nerd Font Complete Mono.otf"
+    (share/"fonts").install "Droid Sans Mono Nerd Font Complete.otf"
   end
   test do
   end
