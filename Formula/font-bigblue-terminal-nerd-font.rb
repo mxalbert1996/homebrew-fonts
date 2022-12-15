@@ -6,10 +6,10 @@ class FontBigblueTerminalNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "BigBlue TerminalPlus Nerd Font Complete.TTF"
+    (share/"fonts").install "BigBlue Terminal 437TT Nerd Font Complete Mono.TTF"
     (share/"fonts").install "BigBlue Terminal 437TT Nerd Font Complete.TTF"
     (share/"fonts").install "BigBlue TerminalPlus Nerd Font Complete Mono.TTF"
-    (share/"fonts").install "BigBlue Terminal 437TT Nerd Font Complete Mono.TTF"
+    (share/"fonts").install "BigBlue TerminalPlus Nerd Font Complete.TTF"
   end
   test do
   end
