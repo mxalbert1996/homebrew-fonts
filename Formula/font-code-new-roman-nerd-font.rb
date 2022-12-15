@@ -6,12 +6,12 @@ class FontCodeNewRomanNerdFont < Formula
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
   def install
-    (share/"fonts").install "Code New Roman Italic Nerd Font Complete.otf"
-    (share/"fonts").install "Code New Roman Nerd Font Complete.otf"
+    (share/"fonts").install "Code New Roman Bold Nerd Font Complete Mono.otf"
     (share/"fonts").install "Code New Roman Bold Nerd Font Complete.otf"
     (share/"fonts").install "Code New Roman Italic Nerd Font Complete Mono.otf"
+    (share/"fonts").install "Code New Roman Italic Nerd Font Complete.otf"
     (share/"fonts").install "Code New Roman Nerd Font Complete Mono.otf"
-    (share/"fonts").install "Code New Roman Bold Nerd Font Complete Mono.otf"
+    (share/"fonts").install "Code New Roman Nerd Font Complete.otf"
   end
   test do
   end
