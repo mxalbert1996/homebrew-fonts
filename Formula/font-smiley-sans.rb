@@ -1,6 +1,6 @@
 class FontSmileySans < Formula
-  version "1.0.0"
-  sha256 "8293c9b9fd44c9ee6b3fab696862445059e4d98b341a148d4544f91d01363fc1"
+  version "1.1.0"
+  sha256 "5a828523a93db22cbe8b1f1daaa70a1eb1314d876ce985ac311a0fb220c2ced5"
   url "https://github.com/atelier-anchor/smiley-sans/releases/download/v#{version}/smiley-sans-v#{version}.zip", verified: "github.com/atelier-anchor/smiley-sans/"
   desc "Smiley Sans"
   desc "Chinese typeface seeking a visual balance between the humanist and the geometric"
