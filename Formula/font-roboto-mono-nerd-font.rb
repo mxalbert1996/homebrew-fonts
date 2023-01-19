@@ -1,6 +1,6 @@
 class FontRobotoMonoNerdFont < Formula
-  version "2.2.2"
-  sha256 "067326ee4d7e1d7cd576a3020df17f518bbf70f4ec9127403b6235be30fd3abf"
+  version "2.3.0"
+  sha256 "ed39bddfc400222b81caa43d9c9a3cce6ad1fadfcc2fe46429bae703c7d798be"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/RobotoMono.zip"
   desc "RobotoMono Nerd Font (Roboto Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
