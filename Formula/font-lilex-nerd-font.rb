@@ -1,6 +1,6 @@
 class FontLilexNerdFont < Formula
-  version "2.3.0"
-  sha256 "7f03611fb726bafaec882fc0f057290cfe7282659589022b2ccbe206849c6f7d"
+  version "2.3.2"
+  sha256 "d0cc472c60035171fdbb931b169840c54319a4ad0220344b9977b4f99ddafaae"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Lilex.zip"
   desc "Lilex Nerd Font (Lilex)"
   desc "Developer targeted fonts with a high number of glyphs"
