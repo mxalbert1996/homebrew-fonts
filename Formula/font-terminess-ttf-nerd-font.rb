@@ -1,6 +1,6 @@
 class FontTerminessTtfNerdFont < Formula
-  version "2.3.0"
-  sha256 "3a89ee018ac71678f66a5f037f720eed530a2a7ffed6456c0749a9b365df1e03"
+  version "2.3.2"
+  sha256 "5ecf5f613b409466d432d9b8e00d8fdac49aefa094c9ea34cb4b8f26e0e157fa"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Terminus.zip"
   desc "TerminessTTF Nerd Font (Terminus)"
   desc "Developer targeted fonts with a high number of glyphs"
