@@ -1,6 +1,6 @@
 class FontNotoNerdFont < Formula
-  version "2.3.2"
-  sha256 "387970b67c6b5ce7c286e009eee2f97c2a0bab66dda3d00e28ae4f044e5bcf94"
+  version "2.3.3"
+  sha256 "4df90acc70dba49849bd5e22489c1f16633c6c4010966b97f6a7fb7ce8909237"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Noto.zip"
   desc "Noto Nerd Font families (Noto)"
   desc "Developer targeted fonts with a high number of glyphs"
