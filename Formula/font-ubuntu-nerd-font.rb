@@ -1,6 +1,6 @@
 class FontUbuntuNerdFont < Formula
-  version "2.3.2"
-  sha256 "191667ac0ef79d70d9c84cc03013e672b0ba9b5808c6a68ab4700d4adfbf669a"
+  version "2.3.3"
+  sha256 "787438d097aa96eaeb75b89051d829492d1846dfe1127ad7a6e55741e02e8593"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Ubuntu.zip"
   desc "Ubuntu Nerd Font families (Ubuntu)"
   desc "Developer targeted fonts with a high number of glyphs"
