@@ -1,6 +1,6 @@
 class FontDejavuSansMonoNerdFont < Formula
-  version "2.3.2"
-  sha256 "091f2d6dd416c5d6d5846407415fa370597925ec854a11b75f5de3f70ee4da56"
+  version "2.3.3"
+  sha256 "4a71551bb10785759ec033ed675d1ee3d751591aee506f41f78c60effc33d4e2"
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/DejaVuSansMono.zip"
   desc "DejaVuSansMono Nerd Font (DejaVu Sans Mono)"
   desc "Developer targeted fonts with a high number of glyphs"
