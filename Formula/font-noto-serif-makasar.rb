@@ -1,1 +1,11 @@
-{:name=>"\"font-noto-serif-makasar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notoserifmakasar/NotoSerifMakasar-Regular.ttf\"", "desc \"Noto Serif Makasar\"", "desc \"Design for the historical southeast asian makasar script\""@201, "homepage \"https://github.com/notofonts/makasar\""@267], :fonts=>["(share/\"fonts\").install \"NotoSerifMakasar-Regular.ttf\""], :after=>"# No zap stanza required\n"@357}
+class FontNotoSerifMakasar < Formula
+  head "https://github.com/google/fonts/raw/main/ofl/notoserifmakasar/NotoSerifMakasar-Regular.ttf"
+  desc "Noto Serif Makasar"
+  desc "Design for the historical southeast asian makasar script"
+  homepage "https://github.com/notofonts/makasar"
+  def install
+    (share/"fonts").install "NotoSerifMakasar-Regular.ttf"
+  end
+  test do
+  end
+end
