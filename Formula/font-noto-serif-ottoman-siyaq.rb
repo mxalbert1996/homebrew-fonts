@@ -1,1 +1,11 @@
-{:name=>"\"font-noto-serif-ottoman-siyaq\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notoserifottomansiyaq/NotoSerifOttomanSiyaq-Regular.ttf\"", "desc \"Noto Serif Ottoman Siyaq\"", "desc \"Modulated (“serif”) design for the arabic form of the siyaq numeral system\""@223, "homepage \"https://github.com/notofonts/noto-project-template\""@307], :fonts=>["(share/\"fonts\").install \"NotoSerifOttomanSiyaq-Regular.ttf\""], :after=>"# No zap stanza required\n"@416}
+class FontNotoSerifOttomanSiyaq < Formula
+  head "https://github.com/google/fonts/raw/main/ofl/notoserifottomansiyaq/NotoSerifOttomanSiyaq-Regular.ttf"
+  desc "Noto Serif Ottoman Siyaq"
+  desc "Modulated (“serif”) design for the arabic form of the siyaq numeral system"
+  homepage "https://github.com/notofonts/noto-project-template"
+  def install
+    (share/"fonts").install "NotoSerifOttomanSiyaq-Regular.ttf"
+  end
+  test do
+  end
+end
