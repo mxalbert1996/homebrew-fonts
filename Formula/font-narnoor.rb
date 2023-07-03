@@ -1,11 +1,1 @@
-class FontNarnoor < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/narnoor/Narnoor-Regular.ttf"
-  desc "Narnoor"
-  desc "Actively being revived"
-  homepage "https://github.com/silnrsi/font-narnoor"
-  def install
-    (share/"fonts").install "Narnoor-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-narnoor\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/narnoor/Narnoor-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Narnoor\"", "desc \"Actively being revived\""@205, "homepage \"https://fonts.google.com/specimen/Narnoor\""@237], :fonts=>["(share/\"fonts\").install \"Narnoor-Regular.ttf\""], :after=>"# No zap stanza required\n"@323}
