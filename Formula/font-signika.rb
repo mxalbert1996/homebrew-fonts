@@ -1,11 +1,1 @@
-class FontSignika < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/signika/Signika%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Signika"
-  desc "Sans-serif signage typeface with a gentle character"
-  homepage "https://fonts.google.com/specimen/Signika"
-  def install
-    (share/"fonts").install "Signika[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-signika\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/signika/Signika%5BGRAD%2Cwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Signika\"", "desc \"Sans-serif signage typeface with a gentle character\""@214, "homepage \"https://fonts.google.com/specimen/Signika\""@275], :fonts=>["(share/\"fonts\").install \"Signika[GRAD,wght].ttf\""], :after=>"# No zap stanza required\n"@364}
