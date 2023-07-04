@@ -1,12 +1,1 @@
-class FontHanNomA < Formula
-  version "2005"
-  url "https://downloads.sourceforge.net/vietunicode/hannomH.zip"
-  desc "HAN NOM A"
-  homepage "https://sourceforge.net/projects/vietunicode/files/hannom/hannom%20v2005/"
-  def install
-    (share/"fonts").install "HAN NOM A.ttf"
-    (share/"fonts").install "HAN NOM B.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-han-nom-a\"", :before=>["version \"2005\""@27, "", "url \"https://downloads.sourceforge.net/vietunicode/hannomH.zip\""@64, "desc \"HAN NOM A\"", "homepage \"https://sourceforge.net/projects/vietunicode/files/hannom/hannom%20v2005/\""@149, ""], :fonts=>["(share/\"fonts\").install \"HAN NOM A.ttf\"", "(share/\"fonts\").install \"HAN NOM B.ttf\""], :after=>"# No zap stanza required\n"@395}
