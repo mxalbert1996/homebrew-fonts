@@ -1,10 +1,1 @@
-class FontNotoSansSoraSompeng < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssorasompeng/NotoSansSoraSompeng%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Sora Sompeng"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Sora+Sompeng"
-  def install
-    (share/"fonts").install "NotoSansSoraSompeng[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-sora-sompeng\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanssorasompeng/NotoSansSoraSompeng%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Sora Sompeng\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Sora+Sompeng\""@261], :fonts=>["(share/\"fonts\").install \"NotoSansSoraSompeng[wght].ttf\""], :after=>"# No zap stanza required\n"@372}
