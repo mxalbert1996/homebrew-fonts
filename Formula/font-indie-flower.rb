@@ -1,10 +1,1 @@
-class FontIndieFlower < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/indieflower/IndieFlower-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Indie Flower"
-  homepage "https://fonts.google.com/specimen/Indie+Flower"
-  def install
-    (share/"fonts").install "IndieFlower-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-indie-flower\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/indieflower/IndieFlower-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Indie Flower\"", "homepage \"https://fonts.google.com/specimen/Indie+Flower\""@223], :fonts=>["(share/\"fonts\").install \"IndieFlower-Regular.ttf\""], :after=>"# No zap stanza required\n"@318}
