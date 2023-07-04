@@ -1,10 +1,1 @@
-class FontStintUltraCondensed < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/stintultracondensed/StintUltraCondensed-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Stint Ultra Condensed"
-  homepage "https://fonts.google.com/specimen/Stint+Ultra+Condensed"
-  def install
-    (share/"fonts").install "StintUltraCondensed-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-stint-ultra-condensed\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/stintultracondensed/StintUltraCondensed-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Stint Ultra Condensed\"", "homepage \"https://fonts.google.com/specimen/Stint+Ultra+Condensed\""@257], :fonts=>["(share/\"fonts\").install \"StintUltraCondensed-Regular.ttf\""], :after=>"# No zap stanza required\n"@369}
