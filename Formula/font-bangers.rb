@@ -1,10 +1,1 @@
-class FontBangers < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bangers/Bangers-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bangers"
-  homepage "https://fonts.google.com/specimen/Bangers"
-  def install
-    (share/"fonts").install "Bangers-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bangers\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bangers/Bangers-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bangers\"", "homepage \"https://fonts.google.com/specimen/Bangers\""@205], :fonts=>["(share/\"fonts\").install \"Bangers-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
