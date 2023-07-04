@@ -1,10 +1,1 @@
-class FontRubikPuddles < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikpuddles/RubikPuddles-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Puddles"
-  homepage "https://fonts.google.com/specimen/Rubik+Puddles"
-  def install
-    (share/"fonts").install "RubikPuddles-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-rubik-puddles\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikpuddles/RubikPuddles-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rubik Puddles\"", "homepage \"https://fonts.google.com/specimen/Rubik+Puddles\""@227], :fonts=>["(share/\"fonts\").install \"RubikPuddles-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
