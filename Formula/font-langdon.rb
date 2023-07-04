@@ -1,10 +1,1 @@
-class FontLangdon < Formula
-  head "https://www.ffonts.net/Langdon.font.zip"
-  desc "Langdon"
-  homepage "https://www.ffonts.net/Langdon.font"
-  def install
-    (share/"fonts").install "Langdon.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-langdon\"", :before=>["", "", "head \"https://www.ffonts.net/Langdon.font.zip\"", "desc \"Langdon\"", "homepage \"https://www.ffonts.net/Langdon.font\""@128], :fonts=>["(share/\"fonts\").install \"Langdon.otf\""], :after=>"# No zap stanza required\n"@200}
