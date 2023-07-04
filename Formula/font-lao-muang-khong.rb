@@ -1,10 +1,1 @@
-class FontLaoMuangKhong < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/laomuangkhong/LaoMuangKhong-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Lao Muang Khong"
-  homepage "https://fonts.google.com/earlyaccess"
-  def install
-    (share/"fonts").install "LaoMuangKhong-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-lao-muang-khong\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/laomuangkhong/LaoMuangKhong-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lao Muang Khong\"", "homepage \"https://fonts.google.com/earlyaccess\""@233], :fonts=>["(share/\"fonts\").install \"LaoMuangKhong-Regular.ttf\""], :after=>"# No zap stanza required\n"@320}
