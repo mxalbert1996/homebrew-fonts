@@ -1,11 +1,1 @@
-class FontNotoSerifTelugu < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifTelugu-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Telugu"
-  homepage "https://www.google.com/get/noto/#serif-telu"
-  def install
-    (share/"fonts").install "NotoSerifTelugu-Bold.ttf"
-    (share/"fonts").install "NotoSerifTelugu-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-telugu\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifTelugu-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Serif Telugu\"", "homepage \"https://www.google.com/get/noto/#serif-telu\""@246], :fonts=>["(share/\"fonts\").install \"NotoSerifTelugu-Bold.ttf\"", "(share/\"fonts\").install \"NotoSerifTelugu-Regular.ttf\""], :after=>"# No zap stanza required\n"@376}
