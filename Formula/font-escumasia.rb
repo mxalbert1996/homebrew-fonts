@@ -1,12 +1,1 @@
-class FontEscumasia < Formula
-  head "https://moji-waku.com/download/escumasia.zip"
-  desc "Escumasia"
-  desc "Ancient biology styled font inspired by escumasia"
-  homepage "https://moji-waku.com/escumasia/index.html"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}escumasia/Escumasia-Regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-escumasia\"", :before=>["", "", "head \"https://moji-waku.com/download/escumasia.zip\"", "desc \"Escumasia\"", "desc \"Ancient biology styled font inspired by escumasia\""@137, "homepage \"https://moji-waku.com/escumasia/index.html\""@196], :fonts=>["(share/\"fonts\").install \"\#{parent}escumasia/Escumasia-Regular.otf\""], :after=>"# No zap stanza required\n"@295}
