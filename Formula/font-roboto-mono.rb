@@ -1,11 +1,1 @@
-class FontRobotoMono < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/robotomono"
-  desc "Roboto Mono"
-  homepage "https://fonts.google.com/specimen/Roboto+Mono"
-  def install
-    (share/"fonts").install "RobotoMono-Italic[wght].ttf"
-    (share/"fonts").install "RobotoMono[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-roboto-mono\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"apache/robotomono\"", "desc \"Roboto Mono\"", "homepage \"https://fonts.google.com/specimen/Roboto+Mono\""@239], :fonts=>["(share/\"fonts\").install \"RobotoMono-Italic[wght].ttf\"", "(share/\"fonts\").install \"RobotoMono[wght].ttf\""], :after=>"# No zap stanza required\n"@367}
