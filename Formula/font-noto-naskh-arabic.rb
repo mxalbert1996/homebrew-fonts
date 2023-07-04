@@ -1,11 +1,1 @@
-class FontNotoNaskhArabic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoNaskhArabic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Naskh Arabic"
-  homepage "https://www.google.com/get/noto/#naskh-arab"
-  def install
-    (share/"fonts").install "NotoNaskhArabic-Bold.ttf"
-    (share/"fonts").install "NotoNaskhArabic-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-naskh-arabic\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoNaskhArabic-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Naskh Arabic\"", "homepage \"https://www.google.com/get/noto/#naskh-arab\""@246], :fonts=>["(share/\"fonts\").install \"NotoNaskhArabic-Bold.ttf\"", "(share/\"fonts\").install \"NotoNaskhArabic-Regular.ttf\""], :after=>"# No zap stanza required\n"@376}
