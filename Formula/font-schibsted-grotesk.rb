@@ -1,12 +1,1 @@
-class FontSchibstedGrotesk < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/schibstedgrotesk"
-  desc "Schibsted Grotesk"
-  desc "Digital-first font family crafted for user interfaces"
-  homepage "https://fonts.google.com/specimen/Schibsted+Grotesk"
-  def install
-    (share/"fonts").install "SchibstedGrotesk-Italic[wght].ttf"
-    (share/"fonts").install "SchibstedGrotesk[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-schibsted-grotesk\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/schibstedgrotesk\"", "desc \"Schibsted Grotesk\"", "desc \"Digital-first font family crafted for user interfaces\""@254, "homepage \"https://fonts.google.com/specimen/Schibsted+Grotesk\""@317], :fonts=>["(share/\"fonts\").install \"SchibstedGrotesk-Italic[wght].ttf\"", "(share/\"fonts\").install \"SchibstedGrotesk[wght].ttf\""], :after=>"# No zap stanza required\n"@463}
