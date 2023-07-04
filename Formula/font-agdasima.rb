@@ -1,12 +1,1 @@
-class FontAgdasima < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/agdasima"
-  desc "Agdasima"
-  desc "Based on big shoulders, a condensed american gothic sans-serif font family"
-  homepage "https://fonts.google.com/specimen/Agdasima"
-  def install
-    (share/"fonts").install "Agdasima-Bold.ttf"
-    (share/"fonts").install "Agdasima-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-agdasima\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/agdasima\"", "desc \"Agdasima\"", "desc \"Based on big shoulders, a condensed american gothic sans-serif font family\""@228, "homepage \"https://fonts.google.com/specimen/Agdasima\""@312], :fonts=>["(share/\"fonts\").install \"Agdasima-Bold.ttf\"", "(share/\"fonts\").install \"Agdasima-Regular.ttf\""], :after=>"# No zap stanza required\n"@427}
