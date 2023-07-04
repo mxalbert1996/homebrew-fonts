@@ -1,10 +1,1 @@
-class FontNixieOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nixieone/NixieOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nixie One"
-  homepage "https://fonts.google.com/specimen/Nixie+One"
-  def install
-    (share/"fonts").install "NixieOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-nixie-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/nixieone/NixieOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nixie One\"", "homepage \"https://fonts.google.com/specimen/Nixie+One\""@211], :fonts=>["(share/\"fonts\").install \"NixieOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
