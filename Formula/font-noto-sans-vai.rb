@@ -1,10 +1,1 @@
-class FontNotoSansVai < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansVai-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Vai"
-  homepage "https://www.google.com/get/noto/#sans-vaii"
-  def install
-    (share/"fonts").install "NotoSansVai-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-vai\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansVai-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Vai\"", "homepage \"https://www.google.com/get/noto/#sans-vaii\""@234], :fonts=>["(share/\"fonts\").install \"NotoSansVai-Regular.ttf\""], :after=>"# No zap stanza required\n"@325}
