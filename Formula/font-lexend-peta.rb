@@ -1,10 +1,1 @@
-class FontLexendPeta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lexendpeta/LexendPeta%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Lexend Peta"
-  homepage "https://fonts.google.com/specimen/Lexend+Peta"
-  def install
-    (share/"fonts").install "LexendPeta[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-lexend-peta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lexendpeta/LexendPeta%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lexend Peta\"", "homepage \"https://fonts.google.com/specimen/Lexend+Peta\""@221], :fonts=>["(share/\"fonts\").install \"LexendPeta[wght].ttf\""], :after=>"# No zap stanza required\n"@312}
