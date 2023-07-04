@@ -1,10 +1,1 @@
-class FontItim < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/itim/Itim-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Itim"
-  homepage "https://fonts.google.com/specimen/Itim"
-  def install
-    (share/"fonts").install "Itim-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-itim\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/itim/Itim-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Itim\"", "homepage \"https://fonts.google.com/specimen/Itim\""@193], :fonts=>["(share/\"fonts\").install \"Itim-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
