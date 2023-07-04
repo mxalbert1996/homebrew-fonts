@@ -1,12 +1,1 @@
-class FontZenLoop < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/zenloop"
-  desc "Zen Loop"
-  desc "Latin fonts designed by yoshimichi ohira, as part of zen fonts collection"
-  homepage "https://fonts.google.com/specimen/Zen+Loop"
-  def install
-    (share/"fonts").install "ZenLoop-Italic.ttf"
-    (share/"fonts").install "ZenLoop-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-zen-loop\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/zenloop\"", "desc \"Zen Loop\"", "desc \"Latin fonts designed by yoshimichi ohira, as part of zen fonts collection\""@227, "homepage \"https://fonts.google.com/specimen/Zen+Loop\""@310], :fonts=>["(share/\"fonts\").install \"ZenLoop-Italic.ttf\"", "(share/\"fonts\").install \"ZenLoop-Regular.ttf\""], :after=>"# No zap stanza required\n"@425}
