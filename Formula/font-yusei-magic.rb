@@ -1,11 +1,1 @@
-class FontYuseiMagic < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/yuseimagic/YuseiMagic-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Yusei Magic"
-  desc "Highly visible font based on handwritten letters"
-  homepage "https://fonts.google.com/specimen/Yusei+Magic"
-  def install
-    (share/"fonts").install "YuseiMagic-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-yusei-magic\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yuseimagic/YuseiMagic-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yusei Magic\"", "desc \"Highly visible font based on handwritten letters\""@219, "homepage \"https://fonts.google.com/specimen/Yusei+Magic\""@277], :fonts=>["(share/\"fonts\").install \"YuseiMagic-Regular.ttf\""], :after=>"# No zap stanza required\n"@370}
