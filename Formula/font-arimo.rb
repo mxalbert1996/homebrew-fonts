@@ -1,11 +1,1 @@
-class FontArimo < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "apache/arimo"
-  desc "Arimo"
-  homepage "https://fonts.google.com/specimen/Arimo"
-  def install
-    (share/"fonts").install "Arimo-Italic[wght].ttf"
-    (share/"fonts").install "Arimo[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-arimo\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"apache/arimo\"", "desc \"Arimo\"", "homepage \"https://fonts.google.com/specimen/Arimo\""@222], :fonts=>["(share/\"fonts\").install \"Arimo-Italic[wght].ttf\"", "(share/\"fonts\").install \"Arimo[wght].ttf\""], :after=>"# No zap stanza required\n"@334}
