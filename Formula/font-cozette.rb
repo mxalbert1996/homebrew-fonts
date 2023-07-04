@@ -1,13 +1,1 @@
-class FontCozette < Formula
-  version "1.20.0"
-  sha256 "19f1088e6c4af7db162665aaa54c0b22214a0a7f92a565462639a5d1ee21d061"
-  url "https://github.com/slavfox/Cozette/releases/download/v.#{version}/CozetteVector.dfont"
-  desc "Cozette"
-  desc "Bitmap programming font"
-  homepage "https://github.com/slavfox/Cozette"
-  def install
-    (share/"fonts").install "CozetteVector.dfont"
-  end
-  test do
-  end
-end
+{:name=>"\"font-cozette\"", :before=>["version \"1.20.1\""@25, "sha256 \"7c29e32d17b58caed029f852e3c11a4f8cd5c03262a2a6ea2ac3a4097971aafe\""@44, "url \"https://github.com/slavfox/Cozette/releases/download/v.\#{version}/CozetteVector.dfont\""@121, "desc \"Cozette\"", "desc \"Bitmap programming font\""@232, "homepage \"https://github.com/slavfox/Cozette\""@265], :fonts=>["(share/\"fonts\").install \"CozetteVector.dfont\""], :after=>"# No zap stanza required\n"@344}
