@@ -1,10 +1,1 @@
-class FontUnifrakturcook < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/unifrakturcook/UnifrakturCook-Bold.ttf", verified: "github.com/google/fonts/"
-  desc "UnifrakturCook"
-  homepage "https://fonts.google.com/specimen/UnifrakturCook"
-  def install
-    (share/"fonts").install "UnifrakturCook-Bold.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-unifrakturcook\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/unifrakturcook/UnifrakturCook-Bold.ttf\", verified: \"github.com/google/fonts/\"", "desc \"UnifrakturCook\"", "homepage \"https://fonts.google.com/specimen/UnifrakturCook\""@230], :fonts=>["(share/\"fonts\").install \"UnifrakturCook-Bold.ttf\""], :after=>"# No zap stanza required\n"@327}
