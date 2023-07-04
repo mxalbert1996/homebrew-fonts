@@ -1,10 +1,1 @@
-class FontGlassAntiqua < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Glass Antiqua"
-  homepage "https://fonts.google.com/specimen/Glass+Antiqua"
-  def install
-    (share/"fonts").install "GlassAntiqua-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-glass-antiqua\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/glassantiqua/GlassAntiqua-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Glass Antiqua\"", "homepage \"https://fonts.google.com/specimen/Glass+Antiqua\""@227], :fonts=>["(share/\"fonts\").install \"GlassAntiqua-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
