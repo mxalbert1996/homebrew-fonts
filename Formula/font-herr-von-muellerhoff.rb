@@ -1,10 +1,1 @@
-class FontHerrVonMuellerhoff < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Herr Von Muellerhoff"
-  homepage "https://fonts.google.com/specimen/Herr+Von+Muellerhoff"
-  def install
-    (share/"fonts").install "HerrVonMuellerhoff-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-herr-von-muellerhoff\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/herrvonmuellerhoff/HerrVonMuellerhoff-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Herr Von Muellerhoff\"", "homepage \"https://fonts.google.com/specimen/Herr+Von+Muellerhoff\""@253], :fonts=>["(share/\"fonts\").install \"HerrVonMuellerhoff-Regular.ttf\""], :after=>"# No zap stanza required\n"@363}
