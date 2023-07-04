@@ -1,11 +1,1 @@
-class FontMeowScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/meowscript/MeowScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Meow Script"
-  desc "Monoline font with a number of alternate forms in six stylistic sets"
-  homepage "https://fonts.google.com/specimen/Meow+Script"
-  def install
-    (share/"fonts").install "MeowScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-meow-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/meowscript/MeowScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Meow Script\"", "desc \"Monoline font with a number of alternate forms in six stylistic sets\""@219, "homepage \"https://fonts.google.com/specimen/Meow+Script\""@297], :fonts=>["(share/\"fonts\").install \"MeowScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@390}
