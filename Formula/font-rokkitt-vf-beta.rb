@@ -1,10 +1,1 @@
-class FontRokkittVfBeta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rokkittvfbeta/RokkittVFBeta.ttf", verified: "github.com/google/fonts/"
-  desc "Rokkitt VF Beta"
-  homepage "https://fonts.google.com/specimen/Rokkitt+VF+Beta"
-  def install
-    (share/"fonts").install "RokkittVFBeta.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-rokkitt-vf-beta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rokkittvfbeta/RokkittVFBeta.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rokkitt VF Beta\"", "homepage \"https://fonts.google.com/specimen/Rokkitt+VF+Beta\""@225], :fonts=>["(share/\"fonts\").install \"RokkittVFBeta.ttf\""], :after=>"# No zap stanza required\n"@317}
