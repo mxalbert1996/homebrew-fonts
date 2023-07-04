@@ -1,11 +1,1 @@
-class FontBungeeColor < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bungeecolor/BungeeColor-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bungee Color"
-  desc "Led by david jonathan ross, a type designer based in the usa"
-  homepage "https://fonts.google.com/specimen/Bungee+Color"
-  def install
-    (share/"fonts").install "BungeeColor-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bungee-color\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bungeecolor/BungeeColor-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bungee Color\"", "desc \"Led by david jonathan ross, a type designer based in the usa\""@223, "homepage \"https://fonts.google.com/specimen/Bungee+Color\""@293], :fonts=>["(share/\"fonts\").install \"BungeeColor-Regular.ttf\""], :after=>"# No zap stanza required\n"@388}
