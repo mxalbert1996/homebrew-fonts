@@ -1,10 +1,1 @@
-class FontMetalMania < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/metalmania/MetalMania-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Metal Mania"
-  homepage "https://fonts.google.com/specimen/Metal+Mania"
-  def install
-    (share/"fonts").install "MetalMania-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-metal-mania\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/metalmania/MetalMania-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Metal Mania\"", "homepage \"https://fonts.google.com/specimen/Metal+Mania\""@219], :fonts=>["(share/\"fonts\").install \"MetalMania-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
