@@ -1,10 +1,1 @@
-class FontNotoSansSyriacWestern < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSyriacWestern-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Syriac Western"
-  homepage "https://www.google.com/get/noto/#sans-syrc-western"
-  def install
-    (share/"fonts").install "NotoSansSyriacWestern-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-syriac-western\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSyriacWestern-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Syriac Western\"", "homepage \"https://www.google.com/get/noto/#sans-syrc-western\""@266], :fonts=>["(share/\"fonts\").install \"NotoSansSyriacWestern-Regular.ttf\""], :after=>"# No zap stanza required\n"@375}
