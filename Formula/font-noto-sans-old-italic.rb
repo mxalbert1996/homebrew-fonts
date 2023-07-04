@@ -1,10 +1,1 @@
-class FontNotoSansOldItalic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldItalic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Old Italic"
-  homepage "https://www.google.com/get/noto/#sans-ital"
-  def install
-    (share/"fonts").install "NotoSansOldItalic-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-old-italic\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldItalic-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Old Italic\"", "homepage \"https://www.google.com/get/noto/#sans-ital\""@254], :fonts=>["(share/\"fonts\").install \"NotoSansOldItalic-Regular.ttf\""], :after=>"# No zap stanza required\n"@351}
