@@ -1,10 +1,1 @@
-class FontMarmelad < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/marmelad/Marmelad-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Marmelad"
-  homepage "https://fonts.google.com/specimen/Marmelad"
-  def install
-    (share/"fonts").install "Marmelad-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-marmelad\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/marmelad/Marmelad-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Marmelad\"", "homepage \"https://fonts.google.com/specimen/Marmelad\""@209], :fonts=>["(share/\"fonts\").install \"Marmelad-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
