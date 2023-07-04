@@ -1,11 +1,1 @@
-class FontSrisakdi < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/srisakdi"
-  desc "Srisakdi"
-  homepage "https://fonts.google.com/specimen/Srisakdi"
-  def install
-    (share/"fonts").install "Srisakdi-Bold.ttf"
-    (share/"fonts").install "Srisakdi-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-srisakdi\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/srisakdi\"", "desc \"Srisakdi\"", "homepage \"https://fonts.google.com/specimen/Srisakdi\""@228], :fonts=>["(share/\"fonts\").install \"Srisakdi-Bold.ttf\"", "(share/\"fonts\").install \"Srisakdi-Regular.ttf\""], :after=>"# No zap stanza required\n"@343}
