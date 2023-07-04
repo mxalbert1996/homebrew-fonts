@@ -1,10 +1,1 @@
-class FontLemon < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lemon/Lemon-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Lemon"
-  homepage "https://fonts.google.com/specimen/Lemon"
-  def install
-    (share/"fonts").install "Lemon-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-lemon\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lemon/Lemon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lemon\"", "homepage \"https://fonts.google.com/specimen/Lemon\""@197], :fonts=>["(share/\"fonts\").install \"Lemon-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
