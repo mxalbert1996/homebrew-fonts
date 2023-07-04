@@ -1,10 +1,1 @@
-class FontTypographerWoodcutInitialsOne < Formula
-  head "https://dl.1001fonts.com/download/typographerwoodcutinitialsone.zip"
-  desc "Typographer Woodcut Initials One"
-  homepage "https://www.1001fonts.com/typographerwoodcutinitialsone-font.html"
-  def install
-    (share/"fonts").install "TypographerWoodcut01.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-typographer-woodcut-initials-one\"", :before=>["", "", "head \"https://dl.1001fonts.com/download/typographerwoodcutinitialsone.zip\"", "desc \"Typographer Woodcut Initials One\"", "homepage \"https://www.1001fonts.com/typographerwoodcutinitialsone-font.html\""@206], :fonts=>["(share/\"fonts\").install \"TypographerWoodcut01.ttf\""], :after=>"# No zap stanza required\n"@321}
