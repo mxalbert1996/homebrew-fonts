@@ -1,10 +1,1 @@
-class FontFjallaOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fjallaone/FjallaOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Fjalla One"
-  homepage "https://fonts.google.com/specimen/Fjalla+One"
-  def install
-    (share/"fonts").install "FjallaOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-fjalla-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/fjallaone/FjallaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Fjalla One\"", "homepage \"https://fonts.google.com/specimen/Fjalla+One\""@215], :fonts=>["(share/\"fonts\").install \"FjallaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
