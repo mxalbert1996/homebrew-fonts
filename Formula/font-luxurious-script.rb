@@ -1,10 +1,1 @@
-class FontLuxuriousScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/luxuriousscript/LuxuriousScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Luxurious Script"
-  homepage "https://fonts.google.com/specimen/Luxurious+Script"
-  def install
-    (share/"fonts").install "LuxuriousScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-luxurious-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/luxuriousscript/LuxuriousScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Luxurious Script\"", "homepage \"https://fonts.google.com/specimen/Luxurious+Script\""@239], :fonts=>["(share/\"fonts\").install \"LuxuriousScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@342}
