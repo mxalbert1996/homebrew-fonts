@@ -1,10 +1,1 @@
-class FontMegrim < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/megrim/Megrim.ttf", verified: "github.com/google/fonts/"
-  desc "Megrim"
-  homepage "https://fonts.google.com/specimen/Megrim"
-  def install
-    (share/"fonts").install "Megrim.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-megrim\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/megrim/Megrim.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Megrim\"", "homepage \"https://fonts.google.com/specimen/Megrim\""@193], :fonts=>["(share/\"fonts\").install \"Megrim.ttf\""], :after=>"# No zap stanza required\n"@269}
