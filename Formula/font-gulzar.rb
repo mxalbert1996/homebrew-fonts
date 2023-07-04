@@ -1,11 +1,1 @@
-class FontGulzar < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/gulzar/Gulzar-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Gulzar"
-  desc "Nasta’liq type for which an original latin counterpart was designed"
-  homepage "https://fonts.google.com/specimen/Gulzar"
-  def install
-    (share/"fonts").install "Gulzar-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-gulzar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gulzar/Gulzar-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gulzar\"", "desc \"Nasta’liq type for which an original latin counterpart was designed\""@201, "homepage \"https://fonts.google.com/specimen/Gulzar\""@278], :fonts=>["(share/\"fonts\").install \"Gulzar-Regular.ttf\""], :after=>"# No zap stanza required\n"@362}
