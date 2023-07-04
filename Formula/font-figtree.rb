@@ -1,12 +1,1 @@
-class FontFigtree < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/figtree"
-  desc "Figtree"
-  desc "Clean yet friendly geometric sans serif font for usage in web and mobile apps"
-  homepage "https://fonts.google.com/specimen/Figtree"
-  def install
-    (share/"fonts").install "Figtree-Italic[wght].ttf"
-    (share/"fonts").install "Figtree[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-figtree\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/figtree\"", "desc \"Figtree\"", "desc \"Clean yet friendly geometric sans serif font for usage in web and mobile apps\""@225, "homepage \"https://fonts.google.com/specimen/Figtree\""@312], :fonts=>["(share/\"fonts\").install \"Figtree-Italic[wght].ttf\"", "(share/\"fonts\").install \"Figtree[wght].ttf\""], :after=>"# No zap stanza required\n"@430}
