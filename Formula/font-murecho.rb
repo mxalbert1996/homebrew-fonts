@@ -1,11 +1,1 @@
-class FontMurecho < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/murecho/Murecho%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Murecho"
-  desc "Available in 9 practical weights and as a variable font"
-  homepage "https://fonts.google.com/specimen/Murecho"
-  def install
-    (share/"fonts").install "Murecho[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-murecho\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/murecho/Murecho%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Murecho\"", "desc \"Available in 9 practical weights and as a variable font\""@207, "homepage \"https://fonts.google.com/specimen/Murecho\""@272], :fonts=>["(share/\"fonts\").install \"Murecho[wght].ttf\""], :after=>"# No zap stanza required\n"@356}
