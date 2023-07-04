@@ -1,10 +1,1 @@
-class FontNovaCut < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/novacut/NovaCut.ttf", verified: "github.com/google/fonts/"
-  desc "Nova Cut"
-  homepage "https://fonts.google.com/specimen/Nova+Cut"
-  def install
-    (share/"fonts").install "NovaCut.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-nova-cut\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/novacut/NovaCut.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nova Cut\"", "homepage \"https://fonts.google.com/specimen/Nova+Cut\""@199], :fonts=>["(share/\"fonts\").install \"NovaCut.ttf\""], :after=>"# No zap stanza required\n"@278}
