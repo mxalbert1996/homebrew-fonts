@@ -1,10 +1,1 @@
-class FontDoppioOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/doppioone/DoppioOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Doppio One"
-  homepage "https://fonts.google.com/specimen/Doppio+One"
-  def install
-    (share/"fonts").install "DoppioOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-doppio-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/doppioone/DoppioOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Doppio One\"", "homepage \"https://fonts.google.com/specimen/Doppio+One\""@215], :fonts=>["(share/\"fonts\").install \"DoppioOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
