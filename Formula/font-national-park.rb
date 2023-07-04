@@ -1,14 +1,1 @@
-class FontNationalPark < Formula
-  version "1.000"
-  url "https://files.cargocollective.com/c206464/NationalPark.zip", verified: "cargocollective.com/"
-  desc "National Park"
-  homepage "https://nationalparktypeface.com/"
-  def install
-    (share/"fonts").install "NationalPark-Thin.otf"
-    (share/"fonts").install "NationalPark-Regular.otf"
-    (share/"fonts").install "NationalPark-Outline.otf"
-    (share/"fonts").install "NationalPark-Heavy.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-national-park\"", :before=>["version \"1.000\""@31, "", "url \"https://files.cargocollective.com/c206464/NationalPark.zip\", verified: \"cargocollective.com/\""@69, "desc \"National Park\"", "homepage \"https://nationalparktypeface.com/\""@199], :fonts=>["(share/\"fonts\").install \"NationalPark-Thin.otf\"", "(share/\"fonts\").install \"NationalPark-Regular.otf\"", "(share/\"fonts\").install \"NationalPark-Outline.otf\"", "(share/\"fonts\").install \"NationalPark-Heavy.otf\""], :after=>"# No zap stanza required\n"@379}
