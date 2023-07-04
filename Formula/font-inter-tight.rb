@@ -1,11 +1,1 @@
-class FontInterTight < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/intertight"
-  desc "Inter Tight"
-  homepage "https://fonts.google.com/specimen/Inter+Tight"
-  def install
-    (share/"fonts").install "InterTight-Italic[wght].ttf"
-    (share/"fonts").install "InterTight[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-inter-tight\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/intertight\"", "desc \"Inter Tight\"", "homepage \"https://fonts.google.com/specimen/Inter+Tight\""@236], :fonts=>["(share/\"fonts\").install \"InterTight-Italic[wght].ttf\"", "(share/\"fonts\").install \"InterTight[wght].ttf\""], :after=>"# No zap stanza required\n"@364}
