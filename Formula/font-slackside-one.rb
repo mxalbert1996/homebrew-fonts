@@ -1,11 +1,1 @@
-class FontSlacksideOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/slacksideone/SlacksideOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Slackside One"
-  desc "Handwritten display font"
-  homepage "https://fonts.google.com/specimen/Slackside+One"
-  def install
-    (share/"fonts").install "SlacksideOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-slackside-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/slacksideone/SlacksideOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Slackside One\"", "desc \"Handwritten display font\""@227, "homepage \"https://fonts.google.com/specimen/Slackside+One\""@261], :fonts=>["(share/\"fonts\").install \"SlacksideOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@358}
