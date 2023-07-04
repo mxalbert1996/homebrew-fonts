@@ -1,10 +1,1 @@
-class FontDevonshire < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/devonshire/Devonshire-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Devonshire"
-  homepage "https://fonts.google.com/specimen/Devonshire"
-  def install
-    (share/"fonts").install "Devonshire-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-devonshire\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/devonshire/Devonshire-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Devonshire\"", "homepage \"https://fonts.google.com/specimen/Devonshire\""@217], :fonts=>["(share/\"fonts\").install \"Devonshire-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
