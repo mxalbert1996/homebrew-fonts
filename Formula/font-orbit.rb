@@ -1,11 +1,1 @@
-class FontOrbit < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/orbit/Orbit-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Orbit"
-  desc "Recommended to use bright writing on a dark background, below 10pt"
-  homepage "https://fonts.google.com/specimen/Orbit"
-  def install
-    (share/"fonts").install "Orbit-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-orbit\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/orbit/Orbit-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Orbit\"", "desc \"Recommended to use bright writing on a dark background, below 10pt\""@197, "homepage \"https://fonts.google.com/specimen/Orbit\""@273], :fonts=>["(share/\"fonts\").install \"Orbit-Regular.ttf\""], :after=>"# No zap stanza required\n"@355}
