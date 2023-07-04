@@ -1,11 +1,1 @@
-class FontChiayiCity < Formula
-  head "https://www.chiayi.gov.tw/download/logo/ChiayiCityFont.zip"
-  desc "ChiaYiCityFont"
-  desc "Font that reflect the charisma of the city of ChiaYi"
-  homepage "https://www.chiayi.gov.tw/News_Content.aspx?n=8407&s=641274"
-  def install
-    (share/"fonts").install "ChiayiCity.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-chiayi-city\"", :before=>["", "", "head \"https://www.chiayi.gov.tw/download/logo/ChiayiCityFont.zip\"", "desc \"ChiaYiCityFont\"", "desc \"Font that reflect the charisma of the city of ChiaYi\""@158, "homepage \"https://www.chiayi.gov.tw/News_Content.aspx?n=8407&s=641274\""@220], :fonts=>["(share/\"fonts\").install \"ChiayiCity.ttf\""], :after=>"# No zap stanza required\n"@319}
