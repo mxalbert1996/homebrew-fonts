@@ -1,10 +1,1 @@
-class FontMavenProVfBeta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mavenprovfbeta/MavenProVFBeta.ttf", verified: "github.com/google/fonts/"
-  desc "Maven Pro VF Beta"
-  homepage "https://fonts.google.com/earlyaccess"
-  def install
-    (share/"fonts").install "MavenProVFBeta.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-maven-pro-vf-beta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mavenprovfbeta/MavenProVFBeta.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Maven Pro VF Beta\"", "homepage \"https://fonts.google.com/earlyaccess\""@231], :fonts=>["(share/\"fonts\").install \"MavenProVFBeta.ttf\""], :after=>"# No zap stanza required\n"@311}
