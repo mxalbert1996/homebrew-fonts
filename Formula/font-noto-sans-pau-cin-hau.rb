@@ -1,10 +1,1 @@
-class FontNotoSansPauCinHau < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanspaucinhau/NotoSansPauCinHau-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Pau Cin Hau"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Pau+Cin+Hau"
-  def install
-    (share/"fonts").install "NotoSansPauCinHau-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-pau-cin-hau\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanspaucinhau/NotoSansPauCinHau-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Pau Cin Hau\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Pau+Cin+Hau\""@253], :fonts=>["(share/\"fonts\").install \"NotoSansPauCinHau-Regular.ttf\""], :after=>"# No zap stanza required\n"@363}
