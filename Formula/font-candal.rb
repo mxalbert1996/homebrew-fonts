@@ -1,10 +1,1 @@
-class FontCandal < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/candal/Candal.ttf", verified: "github.com/google/fonts/"
-  desc "Candal"
-  homepage "https://fonts.google.com/specimen/Candal"
-  def install
-    (share/"fonts").install "Candal.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-candal\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/candal/Candal.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Candal\"", "homepage \"https://fonts.google.com/specimen/Candal\""@193], :fonts=>["(share/\"fonts\").install \"Candal.ttf\""], :after=>"# No zap stanza required\n"@269}
