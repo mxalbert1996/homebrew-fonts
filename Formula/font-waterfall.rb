@@ -1,11 +1,1 @@
-class FontWaterfall < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/waterfall/Waterfall-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Waterfall"
-  desc "Calligraphic script"
-  homepage "https://fonts.google.com/specimen/Waterfall"
-  def install
-    (share/"fonts").install "Waterfall-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-waterfall\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/waterfall/Waterfall-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Waterfall\"", "desc \"Calligraphic script\""@213, "homepage \"https://fonts.google.com/specimen/Waterfall\""@242], :fonts=>["(share/\"fonts\").install \"Waterfall-Regular.ttf\""], :after=>"# No zap stanza required\n"@332}
