@@ -1,10 +1,1 @@
-class FontKranky < Formula
-  head "https://github.com/google/fonts/raw/main/apache/kranky/Kranky-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Kranky"
-  homepage "https://fonts.google.com/specimen/Kranky"
-  def install
-    (share/"fonts").install "Kranky-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-kranky\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/kranky/Kranky-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kranky\"", "homepage \"https://fonts.google.com/specimen/Kranky\""@204], :fonts=>["(share/\"fonts\").install \"Kranky-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
