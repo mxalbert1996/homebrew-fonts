@@ -1,10 +1,1 @@
-class FontGermaniaOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/germaniaone/GermaniaOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Germania One"
-  homepage "https://fonts.google.com/specimen/Germania+One"
-  def install
-    (share/"fonts").install "GermaniaOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-germania-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/germaniaone/GermaniaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Germania One\"", "homepage \"https://fonts.google.com/specimen/Germania+One\""@223], :fonts=>["(share/\"fonts\").install \"GermaniaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@318}
