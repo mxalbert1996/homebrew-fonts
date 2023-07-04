@@ -1,11 +1,1 @@
-class FontAllison < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/allison/Allison-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Allison"
-  desc "Casual handwriting script"
-  homepage "https://fonts.google.com/specimen/Allison"
-  def install
-    (share/"fonts").install "Allison-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-allison\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/allison/Allison-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Allison\"", "desc \"Casual handwriting script\""@205, "homepage \"https://fonts.google.com/specimen/Allison\""@240], :fonts=>["(share/\"fonts\").install \"Allison-Regular.ttf\""], :after=>"# No zap stanza required\n"@326}
