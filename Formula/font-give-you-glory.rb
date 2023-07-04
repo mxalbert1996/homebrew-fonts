@@ -1,10 +1,1 @@
-class FontGiveYouGlory < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/giveyouglory/GiveYouGlory.ttf", verified: "github.com/google/fonts/"
-  desc "Give You Glory"
-  homepage "https://fonts.google.com/specimen/Give+You+Glory"
-  def install
-    (share/"fonts").install "GiveYouGlory.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-give-you-glory\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/giveyouglory/GiveYouGlory.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Give You Glory\"", "homepage \"https://fonts.google.com/specimen/Give+You+Glory\""@221], :fonts=>["(share/\"fonts\").install \"GiveYouGlory.ttf\""], :after=>"# No zap stanza required\n"@311}
