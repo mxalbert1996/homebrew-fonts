@@ -1,10 +1,1 @@
-class FontNotoSansLydian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLydian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Lydian"
-  homepage "https://www.google.com/get/noto/#sans-lydi"
-  def install
-    (share/"fonts").install "NotoSansLydian-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-lydian\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLydian-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Lydian\"", "homepage \"https://www.google.com/get/noto/#sans-lydi\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansLydian-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
