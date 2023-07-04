@@ -1,10 +1,1 @@
-class FontVujahdayScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vujahdayscript/VujahdayScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Vujahday Script"
-  homepage "https://fonts.google.com/specimen/Vujahday+Script"
-  def install
-    (share/"fonts").install "VujahdayScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-vujahday-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vujahdayscript/VujahdayScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vujahday Script\"", "homepage \"https://fonts.google.com/specimen/Vujahday+Script\""@235], :fonts=>["(share/\"fonts\").install \"VujahdayScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@336}
