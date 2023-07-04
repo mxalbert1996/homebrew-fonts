@@ -1,10 +1,1 @@
-class FontZcoolXiaowei < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "ZCOOL XiaoWei"
-  homepage "https://fonts.google.com/specimen/ZCOOL+XiaoWei"
-  def install
-    (share/"fonts").install "ZCOOLXiaoWei-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-zcool-xiaowei\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"ZCOOL XiaoWei\"", "homepage \"https://fonts.google.com/specimen/ZCOOL+XiaoWei\""@227], :fonts=>["(share/\"fonts\").install \"ZCOOLXiaoWei-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
