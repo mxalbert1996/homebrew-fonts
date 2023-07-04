@@ -1,10 +1,1 @@
-class FontSedgwickAveDisplay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Sedgwick Ave Display"
-  homepage "https://fonts.google.com/specimen/Sedgwick+Ave+Display"
-  def install
-    (share/"fonts").install "SedgwickAveDisplay-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-sedgwick-ave-display\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sedgwickavedisplay/SedgwickAveDisplay-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sedgwick Ave Display\"", "homepage \"https://fonts.google.com/specimen/Sedgwick+Ave+Display\""@253], :fonts=>["(share/\"fonts\").install \"SedgwickAveDisplay-Regular.ttf\""], :after=>"# No zap stanza required\n"@363}
