@@ -1,10 +1,1 @@
-class FontNotoSansTakri < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanstakri/NotoSansTakri-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Takri"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Takri"
-  def install
-    (share/"fonts").install "NotoSansTakri-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-takri\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanstakri/NotoSansTakri-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Takri\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Takri\""@233], :fonts=>["(share/\"fonts\").install \"NotoSansTakri-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
