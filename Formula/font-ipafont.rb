@@ -1,16 +1,1 @@
-class FontIpafont < Formula
-  version "003.03"
-  sha256 "f755ed79a4b8e715bed2f05a189172138aedf93db0f465b4e20c344a02766fe5"
-  url "https://moji.or.jp/wp-content/ipafont/IPAfont/IPAfont#{version.to_s.gsub(".", "")}.zip"
-  desc "IPA Fonts"
-  homepage "https://moji.or.jp/ipafont/"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipag.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipagp.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipam.ttf"
-    (share/"fonts").install "#{parent}IPAfont#{version.to_s.gsub(".", "")}/ipamp.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-ipafont\"", :before=>["version \"003.03\""@25, "sha256 \"f755ed79a4b8e715bed2f05a189172138aedf93db0f465b4e20c344a02766fe5\""@44, "url \"https://moji.or.jp/wp-content/ipafont/IPAfont/IPAfont\#{version.to_s.gsub(\".\", \"\")}.zip\""@121, "desc \"IPA Fonts\"", "homepage \"https://moji.or.jp/ipafont/\""@224], :fonts=>["(share/\"fonts\").install \"\#{parent}IPAfont\#{version.to_s.gsub(\".\", \"\")}/ipag.ttf\"", "(share/\"fonts\").install \"\#{parent}IPAfont\#{version.to_s.gsub(\".\", \"\")}/ipagp.ttf\"", "(share/\"fonts\").install \"\#{parent}IPAfont\#{version.to_s.gsub(\".\", \"\")}/ipam.ttf\"", "(share/\"fonts\").install \"\#{parent}IPAfont\#{version.to_s.gsub(\".\", \"\")}/ipamp.ttf\""], :after=>"# No zap stanza required\n"@445}
