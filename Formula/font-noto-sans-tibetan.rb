@@ -1,11 +1,1 @@
-class FontNotoSansTibetan < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTibetan-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Tibetan"
-  homepage "https://www.google.com/get/noto/#sans-tibt"
-  def install
-    (share/"fonts").install "NotoSansTibetan-Bold.ttf"
-    (share/"fonts").install "NotoSansTibetan-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-tibetan\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTibetan-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Tibetan\"", "homepage \"https://www.google.com/get/noto/#sans-tibt\""@246], :fonts=>["(share/\"fonts\").install \"NotoSansTibetan-Bold.ttf\"", "(share/\"fonts\").install \"NotoSansTibetan-Regular.ttf\""], :after=>"# No zap stanza required\n"@375}
