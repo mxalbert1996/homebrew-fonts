@@ -1,10 +1,1 @@
-class FontNanumPenScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nanumpenscript/NanumPenScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nanum Pen Script"
-  homepage "https://fonts.google.com/specimen/Nanum+Pen+Script"
-  def install
-    (share/"fonts").install "NanumPenScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-nanum-pen-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/nanumpenscript/NanumPenScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nanum Pen Script\"", "homepage \"https://fonts.google.com/specimen/Nanum+Pen+Script\""@237], :fonts=>["(share/\"fonts\").install \"NanumPenScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@339}
