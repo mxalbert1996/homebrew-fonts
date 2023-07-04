@@ -1,10 +1,1 @@
-class FontNovaOval < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/novaoval/NovaOval.ttf", verified: "github.com/google/fonts/"
-  desc "Nova Oval"
-  homepage "https://fonts.google.com/specimen/Nova+Oval"
-  def install
-    (share/"fonts").install "NovaOval.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-nova-oval\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/novaoval/NovaOval.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nova Oval\"", "homepage \"https://fonts.google.com/specimen/Nova+Oval\""@203], :fonts=>["(share/\"fonts\").install \"NovaOval.ttf\""], :after=>"# No zap stanza required\n"@284}
