@@ -1,10 +1,1 @@
-class FontMajorMonoDisplay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Major Mono Display"
-  homepage "https://fonts.google.com/specimen/Major+Mono+Display"
-  def install
-    (share/"fonts").install "MajorMonoDisplay-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-major-mono-display\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/majormonodisplay/MajorMonoDisplay-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Major Mono Display\"", "homepage \"https://fonts.google.com/specimen/Major+Mono+Display\""@245], :fonts=>["(share/\"fonts\").install \"MajorMonoDisplay-Regular.ttf\""], :after=>"# No zap stanza required\n"@351}
