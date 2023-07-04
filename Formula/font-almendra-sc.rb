@@ -1,10 +1,1 @@
-class FontAlmendraSc < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/almendrasc/AlmendraSC-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Almendra SC"
-  homepage "https://fonts.google.com/specimen/Almendra+SC"
-  def install
-    (share/"fonts").install "AlmendraSC-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-almendra-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/almendrasc/AlmendraSC-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Almendra SC\"", "homepage \"https://fonts.google.com/specimen/Almendra+SC\""@219], :fonts=>["(share/\"fonts\").install \"AlmendraSC-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
