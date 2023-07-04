@@ -1,11 +1,1 @@
-class FontPlay < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/play"
-  desc "Play"
-  homepage "https://fonts.google.com/specimen/Play"
-  def install
-    (share/"fonts").install "Play-Bold.ttf"
-    (share/"fonts").install "Play-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-play\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/play\"", "desc \"Play\"", "homepage \"https://fonts.google.com/specimen/Play\""@216], :fonts=>["(share/\"fonts\").install \"Play-Bold.ttf\"", "(share/\"fonts\").install \"Play-Regular.ttf\""], :after=>"# No zap stanza required\n"@319}
