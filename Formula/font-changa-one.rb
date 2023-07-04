@@ -1,11 +1,1 @@
-class FontChangaOne < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/changaone"
-  desc "Changa One"
-  homepage "https://fonts.google.com/specimen/Changa+One"
-  def install
-    (share/"fonts").install "ChangaOne-Italic.ttf"
-    (share/"fonts").install "ChangaOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-changa-one\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/changaone\"", "desc \"Changa One\"", "homepage \"https://fonts.google.com/specimen/Changa+One\""@233], :fonts=>["(share/\"fonts\").install \"ChangaOne-Italic.ttf\"", "(share/\"fonts\").install \"ChangaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@354}
