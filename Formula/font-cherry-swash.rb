@@ -1,11 +1,1 @@
-class FontCherrySwash < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/cherryswash"
-  desc "Cherry Swash"
-  homepage "https://fonts.google.com/specimen/Cherry+Swash"
-  def install
-    (share/"fonts").install "CherrySwash-Bold.ttf"
-    (share/"fonts").install "CherrySwash-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-cherry-swash\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/cherryswash\"", "desc \"Cherry Swash\"", "homepage \"https://fonts.google.com/specimen/Cherry+Swash\""@239], :fonts=>["(share/\"fonts\").install \"CherrySwash-Bold.ttf\"", "(share/\"fonts\").install \"CherrySwash-Regular.ttf\""], :after=>"# No zap stanza required\n"@364}
