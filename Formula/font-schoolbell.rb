@@ -1,10 +1,1 @@
-class FontSchoolbell < Formula
-  head "https://github.com/google/fonts/raw/main/apache/schoolbell/Schoolbell-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Schoolbell"
-  homepage "https://fonts.google.com/specimen/Schoolbell"
-  def install
-    (share/"fonts").install "Schoolbell-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-schoolbell\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/schoolbell/Schoolbell-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Schoolbell\"", "homepage \"https://fonts.google.com/specimen/Schoolbell\""@220], :fonts=>["(share/\"fonts\").install \"Schoolbell-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
