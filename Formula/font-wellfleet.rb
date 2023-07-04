@@ -1,10 +1,1 @@
-class FontWellfleet < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/wellfleet/Wellfleet-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Wellfleet"
-  homepage "https://fonts.google.com/specimen/Wellfleet"
-  def install
-    (share/"fonts").install "Wellfleet-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-wellfleet\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/wellfleet/Wellfleet-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Wellfleet\"", "homepage \"https://fonts.google.com/specimen/Wellfleet\""@213], :fonts=>["(share/\"fonts\").install \"Wellfleet-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
