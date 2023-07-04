@@ -1,11 +1,1 @@
-class FontNotoSerifBengali < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifBengali-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Bengali"
-  homepage "https://www.google.com/get/noto/#serif-beng"
-  def install
-    (share/"fonts").install "NotoSerifBengali-Bold.ttf"
-    (share/"fonts").install "NotoSerifBengali-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-bengali\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifBengali-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Serif Bengali\"", "homepage \"https://www.google.com/get/noto/#serif-beng\""@249], :fonts=>["(share/\"fonts\").install \"NotoSerifBengali-Bold.ttf\"", "(share/\"fonts\").install \"NotoSerifBengali-Regular.ttf\""], :after=>"# No zap stanza required\n"@381}
