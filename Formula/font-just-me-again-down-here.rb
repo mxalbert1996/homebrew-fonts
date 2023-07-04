@@ -1,10 +1,1 @@
-class FontJustMeAgainDownHere < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf", verified: "github.com/google/fonts/"
-  desc "Just Me Again Down Here"
-  homepage "https://fonts.google.com/specimen/Just+Me+Again+Down+Here"
-  def install
-    (share/"fonts").install "JustMeAgainDownHere.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-just-me-again-down-here\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/justmeagaindownhere/JustMeAgainDownHere.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Just Me Again Down Here\"", "homepage \"https://fonts.google.com/specimen/Just+Me+Again+Down+Here\""@253], :fonts=>["(share/\"fonts\").install \"JustMeAgainDownHere.ttf\""], :after=>"# No zap stanza required\n"@359}
