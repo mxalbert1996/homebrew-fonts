@@ -1,10 +1,1 @@
-class FontMrsSheppards < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mrssheppards/MrsSheppards-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Mrs Sheppards"
-  homepage "https://fonts.google.com/specimen/Mrs+Sheppards"
-  def install
-    (share/"fonts").install "MrsSheppards-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-mrs-sheppards\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mrssheppards/MrsSheppards-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Mrs Sheppards\"", "homepage \"https://fonts.google.com/specimen/Mrs+Sheppards\""@227], :fonts=>["(share/\"fonts\").install \"MrsSheppards-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
