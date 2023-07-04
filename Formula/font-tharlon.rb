@@ -1,10 +1,1 @@
-class FontTharlon < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/tharlon/Tharlon-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Tharlon"
-  homepage "https://fonts.google.com/earlyaccess"
-  def install
-    (share/"fonts").install "Tharlon-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tharlon\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tharlon/Tharlon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Tharlon\"", "homepage \"https://fonts.google.com/earlyaccess\""@205], :fonts=>["(share/\"fonts\").install \"Tharlon-Regular.ttf\""], :after=>"# No zap stanza required\n"@286}
