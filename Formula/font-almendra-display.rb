@@ -1,10 +1,1 @@
-class FontAlmendraDisplay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Almendra Display"
-  homepage "https://fonts.google.com/specimen/Almendra+Display"
-  def install
-    (share/"fonts").install "AlmendraDisplay-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-almendra-display\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/almendradisplay/AlmendraDisplay-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Almendra Display\"", "homepage \"https://fonts.google.com/specimen/Almendra+Display\""@239], :fonts=>["(share/\"fonts\").install \"AlmendraDisplay-Regular.ttf\""], :after=>"# No zap stanza required\n"@342}
