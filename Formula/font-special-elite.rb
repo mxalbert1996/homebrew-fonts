@@ -1,10 +1,1 @@
-class FontSpecialElite < Formula
-  head "https://github.com/google/fonts/raw/main/apache/specialelite/SpecialElite-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Special Elite"
-  homepage "https://fonts.google.com/specimen/Special+Elite"
-  def install
-    (share/"fonts").install "SpecialElite-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-special-elite\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/specialelite/SpecialElite-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Special Elite\"", "homepage \"https://fonts.google.com/specimen/Special+Elite\""@230], :fonts=>["(share/\"fonts\").install \"SpecialElite-Regular.ttf\""], :after=>"# No zap stanza required\n"@327}
