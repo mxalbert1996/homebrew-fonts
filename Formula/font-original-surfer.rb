@@ -1,10 +1,1 @@
-class FontOriginalSurfer < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/originalsurfer/OriginalSurfer-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Original Surfer"
-  homepage "https://fonts.google.com/specimen/Original+Surfer"
-  def install
-    (share/"fonts").install "OriginalSurfer-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-original-surfer\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/originalsurfer/OriginalSurfer-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Original Surfer\"", "homepage \"https://fonts.google.com/specimen/Original+Surfer\""@235], :fonts=>["(share/\"fonts\").install \"OriginalSurfer-Regular.ttf\""], :after=>"# No zap stanza required\n"@336}
