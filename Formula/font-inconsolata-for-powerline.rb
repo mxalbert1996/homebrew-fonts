@@ -1,10 +1,1 @@
-class FontInconsolataForPowerline < Formula
-  head "https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf"
-  desc "Inconsolata for Powerline"
-  homepage "https://github.com/powerline/fonts/tree/master/Inconsolata"
-  def install
-    (share/"fonts").install "Inconsolata for Powerline.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-inconsolata-for-powerline\"", :before=>["", "", "head \"https://github.com/powerline/fonts/raw/master/Inconsolata/Inconsolata%20for%20Powerline.otf\"", "desc \"Inconsolata for Powerline\"", "homepage \"https://github.com/powerline/fonts/tree/master/Inconsolata\""@216], :fonts=>["(share/\"fonts\").install \"Inconsolata for Powerline.otf\""], :after=>"# No zap stanza required\n"@329}
