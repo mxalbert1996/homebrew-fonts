@@ -1,10 +1,1 @@
-class FontBlokkNeue < Formula
-  head "https://github.com/los-gordos/BLOKK/blob/master/BLOKKNeue-Regular.otf"
-  desc "BLOKK Neue"
-  homepage "https://github.com/los-gordos/BLOKK"
-  def install
-    (share/"fonts").install "BLOKKNeue-Regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-blokk-neue\"", :before=>["", "", "head \"https://github.com/los-gordos/BLOKK/blob/master/BLOKKNeue-Regular.otf\"", "desc \"BLOKK Neue\"", "homepage \"https://github.com/los-gordos/BLOKK\""@164], :fonts=>["(share/\"fonts\").install \"BLOKKNeue-Regular.otf\""], :after=>"# No zap stanza required\n"@246}
