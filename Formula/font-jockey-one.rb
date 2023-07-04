@@ -1,10 +1,1 @@
-class FontJockeyOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jockeyone/JockeyOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Jockey One"
-  homepage "https://fonts.google.com/specimen/Jockey+One"
-  def install
-    (share/"fonts").install "JockeyOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-jockey-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jockeyone/JockeyOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jockey One\"", "homepage \"https://fonts.google.com/specimen/Jockey+One\""@215], :fonts=>["(share/\"fonts\").install \"JockeyOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
