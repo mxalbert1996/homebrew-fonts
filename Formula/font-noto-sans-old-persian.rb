@@ -1,10 +1,1 @@
-class FontNotoSansOldPersian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldPersian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Old Persian"
-  homepage "https://www.google.com/get/noto/#sans-xpeo"
-  def install
-    (share/"fonts").install "NotoSansOldPersian-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-old-persian\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansOldPersian-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Old Persian\"", "homepage \"https://www.google.com/get/noto/#sans-xpeo\""@257], :fonts=>["(share/\"fonts\").install \"NotoSansOldPersian-Regular.ttf\""], :after=>"# No zap stanza required\n"@355}
