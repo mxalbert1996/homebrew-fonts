@@ -1,14 +1,1 @@
-class FontUndefinedMedium < Formula
-  version "1.1"
-  sha256 "e8dfbd59e2a3305a227d55ef962d5b94793aa14f1923426c59568aabbbf77aa3"
-  url "https://github.com/andirueckel/undefined-medium/archive/refs/tags/v#{version}.zip"
-  desc "undefined medium"
-  desc "Pixel grid-based monospace typeface"
-  homepage "https://github.com/andirueckel/undefined-medium"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}undefined-medium-#{version}/fonts/otf/undefined-medium.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-undefined-medium\"", :before=>["version \"1.1\""@34, "sha256 \"e8dfbd59e2a3305a227d55ef962d5b94793aa14f1923426c59568aabbbf77aa3\""@50, "url \"https://github.com/andirueckel/undefined-medium/archive/refs/tags/v\#{version}.zip\""@127, "desc \"undefined medium\"", "desc \"Pixel grid-based monospace typeface\""@243, "homepage \"https://github.com/andirueckel/undefined-medium\""@288], :fonts=>["(share/\"fonts\").install \"\#{parent}undefined-medium-\#{version}/fonts/otf/undefined-medium.otf\""], :after=>"# No zap stanza required\n"@419}
