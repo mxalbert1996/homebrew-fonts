@@ -1,10 +1,1 @@
-class FontMPlus1 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mplus1/MPLUS1%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "M PLUS 1"
-  homepage "https://fonts.google.com/specimen/M+PLUS+1"
-  def install
-    (share/"fonts").install "MPLUS1[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-m-plus-1\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mplus1/MPLUS1%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"M PLUS 1\"", "homepage \"https://fonts.google.com/specimen/M+PLUS+1\""@207], :fonts=>["(share/\"fonts\").install \"MPLUS1[wght].ttf\""], :after=>"# No zap stanza required\n"@291}
