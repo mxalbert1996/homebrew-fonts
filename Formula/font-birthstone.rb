@@ -1,11 +1,1 @@
-class FontBirthstone < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/birthstone/Birthstone-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Birthstone"
-  desc "Sibling birthstone bounce that includes caps and ending swashed forms"
-  homepage "https://fonts.google.com/specimen/Birthstone"
-  def install
-    (share/"fonts").install "Birthstone-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-birthstone\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/birthstone/Birthstone-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Birthstone\"", "desc \"Sibling birthstone bounce that includes caps and ending swashed forms\""@217, "homepage \"https://fonts.google.com/specimen/Birthstone\""@296], :fonts=>["(share/\"fonts\").install \"Birthstone-Regular.ttf\""], :after=>"# No zap stanza required\n"@388}
