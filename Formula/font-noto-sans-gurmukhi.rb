@@ -1,11 +1,1 @@
-class FontNotoSansGurmukhi < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGurmukhi-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Gurmukhi"
-  homepage "https://www.google.com/get/noto/#sans-guru"
-  def install
-    (share/"fonts").install "NotoSansGurmukhi-Bold.ttf"
-    (share/"fonts").install "NotoSansGurmukhi-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-gurmukhi\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansGurmukhi-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Gurmukhi\"", "homepage \"https://www.google.com/get/noto/#sans-guru\""@249], :fonts=>["(share/\"fonts\").install \"NotoSansGurmukhi-Bold.ttf\"", "(share/\"fonts\").install \"NotoSansGurmukhi-Regular.ttf\""], :after=>"# No zap stanza required\n"@380}
