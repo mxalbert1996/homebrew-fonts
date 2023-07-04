@@ -1,10 +1,1 @@
-class FontNotoSansPhagsPa < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansPhagsPa-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Phags Pa"
-  homepage "https://www.google.com/get/noto/#sans-phag"
-  def install
-    (share/"fonts").install "NotoSansPhagsPa-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-phags-pa\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansPhagsPa-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Phags Pa\"", "homepage \"https://www.google.com/get/noto/#sans-phag\""@248], :fonts=>["(share/\"fonts\").install \"NotoSansPhagsPa-Regular.ttf\""], :after=>"# No zap stanza required\n"@343}
