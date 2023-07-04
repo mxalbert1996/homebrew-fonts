@@ -1,10 +1,1 @@
-class FontStixTwoMath < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/stixtwomath/STIXTwoMath-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "STIX Two Math"
-  homepage "https://fonts.google.com/specimen/STIX+Two+Math"
-  def install
-    (share/"fonts").install "STIXTwoMath-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-stix-two-math\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/stixtwomath/STIXTwoMath-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"STIX Two Math\"", "homepage \"https://fonts.google.com/specimen/STIX+Two+Math\""@225], :fonts=>["(share/\"fonts\").install \"STIXTwoMath-Regular.ttf\""], :after=>"# No zap stanza required\n"@321}
