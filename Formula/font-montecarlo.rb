@@ -1,11 +1,1 @@
-class FontMontecarlo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/montecarlo/MonteCarlo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "MonteCarlo"
-  desc "Perfect for an ornate look and a readable message"
-  homepage "https://fonts.google.com/specimen/MonteCarlo"
-  def install
-    (share/"fonts").install "MonteCarlo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-montecarlo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/montecarlo/MonteCarlo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"MonteCarlo\"", "desc \"Perfect for an ornate look and a readable message\""@217, "homepage \"https://fonts.google.com/specimen/MonteCarlo\""@276], :fonts=>["(share/\"fonts\").install \"MonteCarlo-Regular.ttf\""], :after=>"# No zap stanza required\n"@368}
