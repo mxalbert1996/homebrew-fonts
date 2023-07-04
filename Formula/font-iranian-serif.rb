@@ -1,10 +1,1 @@
-class FontIranianSerif < Formula
-  head "https://fontlibrary.org/assets/downloads/iranian-serif/3bf122e0d984a0a116a95491c835ec49/iranian-serif.zip"
-  desc "Iranian Serif"
-  homepage "https://fontlibrary.org/en/font/iranian-serif"
-  def install
-    (share/"fonts").install "irseri.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-iranian-serif\"", :before=>["", "", "head \"https://fontlibrary.org/assets/downloads/iranian-serif/3bf122e0d984a0a116a95491c835ec49/iranian-serif.zip\"", "desc \"Iranian Serif\"", "homepage \"https://fontlibrary.org/en/font/iranian-serif\""@206], :fonts=>["(share/\"fonts\").install \"irseri.ttf\""], :after=>"# No zap stanza required\n"@287}
