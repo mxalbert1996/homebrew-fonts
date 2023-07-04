@@ -1,10 +1,1 @@
-class FontUnderdog < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/underdog/Underdog-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Underdog"
-  homepage "https://fonts.google.com/specimen/Underdog"
-  def install
-    (share/"fonts").install "Underdog-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-underdog\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/underdog/Underdog-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Underdog\"", "homepage \"https://fonts.google.com/specimen/Underdog\""@209], :fonts=>["(share/\"fonts\").install \"Underdog-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
