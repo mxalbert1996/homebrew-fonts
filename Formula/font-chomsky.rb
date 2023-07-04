@@ -1,13 +1,1 @@
-class FontChomsky < Formula
-  version "2.3"
-  sha256 "7b1767776b6653a31dfa510ca2927d3f1cd38b17c026515acfe510bb8789cefa"
-  url "https://github.com/ctrlcctrlv/chomsky/releases/download/v#{version}/Chomsky.otf"
-  desc "Chomsky"
-  desc "New York Times masthead, reimagined as a full font"
-  homepage "https://github.com/ctrlcctrlv/chomsky"
-  def install
-    (share/"fonts").install "Chomsky.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-chomsky\"", :before=>["version \"2.3\""@25, "sha256 \"7b1767776b6653a31dfa510ca2927d3f1cd38b17c026515acfe510bb8789cefa\""@41, "url \"https://github.com/ctrlcctrlv/chomsky/releases/download/v\#{version}/Chomsky.otf\""@118, "desc \"Chomsky\"", "desc \"New York Times masthead, reimagined as a full font\""@223, "homepage \"https://github.com/ctrlcctrlv/chomsky\""@283], :fonts=>["(share/\"fonts\").install \"Chomsky.otf\""], :after=>"# No zap stanza required\n"@357}
