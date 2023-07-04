@@ -1,10 +1,1 @@
-class FontNotoSansTagbanwa < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTagbanwa-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Tagbanwa"
-  homepage "https://www.google.com/get/noto/#sans-tagb"
-  def install
-    (share/"fonts").install "NotoSansTagbanwa-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-tagbanwa\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansTagbanwa-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Tagbanwa\"", "homepage \"https://www.google.com/get/noto/#sans-tagb\""@249], :fonts=>["(share/\"fonts\").install \"NotoSansTagbanwa-Regular.ttf\""], :after=>"# No zap stanza required\n"@345}
