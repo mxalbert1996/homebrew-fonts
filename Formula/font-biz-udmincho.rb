@@ -1,12 +1,1 @@
-class FontBizUdmincho < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/bizudmincho"
-  desc "BIZ UDMincho"
-  desc "Universal design typeface in the Japanese Mincho type tradition"
-  homepage "https://fonts.google.com/specimen/BIZ+UDMincho"
-  def install
-    (share/"fonts").install "BIZUDMincho-Bold.ttf"
-    (share/"fonts").install "BIZUDMincho-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-biz-udmincho\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/bizudmincho\"", "desc \"BIZ UDMincho\"", "desc \"Universal design typeface in the Japanese Mincho type tradition\""@239, "homepage \"https://fonts.google.com/specimen/BIZ+UDMincho\""@312], :fonts=>["(share/\"fonts\").install \"BIZUDMincho-Bold.ttf\"", "(share/\"fonts\").install \"BIZUDMincho-Regular.ttf\""], :after=>"# No zap stanza required\n"@437}
