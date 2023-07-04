@@ -1,11 +1,1 @@
-class FontTapestry < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/tapestry/Tapestry-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Tapestry"
-  desc "Roman calligraphic family with a slight rustic and country appearance"
-  homepage "https://fonts.google.com/specimen/Tapestry"
-  def install
-    (share/"fonts").install "Tapestry-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tapestry\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tapestry/Tapestry-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Tapestry\"", "desc \"Roman calligraphic family with a slight rustic and country appearance\""@209, "homepage \"https://fonts.google.com/specimen/Tapestry\""@288], :fonts=>["(share/\"fonts\").install \"Tapestry-Regular.ttf\""], :after=>"# No zap stanza required\n"@376}
