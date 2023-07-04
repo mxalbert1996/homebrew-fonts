@@ -1,10 +1,1 @@
-class FontBigelowRules < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bigelowrules/BigelowRules-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bigelow Rules"
-  homepage "https://fonts.google.com/specimen/Bigelow+Rules"
-  def install
-    (share/"fonts").install "BigelowRules-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bigelow-rules\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bigelowrules/BigelowRules-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bigelow Rules\"", "homepage \"https://fonts.google.com/specimen/Bigelow+Rules\""@227], :fonts=>["(share/\"fonts\").install \"BigelowRules-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
