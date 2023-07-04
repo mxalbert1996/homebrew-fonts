@@ -1,10 +1,1 @@
-class FontLibreBarcode128 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Libre Barcode 128"
-  homepage "https://fonts.google.com/specimen/Libre+Barcode+128"
-  def install
-    (share/"fonts").install "LibreBarcode128-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-libre-barcode-128\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/librebarcode128/LibreBarcode128-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Libre Barcode 128\"", "homepage \"https://fonts.google.com/specimen/Libre+Barcode+128\""@241], :fonts=>["(share/\"fonts\").install \"LibreBarcode128-Regular.ttf\""], :after=>"# No zap stanza required\n"@345}
