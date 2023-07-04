@@ -1,10 +1,1 @@
-class FontLeagueScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/leaguescript/LeagueScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "League Script"
-  homepage "https://fonts.google.com/specimen/League+Script"
-  def install
-    (share/"fonts").install "LeagueScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-league-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/leaguescript/LeagueScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"League Script\"", "homepage \"https://fonts.google.com/specimen/League+Script\""@227], :fonts=>["(share/\"fonts\").install \"LeagueScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
