@@ -1,10 +1,1 @@
-class FontBaumans < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/baumans/Baumans-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Baumans"
-  homepage "https://fonts.google.com/specimen/Baumans"
-  def install
-    (share/"fonts").install "Baumans-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-baumans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/baumans/Baumans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Baumans\"", "homepage \"https://fonts.google.com/specimen/Baumans\""@205], :fonts=>["(share/\"fonts\").install \"Baumans-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
