@@ -1,10 +1,1 @@
-class FontFresca < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fresca/Fresca-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Fresca"
-  homepage "https://fonts.google.com/specimen/Fresca"
-  def install
-    (share/"fonts").install "Fresca-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-fresca\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/fresca/Fresca-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Fresca\"", "homepage \"https://fonts.google.com/specimen/Fresca\""@201], :fonts=>["(share/\"fonts\").install \"Fresca-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
