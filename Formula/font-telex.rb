@@ -1,10 +1,1 @@
-class FontTelex < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/telex/Telex-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Telex"
-  homepage "https://fonts.google.com/specimen/Telex"
-  def install
-    (share/"fonts").install "Telex-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-telex\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/telex/Telex-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Telex\"", "homepage \"https://fonts.google.com/specimen/Telex\""@197], :fonts=>["(share/\"fonts\").install \"Telex-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
