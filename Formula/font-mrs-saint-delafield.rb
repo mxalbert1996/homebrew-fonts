@@ -1,10 +1,1 @@
-class FontMrsSaintDelafield < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mrssaintdelafield/MrsSaintDelafield-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Mrs Saint Delafield"
-  homepage "https://fonts.google.com/specimen/Mrs+Saint+Delafield"
-  def install
-    (share/"fonts").install "MrsSaintDelafield-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-mrs-saint-delafield\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mrssaintdelafield/MrsSaintDelafield-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Mrs Saint Delafield\"", "homepage \"https://fonts.google.com/specimen/Mrs+Saint+Delafield\""@249], :fonts=>["(share/\"fonts\").install \"MrsSaintDelafield-Regular.ttf\""], :after=>"# No zap stanza required\n"@357}
