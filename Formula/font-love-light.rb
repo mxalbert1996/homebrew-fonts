@@ -1,11 +1,1 @@
-class FontLoveLight < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lovelight/LoveLight-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Love Light"
-  desc "Adaptation of another font"
-  homepage "https://fonts.google.com/specimen/Love+Light"
-  def install
-    (share/"fonts").install "LoveLight-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-love-light\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lovelight/LoveLight-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Love Light\"", "desc \"Adaptation of another font\""@215, "homepage \"https://fonts.google.com/specimen/Love+Light\""@251], :fonts=>["(share/\"fonts\").install \"LoveLight-Regular.ttf\""], :after=>"# No zap stanza required\n"@342}
