@@ -1,12 +1,1 @@
-class FontBrygada1918 < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/brygada1918"
-  desc "Brygada 1918"
-  desc "Available on the project's website"
-  homepage "https://fonts.google.com/specimen/Brygada+1918"
-  def install
-    (share/"fonts").install "Brygada1918-Italic[wght].ttf"
-    (share/"fonts").install "Brygada1918[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-brygada-1918\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/brygada1918\"", "desc \"Brygada 1918\"", "desc \"Available on the project's website\""@239, "homepage \"https://fonts.google.com/specimen/Brygada+1918\""@283], :fonts=>["(share/\"fonts\").install \"Brygada1918-Italic[wght].ttf\"", "(share/\"fonts\").install \"Brygada1918[wght].ttf\""], :after=>"# No zap stanza required\n"@414}
