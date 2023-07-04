@@ -1,10 +1,1 @@
-class FontRubikOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikone/RubikOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik One"
-  homepage "https://fonts.google.com/specimen/Rubik+One"
-  def install
-    (share/"fonts").install "RubikOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-rubik-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikone/RubikOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rubik One\"", "homepage \"https://fonts.google.com/specimen/Rubik+One\""@211], :fonts=>["(share/\"fonts\").install \"RubikOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
