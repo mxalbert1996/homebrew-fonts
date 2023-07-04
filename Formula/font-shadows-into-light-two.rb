@@ -1,10 +1,1 @@
-class FontShadowsIntoLightTwo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/shadowsintolighttwo/ShadowsIntoLightTwo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Shadows Into Light Two"
-  homepage "https://fonts.google.com/specimen/Shadows+Into+Light+Two"
-  def install
-    (share/"fonts").install "ShadowsIntoLightTwo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-shadows-into-light-two\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/shadowsintolighttwo/ShadowsIntoLightTwo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Shadows Into Light Two\"", "homepage \"https://fonts.google.com/specimen/Shadows+Into+Light+Two\""@259], :fonts=>["(share/\"fonts\").install \"ShadowsIntoLightTwo-Regular.ttf\""], :after=>"# No zap stanza required\n"@372}
