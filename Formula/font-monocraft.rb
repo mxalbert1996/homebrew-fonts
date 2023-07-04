@@ -1,13 +1,1 @@
-class FontMonocraft < Formula
-  version "3.0"
-  sha256 "b61ee3256f449e96140f54515819540840ef0cade82711eba359a5864c779076"
-  url "https://github.com/IdreesInc/Monocraft/releases/download/v#{version}/Monocraft.ttf"
-  desc "Monocraft"
-  desc "Monospaced programming font inspired by the Minecraft typeface"
-  homepage "https://github.com/IdreesInc/Monocraft"
-  def install
-    (share/"fonts").install "Monocraft.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-monocraft\"", :before=>["version \"3.0\""@27, "sha256 \"b61ee3256f449e96140f54515819540840ef0cade82711eba359a5864c779076\""@43, "url \"https://github.com/IdreesInc/Monocraft/releases/download/v\#{version}/Monocraft.ttf\""@120, "desc \"Monocraft\"", "desc \"Monospaced programming font inspired by the Minecraft typeface\""@230, "homepage \"https://github.com/IdreesInc/Monocraft\""@302], :fonts=>["(share/\"fonts\").install \"Monocraft.ttf\""], :after=>"# No zap stanza required\n"@379}
