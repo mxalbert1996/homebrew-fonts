@@ -1,10 +1,1 @@
-class FontDancingScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/dancingscript/DancingScript%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Dancing Script"
-  homepage "https://fonts.google.com/specimen/Dancing+Script"
-  def install
-    (share/"fonts").install "DancingScript[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-dancing-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dancingscript/DancingScript%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Dancing Script\"", "homepage \"https://fonts.google.com/specimen/Dancing+Script\""@233], :fonts=>["(share/\"fonts\").install \"DancingScript[wght].ttf\""], :after=>"# No zap stanza required\n"@330}
