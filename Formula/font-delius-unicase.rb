@@ -1,11 +1,1 @@
-class FontDeliusUnicase < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/deliusunicase"
-  desc "Delius Unicase"
-  homepage "https://fonts.google.com/specimen/Delius+Unicase"
-  def install
-    (share/"fonts").install "DeliusUnicase-Bold.ttf"
-    (share/"fonts").install "DeliusUnicase-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-delius-unicase\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/deliusunicase\"", "desc \"Delius Unicase\"", "homepage \"https://fonts.google.com/specimen/Delius+Unicase\""@245], :fonts=>["(share/\"fonts\").install \"DeliusUnicase-Bold.ttf\"", "(share/\"fonts\").install \"DeliusUnicase-Regular.ttf\""], :after=>"# No zap stanza required\n"@376}
