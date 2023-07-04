@@ -1,15 +1,1 @@
-class FontTexGyreBonum < Formula
-  version "2.004"
-  sha256 "30e7e9bf24b73709edff9916c95214a66b7fac38f78a11a19e4bc18ab019d398"
-  url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/qbk#{version}otf.zip"
-  desc "TeX Gyre Bonum"
-  homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum"
-  def install
-    (share/"fonts").install "texgyrebonum-bold.otf"
-    (share/"fonts").install "texgyrebonum-bolditalic.otf"
-    (share/"fonts").install "texgyrebonum-italic.otf"
-    (share/"fonts").install "texgyrebonum-regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tex-gyre-bonum\"", :before=>["version \"2.004\""@32, "sha256 \"30e7e9bf24b73709edff9916c95214a66b7fac38f78a11a19e4bc18ab019d398\""@50, "url \"http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum/qbk\#{version}otf.zip\""@127, "desc \"TeX Gyre Bonum\"", "homepage \"http://www.gust.org.pl/projects/e-foundry/tex-gyre/bonum\""@237], :fonts=>["(share/\"fonts\").install \"texgyrebonum-bold.otf\"", "(share/\"fonts\").install \"texgyrebonum-bolditalic.otf\"", "(share/\"fonts\").install \"texgyrebonum-italic.otf\"", "(share/\"fonts\").install \"texgyrebonum-regular.otf\""], :after=>"# No zap stanza required\n"@444}
