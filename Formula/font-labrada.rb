@@ -1,11 +1,1 @@
-class FontLabrada < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/labrada"
-  desc "Labrada"
-  homepage "https://fonts.google.com/specimen/Labrada"
-  def install
-    (share/"fonts").install "Labrada-Italic[wght].ttf"
-    (share/"fonts").install "Labrada[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-labrada\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/labrada\"", "desc \"Labrada\"", "homepage \"https://fonts.google.com/specimen/Labrada\""@225], :fonts=>["(share/\"fonts\").install \"Labrada-Italic[wght].ttf\"", "(share/\"fonts\").install \"Labrada[wght].ttf\""], :after=>"# No zap stanza required\n"@343}
