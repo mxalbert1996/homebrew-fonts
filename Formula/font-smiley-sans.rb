@@ -1,13 +1,1 @@
-class FontSmileySans < Formula
-  version "1.1.1"
-  sha256 "17c30d067b90ef6fb259caaf66e4339e30d70d5f197485da8f305c040d41413f"
-  url "https://github.com/atelier-anchor/smiley-sans/releases/download/v#{version}/smiley-sans-v#{version}.zip", verified: "github.com/atelier-anchor/smiley-sans/"
-  desc "Smiley Sans"
-  desc "Chinese typeface seeking a visual balance between the humanist and the geometric"
-  homepage "https://atelier-anchor.com/typefaces/smiley-sans/"
-  def install
-    (share/"fonts").install "SmileySans-Oblique.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-smiley-sans\"", :before=>["version \"1.1.1\""@29, "sha256 \"17c30d067b90ef6fb259caaf66e4339e30d70d5f197485da8f305c040d41413f\""@47, "url \"https://github.com/atelier-anchor/smiley-sans/releases/download/v\#{version}/smiley-sans-v\#{version}.zip\", verified: \"github.com/atelier-anchor/smiley-sans/\""@124, "desc \"Smiley Sans\"", "desc \"Chinese typeface seeking a visual balance between the humanist and the geometric\""@315, "homepage \"https://atelier-anchor.com/typefaces/smiley-sans/\""@405], :fonts=>["(share/\"fonts\").install \"SmileySans-Oblique.ttf\""], :after=>"# No zap stanza required\n"@502}
