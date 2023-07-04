@@ -1,12 +1,1 @@
-class FontMasinahikanDene < Formula
-  head "https://www.languagegeek.com/font/MasinahikanDene.zip"
-  desc "Masinahikan Dene"
-  homepage "https://www.languagegeek.com/font/fontdownload.html"
-  def install
-    (share/"fonts").install "MasinahikanDene_h.ttf"
-    (share/"fonts").install "MasinahikanDene_h_Bold.ttf"
-    (share/"fonts").install "MasinahikanDene_h_Semi.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-masinahikan-dene\"", :before=>["", "", "head \"https://www.languagegeek.com/font/MasinahikanDene.zip\"", "desc \"Masinahikan Dene\"", "homepage \"https://www.languagegeek.com/font/fontdownload.html\""@160], :fonts=>["(share/\"fonts\").install \"MasinahikanDene_h.ttf\"", "(share/\"fonts\").install \"MasinahikanDene_h_Bold.ttf\"", "(share/\"fonts\").install \"MasinahikanDene_h_Semi.ttf\""], :after=>"# No zap stanza required\n"@330}
