@@ -1,11 +1,1 @@
-class FontNotoSansJp < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans JP"
-  desc "Unmodulated (“sans serif”) design for the japanese language"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+JP"
-  def install
-    (share/"fonts").install "NotoSansJP[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-jp\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans JP\"", "desc \"Unmodulated (“sans serif”) design for the japanese language\""@223, "homepage \"https://fonts.google.com/specimen/Noto+Sans+JP\""@292], :fonts=>["(share/\"fonts\").install \"NotoSansJP[wght].ttf\""], :after=>"# No zap stanza required\n"@384}
