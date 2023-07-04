@@ -1,11 +1,1 @@
-class FontAzonix < Formula
-  head "https://dl.dafont.com/dl/?f=azonix"
-  desc "Azonix"
-  desc "Modern sans-serif typeface"
-  homepage "https://www.dafont.com/azonix.font"
-  def install
-    (share/"fonts").install "Azonix.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-azonix\"", :before=>["", "", "head \"https://dl.dafont.com/dl/?f=azonix\"", "desc \"Azonix\"", "desc \"Modern sans-serif typeface\""@121, "homepage \"https://www.dafont.com/azonix.font\""@157], :fonts=>["(share/\"fonts\").install \"Azonix.otf\""], :after=>"# No zap stanza required\n"@227}
