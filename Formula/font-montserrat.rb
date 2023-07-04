@@ -1,11 +1,1 @@
-class FontMontserrat < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/montserrat"
-  desc "Montserrat"
-  homepage "https://fonts.google.com/specimen/Montserrat"
-  def install
-    (share/"fonts").install "Montserrat-Italic[wght].ttf"
-    (share/"fonts").install "Montserrat[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-montserrat\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/montserrat\"", "desc \"Montserrat\"", "homepage \"https://fonts.google.com/specimen/Montserrat\""@234], :fonts=>["(share/\"fonts\").install \"Montserrat-Italic[wght].ttf\"", "(share/\"fonts\").install \"Montserrat[wght].ttf\""], :after=>"# No zap stanza required\n"@361}
