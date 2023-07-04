@@ -1,10 +1,1 @@
-class FontSail < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sail/Sail-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Sail"
-  homepage "https://fonts.google.com/specimen/Sail"
-  def install
-    (share/"fonts").install "Sail-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-sail\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sail/Sail-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sail\"", "homepage \"https://fonts.google.com/specimen/Sail\""@193], :fonts=>["(share/\"fonts\").install \"Sail-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
