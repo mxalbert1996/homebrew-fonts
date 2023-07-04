@@ -1,11 +1,1 @@
-class FontAlkatra < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/alkatra/Alkatra%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Alkatra"
-  desc "Display typeface family"
-  homepage "https://fonts.google.com/specimen/Alkatra"
-  def install
-    (share/"fonts").install "Alkatra[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-alkatra\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/alkatra/Alkatra%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Alkatra\"", "desc \"Display typeface family\""@207, "homepage \"https://fonts.google.com/specimen/Alkatra\""@240], :fonts=>["(share/\"fonts\").install \"Alkatra[wght].ttf\""], :after=>"# No zap stanza required\n"@324}
