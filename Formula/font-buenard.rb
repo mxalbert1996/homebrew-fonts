@@ -1,11 +1,1 @@
-class FontBuenard < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/buenard"
-  desc "Buenard"
-  homepage "https://fonts.google.com/specimen/Buenard"
-  def install
-    (share/"fonts").install "Buenard-Bold.ttf"
-    (share/"fonts").install "Buenard-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-buenard\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/buenard\"", "desc \"Buenard\"", "homepage \"https://fonts.google.com/specimen/Buenard\""@225], :fonts=>["(share/\"fonts\").install \"Buenard-Bold.ttf\"", "(share/\"fonts\").install \"Buenard-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
