@@ -1,10 +1,1 @@
-class FontAcme < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/acme/Acme-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Acme"
-  homepage "https://fonts.google.com/specimen/Acme"
-  def install
-    (share/"fonts").install "Acme-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-acme\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/acme/Acme-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Acme\"", "homepage \"https://fonts.google.com/specimen/Acme\""@193], :fonts=>["(share/\"fonts\").install \"Acme-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
