@@ -1,11 +1,1 @@
-class FontSignikaSc < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/signikasc/SignikaSC%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Signika SC"
-  desc "Small-caps version of the Signika font"
-  homepage "https://fonts.google.com/specimen/Signika+SC"
-  def install
-    (share/"fonts").install "SignikaSC[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-signika-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/signikasc/SignikaSC%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Signika SC\"", "desc \"Small-caps version of the Signika font\""@217, "homepage \"https://fonts.google.com/specimen/Signika+SC\""@265], :fonts=>["(share/\"fonts\").install \"SignikaSC[wght].ttf\""], :after=>"# No zap stanza required\n"@354}
