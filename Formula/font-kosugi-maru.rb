@@ -1,11 +1,1 @@
-class FontKosugiMaru < Formula
-  head "https://github.com/google/fonts/raw/main/apache/kosugimaru/KosugiMaru-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Kosugi Maru"
-  desc "Available as kosugi"
-  homepage "https://fonts.google.com/specimen/Kosugi+Maru"
-  def install
-    (share/"fonts").install "KosugiMaru-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-kosugi-maru\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/kosugimaru/KosugiMaru-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kosugi Maru\"", "desc \"Available as kosugi\""@222, "homepage \"https://fonts.google.com/specimen/Kosugi+Maru\""@251], :fonts=>["(share/\"fonts\").install \"KosugiMaru-Regular.ttf\""], :after=>"# No zap stanza required\n"@344}
