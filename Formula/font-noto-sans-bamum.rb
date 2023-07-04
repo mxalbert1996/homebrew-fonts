@@ -1,10 +1,1 @@
-class FontNotoSansBamum < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBamum-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Bamum"
-  homepage "https://www.google.com/get/noto/#sans-bamu"
-  def install
-    (share/"fonts").install "NotoSansBamum-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-bamum\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBamum-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Bamum\"", "homepage \"https://www.google.com/get/noto/#sans-bamu\""@240], :fonts=>["(share/\"fonts\").install \"NotoSansBamum-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
