@@ -1,10 +1,1 @@
-class FontNotoSerifNyiakengPuachueHmong < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notoserifnyiakengpuachuehmong/NotoSerifNyiakengPuachueHmong%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Serif Nyiakeng Puachue Hmong"
-  homepage "https://fonts.google.com/specimen/Noto+Serif+Nyiakeng+Puachue+Hmong"
-  def install
-    (share/"fonts").install "NotoSerifNyiakengPuachueHmong[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-nyiakeng-puachue-hmong\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notoserifnyiakengpuachuehmong/NotoSerifNyiakengPuachueHmong%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Serif Nyiakeng Puachue Hmong\"", "homepage \"https://fonts.google.com/specimen/Noto+Serif+Nyiakeng+Puachue+Hmong\""@303], :fonts=>["(share/\"fonts\").install \"NotoSerifNyiakengPuachueHmong[wght].ttf\""], :after=>"# No zap stanza required\n"@435}
