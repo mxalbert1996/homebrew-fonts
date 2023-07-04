@@ -1,10 +1,1 @@
-class FontAnaheim < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/anaheim/Anaheim-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Anaheim"
-  homepage "https://fonts.google.com/specimen/Anaheim"
-  def install
-    (share/"fonts").install "Anaheim-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-anaheim\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/anaheim/Anaheim-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Anaheim\"", "homepage \"https://fonts.google.com/specimen/Anaheim\""@205], :fonts=>["(share/\"fonts\").install \"Anaheim-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
