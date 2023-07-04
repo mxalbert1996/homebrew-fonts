@@ -1,10 +1,1 @@
-class FontImFellGreatPrimerSc < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf", verified: "github.com/google/fonts/"
-  desc "IM Fell Great Primer SC"
-  homepage "https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC"
-  def install
-    (share/"fonts").install "IMFeGPsc28P.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-im-fell-great-primer-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/imfellgreatprimersc/IMFeGPsc28P.ttf\", verified: \"github.com/google/fonts/\"", "desc \"IM Fell Great Primer SC\"", "homepage \"https://fonts.google.com/specimen/IM+Fell+Great+Primer+SC\""@245], :fonts=>["(share/\"fonts\").install \"IMFeGPsc28P.ttf\""], :after=>"# No zap stanza required\n"@343}
