@@ -1,10 +1,1 @@
-class FontKhyay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/khyay/Khyay-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Khyay"
-  homepage "https://fonts.google.com/earlyaccess"
-  def install
-    (share/"fonts").install "Khyay-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-khyay\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/khyay/Khyay-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Khyay\"", "homepage \"https://fonts.google.com/earlyaccess\""@197], :fonts=>["(share/\"fonts\").install \"Khyay-Regular.ttf\""], :after=>"# No zap stanza required\n"@276}
