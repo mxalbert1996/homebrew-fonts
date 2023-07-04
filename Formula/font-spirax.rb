@@ -1,10 +1,1 @@
-class FontSpirax < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/spirax/Spirax-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Spirax"
-  homepage "https://fonts.google.com/specimen/Spirax"
-  def install
-    (share/"fonts").install "Spirax-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-spirax\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/spirax/Spirax-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Spirax\"", "homepage \"https://fonts.google.com/specimen/Spirax\""@201], :fonts=>["(share/\"fonts\").install \"Spirax-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
