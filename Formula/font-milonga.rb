@@ -1,10 +1,1 @@
-class FontMilonga < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/milonga/Milonga-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Milonga"
-  homepage "https://fonts.google.com/specimen/Milonga"
-  def install
-    (share/"fonts").install "Milonga-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-milonga\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/milonga/Milonga-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Milonga\"", "homepage \"https://fonts.google.com/specimen/Milonga\""@205], :fonts=>["(share/\"fonts\").install \"Milonga-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
