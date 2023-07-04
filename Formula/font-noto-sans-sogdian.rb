@@ -1,10 +1,1 @@
-class FontNotoSansSogdian < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssogdian/NotoSansSogdian-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Sogdian"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Sogdian"
-  def install
-    (share/"fonts").install "NotoSansSogdian-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-sogdian\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanssogdian/NotoSansSogdian-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Sogdian\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Sogdian\""@241], :fonts=>["(share/\"fonts\").install \"NotoSansSogdian-Regular.ttf\""], :after=>"# No zap stanza required\n"@345}
