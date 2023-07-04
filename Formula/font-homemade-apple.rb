@@ -1,10 +1,1 @@
-class FontHomemadeApple < Formula
-  head "https://github.com/google/fonts/raw/main/apache/homemadeapple/HomemadeApple-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Homemade Apple"
-  homepage "https://fonts.google.com/specimen/Homemade+Apple"
-  def install
-    (share/"fonts").install "HomemadeApple-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-homemade-apple\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/homemadeapple/HomemadeApple-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Homemade Apple\"", "homepage \"https://fonts.google.com/specimen/Homemade+Apple\""@234], :fonts=>["(share/\"fonts\").install \"HomemadeApple-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
