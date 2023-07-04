@@ -1,10 +1,1 @@
-class FontBm < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/hanna/BM-HANNA.ttf", verified: "github.com/google/fonts/"
-  desc "BM"
-  homepage "https://fonts.google.com/earlyaccess"
-  def install
-    (share/"fonts").install "BM-HANNA.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bm\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/hanna/BM-HANNA.ttf\", verified: \"github.com/google/fonts/\"", "desc \"BM\"", "homepage \"https://fonts.google.com/earlyaccess\""@186], :fonts=>["(share/\"fonts\").install \"BM-HANNA.ttf\""], :after=>"# No zap stanza required\n"@260}
