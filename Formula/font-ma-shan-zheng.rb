@@ -1,10 +1,1 @@
-class FontMaShanZheng < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/mashanzheng/MaShanZheng-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Ma Shan Zheng"
-  homepage "https://fonts.google.com/specimen/Ma+Shan+Zheng"
-  def install
-    (share/"fonts").install "MaShanZheng-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-ma-shan-zheng\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mashanzheng/MaShanZheng-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ma Shan Zheng\"", "homepage \"https://fonts.google.com/specimen/Ma+Shan+Zheng\""@225], :fonts=>["(share/\"fonts\").install \"MaShanZheng-Regular.ttf\""], :after=>"# No zap stanza required\n"@321}
