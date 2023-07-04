@@ -1,10 +1,1 @@
-class FontPrincessSofia < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/princesssofia/PrincessSofia-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Princess Sofia"
-  homepage "https://fonts.google.com/specimen/Princess+Sofia"
-  def install
-    (share/"fonts").install "PrincessSofia-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-princess-sofia\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/princesssofia/PrincessSofia-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Princess Sofia\"", "homepage \"https://fonts.google.com/specimen/Princess+Sofia\""@231], :fonts=>["(share/\"fonts\").install \"PrincessSofia-Regular.ttf\""], :after=>"# No zap stanza required\n"@330}
