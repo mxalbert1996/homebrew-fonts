@@ -1,10 +1,1 @@
-class FontNotoSansNewa < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosansnewa/NotoSansNewa-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Newa"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Newa"
-  def install
-    (share/"fonts").install "NotoSansNewa-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-newa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosansnewa/NotoSansNewa-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Newa\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Newa\""@229], :fonts=>["(share/\"fonts\").install \"NotoSansNewa-Regular.ttf\""], :after=>"# No zap stanza required\n"@327}
