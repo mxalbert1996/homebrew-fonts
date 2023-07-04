@@ -1,10 +1,1 @@
-class FontMarckScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/marckscript/MarckScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Marck Script"
-  homepage "https://fonts.google.com/specimen/Marck+Script"
-  def install
-    (share/"fonts").install "MarckScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-marck-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/marckscript/MarckScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Marck Script\"", "homepage \"https://fonts.google.com/specimen/Marck+Script\""@223], :fonts=>["(share/\"fonts\").install \"MarckScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@318}
