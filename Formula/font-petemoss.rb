@@ -1,11 +1,1 @@
-class FontPetemoss < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/petemoss/Petemoss-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Petemoss"
-  desc "Inspired by the forms created using a pentel color brush"
-  homepage "https://fonts.google.com/specimen/Petemoss"
-  def install
-    (share/"fonts").install "Petemoss-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-petemoss\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/petemoss/Petemoss-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Petemoss\"", "desc \"Inspired by the forms created using a pentel color brush\""@209, "homepage \"https://fonts.google.com/specimen/Petemoss\""@275], :fonts=>["(share/\"fonts\").install \"Petemoss-Regular.ttf\""], :after=>"# No zap stanza required\n"@363}
