@@ -1,11 +1,1 @@
-class FontMohave < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/mohave"
-  desc "Mohave"
-  homepage "https://fonts.google.com/specimen/Mohave"
-  def install
-    (share/"fonts").install "Mohave-Italic[wght].ttf"
-    (share/"fonts").install "Mohave[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-mohave\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/mohave\"", "desc \"Mohave\"", "homepage \"https://fonts.google.com/specimen/Mohave\""@222], :fonts=>["(share/\"fonts\").install \"Mohave-Italic[wght].ttf\"", "(share/\"fonts\").install \"Mohave[wght].ttf\""], :after=>"# No zap stanza required\n"@337}
