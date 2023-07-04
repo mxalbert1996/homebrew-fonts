@@ -1,11 +1,1 @@
-class FontYujiSyuku < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/yujisyuku/YujiSyuku-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Yuji Syuku"
-  desc "Also approachable"
-  homepage "https://fonts.google.com/specimen/Yuji+Syuku"
-  def install
-    (share/"fonts").install "YujiSyuku-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-yuji-syuku\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yujisyuku/YujiSyuku-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yuji Syuku\"", "desc \"Also approachable\""@215, "homepage \"https://fonts.google.com/specimen/Yuji+Syuku\""@242], :fonts=>["(share/\"fonts\").install \"YujiSyuku-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
