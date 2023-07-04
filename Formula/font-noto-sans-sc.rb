@@ -1,11 +1,1 @@
-class FontNotoSansSc < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans SC"
-  desc "Sans-serif design for simplified chinese variant of the han ideograms"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+SC"
-  def install
-    (share/"fonts").install "NotoSansSC[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans SC\"", "desc \"Sans-serif design for simplified chinese variant of the han ideograms\""@223, "homepage \"https://fonts.google.com/specimen/Noto+Sans+SC\""@302], :fonts=>["(share/\"fonts\").install \"NotoSansSC[wght].ttf\""], :after=>"# No zap stanza required\n"@394}
