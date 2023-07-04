@@ -1,10 +1,1 @@
-class FontNotoSansBuhid < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBuhid-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Buhid"
-  homepage "https://www.google.com/get/noto/#sans-buhd"
-  def install
-    (share/"fonts").install "NotoSansBuhid-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-buhid\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansBuhid-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Buhid\"", "homepage \"https://www.google.com/get/noto/#sans-buhd\""@240], :fonts=>["(share/\"fonts\").install \"NotoSansBuhid-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
