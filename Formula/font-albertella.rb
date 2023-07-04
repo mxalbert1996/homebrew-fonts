@@ -1,12 +1,1 @@
-class FontAlbertella < Formula
-  head "https://moji-waku.com/download/albertella.zip"
-  desc "Albertella"
-  desc "Ancient biology styled font inspired by trilobite"
-  homepage "https://moji-waku.com/albertella/index.html"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}albertella/Albertella-Light.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-albertella\"", :before=>["", "", "head \"https://moji-waku.com/download/albertella.zip\"", "desc \"Albertella\"", "desc \"Ancient biology styled font inspired by trilobite\""@140, "homepage \"https://moji-waku.com/albertella/index.html\""@199], :fonts=>["(share/\"fonts\").install \"\#{parent}albertella/Albertella-Light.otf\""], :after=>"# No zap stanza required\n"@299}
