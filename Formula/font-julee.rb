@@ -1,10 +1,1 @@
-class FontJulee < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/julee/Julee-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Julee"
-  homepage "https://fonts.google.com/specimen/Julee"
-  def install
-    (share/"fonts").install "Julee-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-julee\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/julee/Julee-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Julee\"", "homepage \"https://fonts.google.com/specimen/Julee\""@197], :fonts=>["(share/\"fonts\").install \"Julee-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
