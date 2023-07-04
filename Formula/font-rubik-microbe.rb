@@ -1,10 +1,1 @@
-class FontRubikMicrobe < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rubikmicrobe/RubikMicrobe-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Rubik Microbe"
-  homepage "https://fonts.google.com/specimen/Rubik+Microbe"
-  def install
-    (share/"fonts").install "RubikMicrobe-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-rubik-microbe\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikmicrobe/RubikMicrobe-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rubik Microbe\"", "homepage \"https://fonts.google.com/specimen/Rubik+Microbe\""@227], :fonts=>["(share/\"fonts\").install \"RubikMicrobe-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
