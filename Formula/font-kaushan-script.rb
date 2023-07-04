@@ -1,10 +1,1 @@
-class FontKaushanScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/kaushanscript/KaushanScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Kaushan Script"
-  homepage "https://fonts.google.com/specimen/Kaushan+Script"
-  def install
-    (share/"fonts").install "KaushanScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-kaushan-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kaushanscript/KaushanScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kaushan Script\"", "homepage \"https://fonts.google.com/specimen/Kaushan+Script\""@231], :fonts=>["(share/\"fonts\").install \"KaushanScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@330}
