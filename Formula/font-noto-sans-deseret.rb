@@ -1,10 +1,1 @@
-class FontNotoSansDeseret < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDeseret-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Deseret"
-  homepage "https://www.google.com/get/noto/#sans-dsrt"
-  def install
-    (share/"fonts").install "NotoSansDeseret-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-deseret\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansDeseret-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Deseret\"", "homepage \"https://www.google.com/get/noto/#sans-dsrt\""@246], :fonts=>["(share/\"fonts\").install \"NotoSansDeseret-Regular.ttf\""], :after=>"# No zap stanza required\n"@341}
