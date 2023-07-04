@@ -1,15 +1,1 @@
-class FontEversonMono < Formula
-  version "7.0.0"
-  url "https://www.evertype.com/emono/evermono.zip"
-  desc "Everson Mono"
-  homepage "https://www.evertype.com/emono/"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Bold Oblique.ttf"
-    (share/"fonts").install "#{parent}evermono-#{version}/Everson Mono Oblique.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-everson-mono\"", :before=>["version \"7.0.0\""@30, "", "url \"https://www.evertype.com/emono/evermono.zip\""@68, "desc \"Everson Mono\"", "homepage \"https://www.evertype.com/emono/\""@142], :fonts=>["(share/\"fonts\").install \"\#{parent}evermono-\#{version}/Everson Mono.ttf\"", "(share/\"fonts\").install \"\#{parent}evermono-\#{version}/Everson Mono Bold.ttf\"", "(share/\"fonts\").install \"\#{parent}evermono-\#{version}/Everson Mono Bold Oblique.ttf\"", "(share/\"fonts\").install \"\#{parent}evermono-\#{version}/Everson Mono Oblique.ttf\""], :after=>"# No zap stanza required\n"@399}
