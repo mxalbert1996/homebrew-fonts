@@ -1,10 +1,1 @@
-class FontBelleza < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/belleza/Belleza-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Belleza"
-  homepage "https://fonts.google.com/specimen/Belleza"
-  def install
-    (share/"fonts").install "Belleza-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-belleza\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/belleza/Belleza-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Belleza\"", "homepage \"https://fonts.google.com/specimen/Belleza\""@205], :fonts=>["(share/\"fonts\").install \"Belleza-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
