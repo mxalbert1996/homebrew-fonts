@@ -1,10 +1,1 @@
-class FontEuphoriaScript < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Euphoria Script"
-  homepage "https://fonts.google.com/specimen/Euphoria+Script"
-  def install
-    (share/"fonts").install "EuphoriaScript-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-euphoria-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/euphoriascript/EuphoriaScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Euphoria Script\"", "homepage \"https://fonts.google.com/specimen/Euphoria+Script\""@235], :fonts=>["(share/\"fonts\").install \"EuphoriaScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@336}
