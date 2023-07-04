@@ -1,16 +1,1 @@
-class FontNotoSerifCjkJp < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif CJK JP"
-  homepage "https://www.google.com/get/noto/#serif-jpan"
-  def install
-    (share/"fonts").install "NotoSerifCJKjp-Black.otf"
-    (share/"fonts").install "NotoSerifCJKjp-Bold.otf"
-    (share/"fonts").install "NotoSerifCJKjp-ExtraLight.otf"
-    (share/"fonts").install "NotoSerifCJKjp-Light.otf"
-    (share/"fonts").install "NotoSerifCJKjp-Medium.otf"
-    (share/"fonts").install "NotoSerifCJKjp-Regular.otf"
-    (share/"fonts").install "NotoSerifCJKjp-SemiBold.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-cjk-jp\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJKjp-hinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Serif CJK JP\"", "homepage \"https://www.google.com/get/noto/#serif-jpan\""@243], :fonts=>["(share/\"fonts\").install \"NotoSerifCJKjp-Black.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-Bold.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-ExtraLight.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-Light.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-Medium.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-Regular.otf\"", "(share/\"fonts\").install \"NotoSerifCJKjp-SemiBold.otf\""], :after=>"# No zap stanza required\n"@550}
