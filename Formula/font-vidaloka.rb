@@ -1,10 +1,1 @@
-class FontVidaloka < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vidaloka/Vidaloka-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Vidaloka"
-  homepage "https://fonts.google.com/specimen/Vidaloka"
-  def install
-    (share/"fonts").install "Vidaloka-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-vidaloka\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vidaloka/Vidaloka-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vidaloka\"", "homepage \"https://fonts.google.com/specimen/Vidaloka\""@209], :fonts=>["(share/\"fonts\").install \"Vidaloka-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
