@@ -1,10 +1,1 @@
-class FontStalinistOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/stalinistone/StalinistOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Stalinist One"
-  homepage "https://fonts.google.com/specimen/Stalinist+One"
-  def install
-    (share/"fonts").install "StalinistOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-stalinist-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/stalinistone/StalinistOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Stalinist One\"", "homepage \"https://fonts.google.com/specimen/Stalinist+One\""@227], :fonts=>["(share/\"fonts\").install \"StalinistOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
