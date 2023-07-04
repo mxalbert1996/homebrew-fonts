@@ -1,10 +1,1 @@
-class FontSupermercadoOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/supermercadoone/SupermercadoOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Supermercado One"
-  homepage "https://fonts.google.com/specimen/Supermercado+One"
-  def install
-    (share/"fonts").install "SupermercadoOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-supermercado-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/supermercadoone/SupermercadoOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Supermercado One\"", "homepage \"https://fonts.google.com/specimen/Supermercado+One\""@239], :fonts=>["(share/\"fonts\").install \"SupermercadoOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@342}
