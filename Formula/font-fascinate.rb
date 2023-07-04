@@ -1,10 +1,1 @@
-class FontFascinate < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/fascinate/Fascinate-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Fascinate"
-  homepage "https://fonts.google.com/specimen/Fascinate"
-  def install
-    (share/"fonts").install "Fascinate-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-fascinate\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/fascinate/Fascinate-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Fascinate\"", "homepage \"https://fonts.google.com/specimen/Fascinate\""@213], :fonts=>["(share/\"fonts\").install \"Fascinate-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
