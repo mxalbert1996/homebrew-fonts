@@ -1,10 +1,1 @@
-class FontNosiferCaps < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/nosifercaps/NosiferCaps-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Nosifer Caps"
-  homepage "https://fonts.google.com/specimen/Nosifer+Caps"
-  def install
-    (share/"fonts").install "NosiferCaps-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-nosifer-caps\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/nosifercaps/NosiferCaps-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nosifer Caps\"", "homepage \"https://fonts.google.com/specimen/Nosifer+Caps\""@223], :fonts=>["(share/\"fonts\").install \"NosiferCaps-Regular.ttf\""], :after=>"# No zap stanza required\n"@318}
