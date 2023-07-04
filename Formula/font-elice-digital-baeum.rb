@@ -1,11 +1,1 @@
-class FontEliceDigitalBaeum < Formula
-  head "https://font.elice.io/static/archives/EliceDigitalBaeum_OTF.zip"
-  desc "Elice Digital Baeum"
-  homepage "https://font.elice.io/"
-  def install
-    (share/"fonts").install "EliceDigitalBaeumOTF_Regular.otf"
-    (share/"fonts").install "EliceDigitalBaeumOTF_Bold.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-elice-digital-baeum\"", :before=>["", "", "head \"https://font.elice.io/static/archives/EliceDigitalBaeum_OTF.zip\"", "desc \"Elice Digital Baeum\"", "homepage \"https://font.elice.io/\""@176], :fonts=>["(share/\"fonts\").install \"EliceDigitalBaeumOTF_Regular.otf\"", "(share/\"fonts\").install \"EliceDigitalBaeumOTF_Bold.otf\""], :after=>"# No zap stanza required\n"@295}
