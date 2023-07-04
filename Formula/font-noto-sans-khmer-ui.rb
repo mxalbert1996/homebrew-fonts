@@ -1,10 +1,1 @@
-class FontNotoSansKhmerUi < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosanskhmerui/NotoSansKhmerUI%5Bwdth%2Cwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Khmer UI"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Khmer+UI"
-  def install
-    (share/"fonts").install "NotoSansKhmerUI[wdth,wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-khmer-ui\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosanskhmerui/NotoSansKhmerUI%5Bwdth%2Cwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Khmer UI\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Khmer+UI\""@252], :fonts=>["(share/\"fonts\").install \"NotoSansKhmerUI[wdth,wght].ttf\""], :after=>"# No zap stanza required\n"@360}
