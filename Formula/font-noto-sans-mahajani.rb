@@ -1,10 +1,1 @@
-class FontNotoSansMahajani < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notosansmahajani/NotoSansMahajani-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Sans Mahajani"
-  homepage "https://fonts.google.com/specimen/Noto+Sans+Mahajani"
-  def install
-    (share/"fonts").install "NotoSansMahajani-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-mahajani\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosansmahajani/NotoSansMahajani-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Sans Mahajani\"", "homepage \"https://fonts.google.com/specimen/Noto+Sans+Mahajani\""@245], :fonts=>["(share/\"fonts\").install \"NotoSansMahajani-Regular.ttf\""], :after=>"# No zap stanza required\n"@351}
