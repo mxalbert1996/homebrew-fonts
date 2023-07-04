@@ -1,10 +1,1 @@
-class FontBonbon < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bonbon/Bonbon-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bonbon"
-  homepage "https://fonts.google.com/specimen/Bonbon"
-  def install
-    (share/"fonts").install "Bonbon-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bonbon\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bonbon/Bonbon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bonbon\"", "homepage \"https://fonts.google.com/specimen/Bonbon\""@201], :fonts=>["(share/\"fonts\").install \"Bonbon-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
