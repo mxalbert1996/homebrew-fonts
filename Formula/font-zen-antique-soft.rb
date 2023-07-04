@@ -1,10 +1,1 @@
-class FontZenAntiqueSoft < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/zenantiquesoft/ZenAntiqueSoft-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Zen Antique Soft"
-  homepage "https://fonts.google.com/specimen/Zen+Antique+Soft"
-  def install
-    (share/"fonts").install "ZenAntiqueSoft-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-zen-antique-soft\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/zenantiquesoft/ZenAntiqueSoft-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Zen Antique Soft\"", "homepage \"https://fonts.google.com/specimen/Zen+Antique+Soft\""@237], :fonts=>["(share/\"fonts\").install \"ZenAntiqueSoft-Regular.ttf\""], :after=>"# No zap stanza required\n"@339}
