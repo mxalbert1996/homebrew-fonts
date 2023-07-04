@@ -1,10 +1,1 @@
-class FontZenTokyoZoo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/zentokyozoo/ZenTokyoZoo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Zen Tokyo Zoo"
-  homepage "https://fonts.google.com/specimen/Zen+Tokyo+Zoo"
-  def install
-    (share/"fonts").install "ZenTokyoZoo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-zen-tokyo-zoo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/zentokyozoo/ZenTokyoZoo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Zen Tokyo Zoo\"", "homepage \"https://fonts.google.com/specimen/Zen+Tokyo+Zoo\""@225], :fonts=>["(share/\"fonts\").install \"ZenTokyoZoo-Regular.ttf\""], :after=>"# No zap stanza required\n"@321}
