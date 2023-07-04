@@ -1,10 +1,1 @@
-class FontAnticDidone < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/anticdidone/AnticDidone-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Antic Didone"
-  homepage "https://fonts.google.com/specimen/Antic+Didone"
-  def install
-    (share/"fonts").install "AnticDidone-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-antic-didone\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/anticdidone/AnticDidone-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Antic Didone\"", "homepage \"https://fonts.google.com/specimen/Antic+Didone\""@223], :fonts=>["(share/\"fonts\").install \"AnticDidone-Regular.ttf\""], :after=>"# No zap stanza required\n"@318}
