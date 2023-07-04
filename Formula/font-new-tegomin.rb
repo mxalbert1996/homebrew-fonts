@@ -1,10 +1,1 @@
-class FontNewTegomin < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/newtegomin/NewTegomin-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "New Tegomin"
-  homepage "https://fonts.google.com/specimen/New+Tegomin"
-  def install
-    (share/"fonts").install "NewTegomin-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-new-tegomin\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/newtegomin/NewTegomin-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"New Tegomin\"", "homepage \"https://fonts.google.com/specimen/New+Tegomin\""@219], :fonts=>["(share/\"fonts\").install \"NewTegomin-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
