@@ -1,10 +1,1 @@
-class FontNotoSansKaithi < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKaithi-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Kaithi"
-  homepage "https://www.google.com/get/noto/#sans-kthi"
-  def install
-    (share/"fonts").install "NotoSansKaithi-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-kaithi\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansKaithi-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Kaithi\"", "homepage \"https://www.google.com/get/noto/#sans-kthi\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansKaithi-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
