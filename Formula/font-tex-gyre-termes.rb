@@ -1,15 +1,1 @@
-class FontTexGyreTermes < Formula
-  version "2.004"
-  sha256 "5d467d8db17c96037b04409d682f071d7cc33cf94eda35a0a0465776a2c862b2"
-  url "http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/qtm#{version}otf.zip"
-  desc "TeX Gyre Termes"
-  homepage "http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes"
-  def install
-    (share/"fonts").install "texgyretermes-bold.otf"
-    (share/"fonts").install "texgyretermes-bolditalic.otf"
-    (share/"fonts").install "texgyretermes-italic.otf"
-    (share/"fonts").install "texgyretermes-regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tex-gyre-termes\"", :before=>["version \"2.004\""@33, "sha256 \"5d467d8db17c96037b04409d682f071d7cc33cf94eda35a0a0465776a2c862b2\""@51, "url \"http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes/qtm\#{version}otf.zip\""@128, "desc \"TeX Gyre Termes\"", "homepage \"http://www.gust.org.pl/projects/e-foundry/tex-gyre/termes\""@240], :fonts=>["(share/\"fonts\").install \"texgyretermes-bold.otf\"", "(share/\"fonts\").install \"texgyretermes-bolditalic.otf\"", "(share/\"fonts\").install \"texgyretermes-italic.otf\"", "(share/\"fonts\").install \"texgyretermes-regular.otf\""], :after=>"# No zap stanza required\n"@452}
