@@ -1,10 +1,1 @@
-class FontDarumadropOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/darumadropone/DarumadropOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Darumadrop One"
-  homepage "https://fonts.google.com/specimen/Darumadrop+One"
-  def install
-    (share/"fonts").install "DarumadropOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-darumadrop-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/darumadropone/DarumadropOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Darumadrop One\"", "homepage \"https://fonts.google.com/specimen/Darumadrop+One\""@231], :fonts=>["(share/\"fonts\").install \"DarumadropOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@330}
