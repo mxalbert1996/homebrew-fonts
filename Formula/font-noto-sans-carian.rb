@@ -1,10 +1,1 @@
-class FontNotoSansCarian < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCarian-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Carian"
-  homepage "https://www.google.com/get/noto/#sans-cari"
-  def install
-    (share/"fonts").install "NotoSansCarian-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-carian\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCarian-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Carian\"", "homepage \"https://www.google.com/get/noto/#sans-cari\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansCarian-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
