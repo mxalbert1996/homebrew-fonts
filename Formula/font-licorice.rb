@@ -1,11 +1,1 @@
-class FontLicorice < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/licorice/Licorice-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Licorice"
-  desc "Perfect scrapbooking, cards, invitations and fun events"
-  homepage "https://fonts.google.com/specimen/Licorice"
-  def install
-    (share/"fonts").install "Licorice-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-licorice\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/licorice/Licorice-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Licorice\"", "desc \"Perfect scrapbooking, cards, invitations and fun events\""@209, "homepage \"https://fonts.google.com/specimen/Licorice\""@274], :fonts=>["(share/\"fonts\").install \"Licorice-Regular.ttf\""], :after=>"# No zap stanza required\n"@362}
