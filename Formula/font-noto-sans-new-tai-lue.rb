@@ -1,10 +1,1 @@
-class FontNotoSansNewTaiLue < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansNewTaiLue-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans New Tai Lue"
-  homepage "https://www.google.com/get/noto/#sans-talu"
-  def install
-    (share/"fonts").install "NotoSansNewTaiLue-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-new-tai-lue\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansNewTaiLue-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans New Tai Lue\"", "homepage \"https://www.google.com/get/noto/#sans-talu\""@256], :fonts=>["(share/\"fonts\").install \"NotoSansNewTaiLue-Regular.ttf\""], :after=>"# No zap stanza required\n"@353}
