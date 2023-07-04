@@ -1,10 +1,1 @@
-class FontWaitingForTheSunrise < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/waitingforthesunrise/WaitingfortheSunrise.ttf", verified: "github.com/google/fonts/"
-  desc "Waiting for the Sunrise"
-  homepage "https://fonts.google.com/specimen/Waiting+for+the+Sunrise"
-  def install
-    (share/"fonts").install "WaitingfortheSunrise.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-waiting-for-the-sunrise\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/waitingforthesunrise/WaitingfortheSunrise.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Waiting for the Sunrise\"", "homepage \"https://fonts.google.com/specimen/Waiting+for+the+Sunrise\""@255], :fonts=>["(share/\"fonts\").install \"WaitingfortheSunrise.ttf\""], :after=>"# No zap stanza required\n"@362}
