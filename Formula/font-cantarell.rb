@@ -1,13 +1,1 @@
-class FontCantarell < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/cantarell"
-  desc "Cantarell"
-  homepage "https://fonts.google.com/specimen/Cantarell"
-  def install
-    (share/"fonts").install "Cantarell-Bold.ttf"
-    (share/"fonts").install "Cantarell-BoldItalic.ttf"
-    (share/"fonts").install "Cantarell-Italic.ttf"
-    (share/"fonts").install "Cantarell-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-cantarell\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/cantarell\"", "desc \"Cantarell\"", "homepage \"https://fonts.google.com/specimen/Cantarell\""@231], :fonts=>["(share/\"fonts\").install \"Cantarell-Bold.ttf\"", "(share/\"fonts\").install \"Cantarell-BoldItalic.ttf\"", "(share/\"fonts\").install \"Cantarell-Italic.ttf\"", "(share/\"fonts\").install \"Cantarell-Regular.ttf\""], :after=>"# No zap stanza required\n"@413}
