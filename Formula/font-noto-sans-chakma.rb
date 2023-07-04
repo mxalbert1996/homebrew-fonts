@@ -1,10 +1,1 @@
-class FontNotoSansChakma < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansChakma-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Chakma"
-  homepage "https://www.google.com/get/noto/#sans-cakm"
-  def install
-    (share/"fonts").install "NotoSansChakma-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-chakma\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansChakma-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Chakma\"", "homepage \"https://www.google.com/get/noto/#sans-cakm\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansChakma-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
