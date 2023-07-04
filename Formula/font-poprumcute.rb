@@ -1,12 +1,1 @@
-class FontPoprumcute < Formula
-  head "https://moji-waku.com/download/poprumcute.zip"
-  desc "PopRumCute"
-  desc "Modern Showa styled Japanese font"
-  homepage "https://moji-waku.com/poprumcute/index.html"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}poprumcute/PopRumCute.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-poprumcute\"", :before=>["", "", "head \"https://moji-waku.com/download/poprumcute.zip\"", "desc \"PopRumCute\"", "desc \"Modern Showa styled Japanese font\""@140, "homepage \"https://moji-waku.com/poprumcute/index.html\""@183], :fonts=>["(share/\"fonts\").install \"\#{parent}poprumcute/PopRumCute.otf\""], :after=>"# No zap stanza required\n"@277}
