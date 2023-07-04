@@ -1,10 +1,1 @@
-class FontNGage < Formula
-  head "https://dl.dafont.com/dl/?f=n_gage"
-  desc "N-Gage"
-  homepage "https://www.dafont.com/n-gage.font"
-  def install
-    (share/"fonts").install "N-Gage.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-n-gage\"", :before=>["", "", "head \"https://dl.dafont.com/dl/?f=n_gage\"", "desc \"N-Gage\"", "homepage \"https://www.dafont.com/n-gage.font\""@121], :fonts=>["(share/\"fonts\").install \"N-Gage.ttf\""], :after=>"# No zap stanza required\n"@191}
