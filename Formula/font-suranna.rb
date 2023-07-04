@@ -1,10 +1,1 @@
-class FontSuranna < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/suranna/Suranna-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Suranna"
-  homepage "https://fonts.google.com/specimen/Suranna"
-  def install
-    (share/"fonts").install "Suranna-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-suranna\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/suranna/Suranna-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Suranna\"", "homepage \"https://fonts.google.com/specimen/Suranna\""@205], :fonts=>["(share/\"fonts\").install \"Suranna-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
