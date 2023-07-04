@@ -1,10 +1,1 @@
-class FontPangolin < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/pangolin/Pangolin-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Pangolin"
-  homepage "https://fonts.google.com/specimen/Pangolin"
-  def install
-    (share/"fonts").install "Pangolin-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-pangolin\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/pangolin/Pangolin-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Pangolin\"", "homepage \"https://fonts.google.com/specimen/Pangolin\""@209], :fonts=>["(share/\"fonts\").install \"Pangolin-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
