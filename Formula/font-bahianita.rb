@@ -1,10 +1,1 @@
-class FontBahianita < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bahianita/Bahianita-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bahianita"
-  homepage "https://fonts.google.com/specimen/Bahianita"
-  def install
-    (share/"fonts").install "Bahianita-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bahianita\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bahianita/Bahianita-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bahianita\"", "homepage \"https://fonts.google.com/specimen/Bahianita\""@213], :fonts=>["(share/\"fonts\").install \"Bahianita-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
