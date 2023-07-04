@@ -1,10 +1,1 @@
-class FontOxygenMono < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/oxygenmono/OxygenMono-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Oxygen Mono"
-  homepage "https://fonts.google.com/specimen/Oxygen+Mono"
-  def install
-    (share/"fonts").install "OxygenMono-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-oxygen-mono\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/oxygenmono/OxygenMono-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Oxygen Mono\"", "homepage \"https://fonts.google.com/specimen/Oxygen+Mono\""@219], :fonts=>["(share/\"fonts\").install \"OxygenMono-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
