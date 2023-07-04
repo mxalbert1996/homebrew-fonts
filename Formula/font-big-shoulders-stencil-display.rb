@@ -1,11 +1,1 @@
-class FontBigShouldersStencilDisplay < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bigshouldersstencildisplay/BigShouldersStencilDisplay%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Big Shoulders Stencil Display"
-  desc "Superfamily of condensed American Gothic typefaces"
-  homepage "https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display"
-  def install
-    (share/"fonts").install "BigShouldersStencilDisplay[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-big-shoulders-stencil-display\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bigshouldersstencildisplay/BigShouldersStencilDisplay%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Big Shoulders Stencil Display\"", "desc \"Superfamily of condensed American Gothic typefaces\""@289, "homepage \"https://fonts.google.com/specimen/Big+Shoulders+Stencil+Display\""@349], :fonts=>["(share/\"fonts\").install \"BigShouldersStencilDisplay[wght].ttf\""], :after=>"# No zap stanza required\n"@474}
