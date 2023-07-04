@@ -1,10 +1,1 @@
-class FontAtomicAge < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/atomicage/AtomicAge-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Atomic Age"
-  homepage "https://fonts.google.com/specimen/Atomic+Age"
-  def install
-    (share/"fonts").install "AtomicAge-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-atomic-age\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/atomicage/AtomicAge-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Atomic Age\"", "homepage \"https://fonts.google.com/specimen/Atomic+Age\""@215], :fonts=>["(share/\"fonts\").install \"AtomicAge-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
