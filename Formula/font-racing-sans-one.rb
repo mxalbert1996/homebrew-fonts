@@ -1,10 +1,1 @@
-class FontRacingSansOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/racingsansone/RacingSansOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Racing Sans One"
-  homepage "https://fonts.google.com/specimen/Racing+Sans+One"
-  def install
-    (share/"fonts").install "RacingSansOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-racing-sans-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/racingsansone/RacingSansOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Racing Sans One\"", "homepage \"https://fonts.google.com/specimen/Racing+Sans+One\""@233], :fonts=>["(share/\"fonts\").install \"RacingSansOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@333}
