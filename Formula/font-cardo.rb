@@ -1,14 +1,1 @@
-class FontCardo < Formula
-  version "1.04"
-  sha256 "9401db6357cb71fa1f8791323679f81d6b0473d6280a7ec8abdf11b5e52f455f"
-  url "https://scholarsfonts.net/cardo#{version.to_s.gsub(".", "")}.zip"
-  desc "Cardo"
-  homepage "https://scholarsfonts.net/cardofnt.html"
-  def install
-    (share/"fonts").install "Cardo104s.ttf"
-    (share/"fonts").install "Cardoi99.ttf"
-    (share/"fonts").install "Cardob101.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-cardo\"", :before=>["version \"1.04\""@23, "sha256 \"9401db6357cb71fa1f8791323679f81d6b0473d6280a7ec8abdf11b5e52f455f\""@40, "url \"https://scholarsfonts.net/cardo\#{version.to_s.gsub(\".\", \"\")}.zip\""@117, "desc \"Cardo\"", "homepage \"https://scholarsfonts.net/cardofnt.html\""@194], :fonts=>["(share/\"fonts\").install \"Cardo104s.ttf\"", "(share/\"fonts\").install \"Cardoi99.ttf\"", "(share/\"fonts\").install \"Cardob101.ttf\""], :after=>"# No zap stanza required\n"@317}
