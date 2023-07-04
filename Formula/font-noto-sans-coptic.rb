@@ -1,10 +1,1 @@
-class FontNotoSansCoptic < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCoptic-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Coptic"
-  homepage "https://www.google.com/get/noto/#sans-copt"
-  def install
-    (share/"fonts").install "NotoSansCoptic-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-coptic\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansCoptic-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Coptic\"", "homepage \"https://www.google.com/get/noto/#sans-copt\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansCoptic-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
