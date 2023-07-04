@@ -1,10 +1,1 @@
-class FontJacquesFrancois < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Jacques Francois"
-  homepage "https://fonts.google.com/specimen/Jacques+Francois"
-  def install
-    (share/"fonts").install "JacquesFrancois-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-jacques-francois\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jacquesfrancois/JacquesFrancois-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jacques Francois\"", "homepage \"https://fonts.google.com/specimen/Jacques+Francois\""@239], :fonts=>["(share/\"fonts\").install \"JacquesFrancois-Regular.ttf\""], :after=>"# No zap stanza required\n"@342}
