@@ -1,14 +1,1 @@
-class FontAfricanSerif < Formula
-  version "9.380"
-  url "https://www.languagegeek.com/font/AfricanSerif.zip"
-  desc "African Serif"
-  homepage "https://www.languagegeek.com/font/fontdownload.html"
-  def install
-    (share/"fonts").install "African Serif REGULAR 938.ttf"
-    (share/"fonts").install "African Serif BOLD 938.ttf"
-    (share/"fonts").install "African Serif BOLD ITALIC 938.ttf"
-    (share/"fonts").install "African Serif ITALIC 938.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-african-serif\"", :before=>["version \"9.380\""@31, "", "url \"https://www.languagegeek.com/font/AfricanSerif.zip\""@69, "desc \"African Serif\"", "homepage \"https://www.languagegeek.com/font/fontdownload.html\""@151], :fonts=>["(share/\"fonts\").install \"African Serif REGULAR 938.ttf\"", "(share/\"fonts\").install \"African Serif BOLD 938.ttf\"", "(share/\"fonts\").install \"African Serif BOLD ITALIC 938.ttf\"", "(share/\"fonts\").install \"African Serif ITALIC 938.ttf\""], :after=>"# No zap stanza required\n"@374}
