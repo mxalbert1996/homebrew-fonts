@@ -1,10 +1,1 @@
-class FontEduQldBeginner < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/eduqldbeginner/EduQLDBeginner%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Edu QLD Beginner"
-  homepage "https://fonts.google.com/specimen/Edu+QLD+Beginner"
-  def install
-    (share/"fonts").install "EduQLDBeginner[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-edu-qld-beginner\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/eduqldbeginner/EduQLDBeginner%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Edu QLD Beginner\"", "homepage \"https://fonts.google.com/specimen/Edu+QLD+Beginner\""@239], :fonts=>["(share/\"fonts\").install \"EduQLDBeginner[wght].ttf\""], :after=>"# No zap stanza required\n"@339}
