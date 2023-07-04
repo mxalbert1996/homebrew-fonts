@@ -1,10 +1,1 @@
-class FontTenaliRamakrishna < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/tenaliramakrishna/TenaliRamakrishna-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Tenali Ramakrishna"
-  homepage "https://fonts.google.com/specimen/Tenali+Ramakrishna"
-  def install
-    (share/"fonts").install "TenaliRamakrishna-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tenali-ramakrishna\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tenaliramakrishna/TenaliRamakrishna-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Tenali Ramakrishna\"", "homepage \"https://fonts.google.com/specimen/Tenali+Ramakrishna\""@247], :fonts=>["(share/\"fonts\").install \"TenaliRamakrishna-Regular.ttf\""], :after=>"# No zap stanza required\n"@354}
