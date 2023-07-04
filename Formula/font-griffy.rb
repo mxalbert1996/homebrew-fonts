@@ -1,10 +1,1 @@
-class FontGriffy < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/griffy/Griffy-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Griffy"
-  homepage "https://fonts.google.com/specimen/Griffy"
-  def install
-    (share/"fonts").install "Griffy-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-griffy\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/griffy/Griffy-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Griffy\"", "homepage \"https://fonts.google.com/specimen/Griffy\""@201], :fonts=>["(share/\"fonts\").install \"Griffy-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
