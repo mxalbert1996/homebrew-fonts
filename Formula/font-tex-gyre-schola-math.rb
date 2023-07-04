@@ -1,13 +1,1 @@
-class FontTexGyreScholaMath < Formula
-  version "1.533"
-  sha256 "53560861144138e25f89f1f487126d21c81c5086364ffcf2c8e5e46e37ebbe00"
-  url "http://www.gust.org.pl/projects/e-foundry/tg-math/download/texgyreschola-math-#{version.to_s.gsub(".", "")}.zip"
-  desc "Schola Math"
-  homepage "http://www.gust.org.pl/projects/e-foundry/tg-math"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}texgyreschola-math-1533/opentype/texgyreschola-math.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tex-gyre-schola-math\"", :before=>["version \"1.533\""@38, "sha256 \"53560861144138e25f89f1f487126d21c81c5086364ffcf2c8e5e46e37ebbe00\""@56, "url \"http://www.gust.org.pl/projects/e-foundry/tg-math/download/texgyreschola-math-\#{version.to_s.gsub(\".\", \"\")}.zip\""@133, "desc \"Schola Math\"", "homepage \"http://www.gust.org.pl/projects/e-foundry/tg-math\""@263], :fonts=>["(share/\"fonts\").install \"\#{parent}texgyreschola-math-1533/opentype/texgyreschola-math.otf\""], :after=>"# No zap stanza required\n"@393}
