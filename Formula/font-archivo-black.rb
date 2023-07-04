@@ -1,10 +1,1 @@
-class FontArchivoBlack < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/archivoblack/ArchivoBlack-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Archivo Black"
-  homepage "https://fonts.google.com/specimen/Archivo+Black"
-  def install
-    (share/"fonts").install "ArchivoBlack-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-archivo-black\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/archivoblack/ArchivoBlack-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Archivo Black\"", "homepage \"https://fonts.google.com/specimen/Archivo+Black\""@227], :fonts=>["(share/\"fonts\").install \"ArchivoBlack-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
