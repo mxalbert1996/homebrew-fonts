@@ -1,10 +1,1 @@
-class FontMuktiNarrow < Formula
-  head "https://www.omicronlab.com/download/fonts/muktinarrow.ttf"
-  desc "Mukti Narrow"
-  homepage "https://www.omicronlab.com/bangla-fonts.html"
-  def install
-    (share/"fonts").install "muktinarrow.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-mukti-narrow\"", :before=>["", "", "head \"https://www.omicronlab.com/download/fonts/muktinarrow.ttf\"", "desc \"Mukti Narrow\"", "homepage \"https://www.omicronlab.com/bangla-fonts.html\""@156], :fonts=>["(share/\"fonts\").install \"muktinarrow.ttf\""], :after=>"# No zap stanza required\n"@241}
