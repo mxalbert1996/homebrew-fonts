@@ -1,10 +1,1 @@
-class FontBowlbyOneSc < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bowlbyonesc/BowlbyOneSC-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bowlby One SC"
-  homepage "https://fonts.google.com/specimen/Bowlby+One+SC"
-  def install
-    (share/"fonts").install "BowlbyOneSC-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bowlby-one-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bowlbyonesc/BowlbyOneSC-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bowlby One SC\"", "homepage \"https://fonts.google.com/specimen/Bowlby+One+SC\""@225], :fonts=>["(share/\"fonts\").install \"BowlbyOneSC-Regular.ttf\""], :after=>"# No zap stanza required\n"@321}
