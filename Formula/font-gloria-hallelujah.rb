@@ -1,10 +1,1 @@
-class FontGloriaHallelujah < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/gloriahallelujah/GloriaHallelujah.ttf", verified: "github.com/google/fonts/"
-  desc "Gloria Hallelujah"
-  homepage "https://fonts.google.com/specimen/Gloria+Hallelujah"
-  def install
-    (share/"fonts").install "GloriaHallelujah.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-gloria-hallelujah\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gloriahallelujah/GloriaHallelujah.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gloria Hallelujah\"", "homepage \"https://fonts.google.com/specimen/Gloria+Hallelujah\""@235], :fonts=>["(share/\"fonts\").install \"GloriaHallelujah.ttf\""], :after=>"# No zap stanza required\n"@332}
