@@ -1,10 +1,1 @@
-class FontNotoSansSaurashtra < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSaurashtra-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Saurashtra"
-  homepage "https://www.google.com/get/noto/#sans-saur"
-  def install
-    (share/"fonts").install "NotoSansSaurashtra-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-saurashtra\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSaurashtra-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Saurashtra\"", "homepage \"https://www.google.com/get/noto/#sans-saur\""@255], :fonts=>["(share/\"fonts\").install \"NotoSansSaurashtra-Regular.ttf\""], :after=>"# No zap stanza required\n"@353}
