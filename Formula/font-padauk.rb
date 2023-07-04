@@ -1,11 +1,1 @@
-class FontPadauk < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/padauk"
-  desc "Padauk"
-  homepage "https://fonts.google.com/specimen/Padauk"
-  def install
-    (share/"fonts").install "Padauk-Bold.ttf"
-    (share/"fonts").install "Padauk-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-padauk\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/padauk\"", "desc \"Padauk\"", "homepage \"https://fonts.google.com/specimen/Padauk\""@222], :fonts=>["(share/\"fonts\").install \"Padauk-Bold.ttf\"", "(share/\"fonts\").install \"Padauk-Regular.ttf\""], :after=>"# No zap stanza required\n"@331}
