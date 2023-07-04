@@ -1,10 +1,1 @@
-class FontModak < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/modak/Modak-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Modak"
-  homepage "https://fonts.google.com/specimen/Modak"
-  def install
-    (share/"fonts").install "Modak-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-modak\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/modak/Modak-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Modak\"", "homepage \"https://fonts.google.com/specimen/Modak\""@197], :fonts=>["(share/\"fonts\").install \"Modak-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
