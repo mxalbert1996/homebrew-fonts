@@ -1,10 +1,1 @@
-class FontSixCaps < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sixcaps/SixCaps.ttf", verified: "github.com/google/fonts/"
-  desc "Six Caps"
-  homepage "https://fonts.google.com/specimen/Six+Caps"
-  def install
-    (share/"fonts").install "SixCaps.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-six-caps\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sixcaps/SixCaps.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Six Caps\"", "homepage \"https://fonts.google.com/specimen/Six+Caps\""@199], :fonts=>["(share/\"fonts\").install \"SixCaps.ttf\""], :after=>"# No zap stanza required\n"@278}
