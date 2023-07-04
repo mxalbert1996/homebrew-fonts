@@ -1,15 +1,1 @@
-class FontSarpanch < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/sarpanch"
-  desc "Sarpanch"
-  homepage "https://fonts.google.com/specimen/Sarpanch"
-  def install
-    (share/"fonts").install "Sarpanch-Black.ttf"
-    (share/"fonts").install "Sarpanch-Bold.ttf"
-    (share/"fonts").install "Sarpanch-ExtraBold.ttf"
-    (share/"fonts").install "Sarpanch-Medium.ttf"
-    (share/"fonts").install "Sarpanch-Regular.ttf"
-    (share/"fonts").install "Sarpanch-SemiBold.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-sarpanch\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/sarpanch\"", "desc \"Sarpanch\"", "homepage \"https://fonts.google.com/specimen/Sarpanch\""@228], :fonts=>["(share/\"fonts\").install \"Sarpanch-Black.ttf\"", "(share/\"fonts\").install \"Sarpanch-Bold.ttf\"", "(share/\"fonts\").install \"Sarpanch-ExtraBold.ttf\"", "(share/\"fonts\").install \"Sarpanch-Medium.ttf\"", "(share/\"fonts\").install \"Sarpanch-Regular.ttf\"", "(share/\"fonts\").install \"Sarpanch-SemiBold.ttf\""], :after=>"# No zap stanza required\n"@463}
