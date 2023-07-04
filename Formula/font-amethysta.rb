@@ -1,10 +1,1 @@
-class FontAmethysta < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/amethysta/Amethysta-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Amethysta"
-  homepage "https://fonts.google.com/specimen/Amethysta"
-  def install
-    (share/"fonts").install "Amethysta-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-amethysta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/amethysta/Amethysta-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Amethysta\"", "homepage \"https://fonts.google.com/specimen/Amethysta\""@213], :fonts=>["(share/\"fonts\").install \"Amethysta-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
