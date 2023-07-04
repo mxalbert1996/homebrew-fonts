@@ -1,12 +1,1 @@
-class FontEpilogue < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/epilogue"
-  desc "Epilogue"
-  desc "Sans serif variable font with a weight axis"
-  homepage "https://fonts.google.com/specimen/Epilogue"
-  def install
-    (share/"fonts").install "Epilogue-Italic[wght].ttf"
-    (share/"fonts").install "Epilogue[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-epilogue\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/epilogue\"", "desc \"Epilogue\"", "desc \"Sans serif variable font with a weight axis\""@228, "homepage \"https://fonts.google.com/specimen/Epilogue\""@281], :fonts=>["(share/\"fonts\").install \"Epilogue-Italic[wght].ttf\"", "(share/\"fonts\").install \"Epilogue[wght].ttf\""], :after=>"# No zap stanza required\n"@402}
