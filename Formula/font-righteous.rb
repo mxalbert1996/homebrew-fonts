@@ -1,10 +1,1 @@
-class FontRighteous < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/righteous/Righteous-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Righteous"
-  homepage "https://fonts.google.com/specimen/Righteous"
-  def install
-    (share/"fonts").install "Righteous-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-righteous\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/righteous/Righteous-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Righteous\"", "homepage \"https://fonts.google.com/specimen/Righteous\""@213], :fonts=>["(share/\"fonts\").install \"Righteous-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
