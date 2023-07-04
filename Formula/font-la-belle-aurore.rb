@@ -1,10 +1,1 @@
-class FontLaBelleAurore < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/labelleaurore/LaBelleAurore.ttf", verified: "github.com/google/fonts/"
-  desc "La Belle Aurore"
-  homepage "https://fonts.google.com/specimen/La+Belle+Aurore"
-  def install
-    (share/"fonts").install "LaBelleAurore.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-la-belle-aurore\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/labelleaurore/LaBelleAurore.ttf\", verified: \"github.com/google/fonts/\"", "desc \"La Belle Aurore\"", "homepage \"https://fonts.google.com/specimen/La+Belle+Aurore\""@225], :fonts=>["(share/\"fonts\").install \"LaBelleAurore.ttf\""], :after=>"# No zap stanza required\n"@317}
