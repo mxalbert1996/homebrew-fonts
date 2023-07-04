@@ -1,10 +1,1 @@
-class FontShortStack < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/shortstack/ShortStack-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Short Stack"
-  homepage "https://fonts.google.com/specimen/Short+Stack"
-  def install
-    (share/"fonts").install "ShortStack-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-short-stack\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/shortstack/ShortStack-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Short Stack\"", "homepage \"https://fonts.google.com/specimen/Short+Stack\""@219], :fonts=>["(share/\"fonts\").install \"ShortStack-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
