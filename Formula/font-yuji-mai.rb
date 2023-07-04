@@ -1,10 +1,1 @@
-class FontYujiMai < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/yujimai/YujiMai-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Yuji Mai"
-  homepage "https://fonts.google.com/specimen/Yuji+Mai"
-  def install
-    (share/"fonts").install "YujiMai-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-yuji-mai\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yujimai/YujiMai-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yuji Mai\"", "homepage \"https://fonts.google.com/specimen/Yuji+Mai\""@207], :fonts=>["(share/\"fonts\").install \"YujiMai-Regular.ttf\""], :after=>"# No zap stanza required\n"@294}
