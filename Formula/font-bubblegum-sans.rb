@@ -1,10 +1,1 @@
-class FontBubblegumSans < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Bubblegum Sans"
-  homepage "https://fonts.google.com/specimen/Bubblegum+Sans"
-  def install
-    (share/"fonts").install "BubblegumSans-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-bubblegum-sans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bubblegumsans/BubblegumSans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bubblegum Sans\"", "homepage \"https://fonts.google.com/specimen/Bubblegum+Sans\""@231], :fonts=>["(share/\"fonts\").install \"BubblegumSans-Regular.ttf\""], :after=>"# No zap stanza required\n"@330}
