@@ -1,10 +1,1 @@
-class FontSmythe < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/smythe/Smythe-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Smythe"
-  homepage "https://fonts.google.com/specimen/Smythe"
-  def install
-    (share/"fonts").install "Smythe-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-smythe\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/smythe/Smythe-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Smythe\"", "homepage \"https://fonts.google.com/specimen/Smythe\""@201], :fonts=>["(share/\"fonts\").install \"Smythe-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
