@@ -1,10 +1,1 @@
-class FontSeoulNamsanVertical < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/seoulnamsanvertical/SeoulNamsanVertical-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Seoul Namsan Vertical"
-  homepage "https://fonts.google.com/specimen/Seoul+Namsan+Vertical"
-  def install
-    (share/"fonts").install "SeoulNamsanVertical-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-seoul-namsan-vertical\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/seoulnamsanvertical/SeoulNamsanVertical-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Seoul Namsan Vertical\"", "homepage \"https://fonts.google.com/specimen/Seoul+Namsan+Vertical\""@257], :fonts=>["(share/\"fonts\").install \"SeoulNamsanVertical-Regular.ttf\""], :after=>"# No zap stanza required\n"@369}
