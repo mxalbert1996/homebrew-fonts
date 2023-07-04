@@ -1,13 +1,1 @@
-class FontComicMono < Formula
-  head "https://codeload.github.com/dtinth/comic-mono-font/zip/master", verified: "codeload.github.com/dtinth/comic-mono-font/"
-  desc "Comic Mono"
-  desc "Legible monospace font"
-  homepage "https://dtinth.github.io/comic-mono-font/"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono.ttf"
-    (share/"fonts").install "#{parent}comic-mono-font-master/ComicMono-Bold.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-comic-mono\"", :before=>["", "", "head \"https://codeload.github.com/dtinth/comic-mono-font/zip/master\", verified: \"codeload.github.com/dtinth/comic-mono-font/\"", "desc \"Comic Mono\"", "desc \"Legible monospace font\""@219, "homepage \"https://dtinth.github.io/comic-mono-font/\""@251], :fonts=>["(share/\"fonts\").install \"\#{parent}comic-mono-font-master/ComicMono.ttf\"", "(share/\"fonts\").install \"\#{parent}comic-mono-font-master/ComicMono-Bold.ttf\""], :after=>"# No zap stanza required\n"@405}
