@@ -1,11 +1,1 @@
-class FontNotoSerifDevanagari < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifDevanagari-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif Devanagari"
-  homepage "https://www.google.com/get/noto/#serif-deva"
-  def install
-    (share/"fonts").install "NotoSerifDevanagari-Bold.ttf"
-    (share/"fonts").install "NotoSerifDevanagari-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-devanagari\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifDevanagari-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Serif Devanagari\"", "homepage \"https://www.google.com/get/noto/#serif-deva\""@258], :fonts=>["(share/\"fonts\").install \"NotoSerifDevanagari-Bold.ttf\"", "(share/\"fonts\").install \"NotoSerifDevanagari-Regular.ttf\""], :after=>"# No zap stanza required\n"@396}
