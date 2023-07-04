@@ -1,11 +1,1 @@
-class FontJaldi < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/jaldi"
-  desc "Jaldi"
-  homepage "https://fonts.google.com/specimen/Jaldi"
-  def install
-    (share/"fonts").install "Jaldi-Bold.ttf"
-    (share/"fonts").install "Jaldi-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-jaldi\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/jaldi\"", "desc \"Jaldi\"", "homepage \"https://fonts.google.com/specimen/Jaldi\""@219], :fonts=>["(share/\"fonts\").install \"Jaldi-Bold.ttf\"", "(share/\"fonts\").install \"Jaldi-Regular.ttf\""], :after=>"# No zap stanza required\n"@325}
