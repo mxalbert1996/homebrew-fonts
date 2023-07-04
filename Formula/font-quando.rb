@@ -1,10 +1,1 @@
-class FontQuando < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/quando/Quando-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Quando"
-  homepage "https://fonts.google.com/specimen/Quando"
-  def install
-    (share/"fonts").install "Quando-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-quando\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/quando/Quando-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Quando\"", "homepage \"https://fonts.google.com/specimen/Quando\""@201], :fonts=>["(share/\"fonts\").install \"Quando-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
