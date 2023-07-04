@@ -1,13 +1,1 @@
-class FontMakinas4 < Formula
-  head "https://moji-waku.com/download/makinas4.zip"
-  desc "Makinas 4"
-  desc "Emotionless straight-line-shape font"
-  homepage "https://moji-waku.com/makinas/index.html"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}makinas4/Makinas-4-Flat.otf"
-    (share/"fonts").install "#{parent}makinas4/Makinas-4-Square.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-makinas4\"", :before=>["", "", "head \"https://moji-waku.com/download/makinas4.zip\"", "desc \"Makinas 4\"", "desc \"Emotionless straight-line-shape font\""@216, "homepage \"https://moji-waku.com/makinas/index.html\""@262], :fonts=>["(share/\"fonts\").install \"\#{parent}makinas4/Makinas-4-Flat.otf\"", "(share/\"fonts\").install \"\#{parent}makinas4/Makinas-4-Square.otf\""], :after=>"# No zap stanza required\n"@394}
