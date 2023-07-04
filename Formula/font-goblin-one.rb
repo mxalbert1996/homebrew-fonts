@@ -1,10 +1,1 @@
-class FontGoblinOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/goblinone/GoblinOne.ttf", verified: "github.com/google/fonts/"
-  desc "Goblin One"
-  homepage "https://fonts.google.com/specimen/Goblin+One"
-  def install
-    (share/"fonts").install "GoblinOne.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-goblin-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/goblinone/GoblinOne.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Goblin One\"", "homepage \"https://fonts.google.com/specimen/Goblin+One\""@207], :fonts=>["(share/\"fonts\").install \"GoblinOne.ttf\""], :after=>"# No zap stanza required\n"@290}
