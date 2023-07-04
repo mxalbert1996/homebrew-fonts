@@ -1,11 +1,1 @@
-class FontMonoisome < Formula
-  version "0.61"
-  url "https://github.com/larsenwork/monoid/blob/master/Monoisome/Monoisome-Regular.ttf?raw=true", verified: "github.com/larsenwork/monoid/"
-  desc "Monoisome"
-  homepage "https://larsenwork.com/monoid/"
-  def install
-    (share/"fonts").install "Monoisome-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-monoisome\"", :before=>["version \"0.61\""@27, "", "url \"https://github.com/larsenwork/monoid/blob/master/Monoisome/Monoisome-Regular.ttf?raw=true\", verified: \"github.com/larsenwork/monoid/\""@64, "desc \"Monoisome\"", "homepage \"https://larsenwork.com/monoid/\""@230], :fonts=>["(share/\"fonts\").install \"Monoisome-Regular.ttf\""], :after=>"# No zap stanza required\n"@307}
