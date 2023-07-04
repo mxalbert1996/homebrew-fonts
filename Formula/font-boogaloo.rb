@@ -1,10 +1,1 @@
-class FontBoogaloo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/boogaloo/Boogaloo-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Boogaloo"
-  homepage "https://fonts.google.com/specimen/Boogaloo"
-  def install
-    (share/"fonts").install "Boogaloo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-boogaloo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/boogaloo/Boogaloo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Boogaloo\"", "homepage \"https://fonts.google.com/specimen/Boogaloo\""@209], :fonts=>["(share/\"fonts\").install \"Boogaloo-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
