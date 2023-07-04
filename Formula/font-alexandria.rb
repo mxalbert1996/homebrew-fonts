@@ -1,11 +1,1 @@
-class FontAlexandria < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/alexandria/Alexandria%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Alexandria"
-  desc "9 weights font family made in matching to the latin type Montserrat"
-  homepage "https://fonts.google.com/specimen/Alexandria"
-  def install
-    (share/"fonts").install "Alexandria[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-alexandria\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/alexandria/Alexandria%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Alexandria\"", "desc \"9 weights font family made in matching to the latin type Montserrat\""@219, "homepage \"https://fonts.google.com/specimen/Alexandria\""@296], :fonts=>["(share/\"fonts\").install \"Alexandria[wght].ttf\""], :after=>"# No zap stanza required\n"@386}
