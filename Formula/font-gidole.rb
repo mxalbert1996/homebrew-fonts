@@ -1,12 +1,1 @@
-class FontGidole < Formula
-  head "https://github.com/gidole/Gidole-Typefaces/raw/master/gidole.zip", verified: "github.com/gidole/"
-  desc "Gidole"
-  homepage "https://gidole.github.io/"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}GidoleFont/Gidole-Regular.ttf"
-    (share/"fonts").install "#{parent}GidoleFont/Gidolinya-Regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-gidole\"", :before=>["", "", "head \"https://github.com/gidole/Gidole-Typefaces/raw/master/gidole.zip\", verified: \"github.com/gidole/\"", "desc \"Gidole\"", "homepage \"https://gidole.github.io/\""@189], :fonts=>["(share/\"fonts\").install \"\#{parent}GidoleFont/Gidole-Regular.ttf\"", "(share/\"fonts\").install \"\#{parent}GidoleFont/Gidolinya-Regular.otf\""], :after=>"# No zap stanza required\n"@311}
