@@ -1,11 +1,1 @@
-class FontVazirmatn < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vazirmatn/Vazirmatn%5Bwght%5D.ttf", verified: "github.com/google/fonts/"
-  desc "Vazirmatn"
-  desc "Combined with roboto"
-  homepage "https://fonts.google.com/specimen/Vazirmatn"
-  def install
-    (share/"fonts").install "Vazirmatn[wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-vazirmatn\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vazirmatn/Vazirmatn%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vazirmatn\"", "desc \"Combined with roboto\""@215, "homepage \"https://fonts.google.com/specimen/Vazirmatn\""@245], :fonts=>["(share/\"fonts\").install \"Vazirmatn[wght].ttf\""], :after=>"# No zap stanza required\n"@333}
