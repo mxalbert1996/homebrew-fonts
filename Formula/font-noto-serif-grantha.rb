@@ -1,10 +1,1 @@
-class FontNotoSerifGrantha < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/notoserifgrantha/NotoSerifGrantha-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Noto Serif Grantha"
-  homepage "https://fonts.google.com/specimen/Noto+Serif+Grantha"
-  def install
-    (share/"fonts").install "NotoSerifGrantha-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-grantha\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notoserifgrantha/NotoSerifGrantha-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Serif Grantha\"", "homepage \"https://fonts.google.com/specimen/Noto+Serif+Grantha\""@245], :fonts=>["(share/\"fonts\").install \"NotoSerifGrantha-Regular.ttf\""], :after=>"# No zap stanza required\n"@351}
