@@ -1,11 +1,1 @@
-class FontSendFlowers < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/sendflowers/SendFlowers-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Send Flowers"
-  desc "Appropriate for an older audience"
-  homepage "https://fonts.google.com/specimen/Send+Flowers"
-  def install
-    (share/"fonts").install "SendFlowers-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-send-flowers\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sendflowers/SendFlowers-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Send Flowers\"", "desc \"Appropriate for an older audience\""@223, "homepage \"https://fonts.google.com/specimen/Send+Flowers\""@266], :fonts=>["(share/\"fonts\").install \"SendFlowers-Regular.ttf\""], :after=>"# No zap stanza required\n"@361}
