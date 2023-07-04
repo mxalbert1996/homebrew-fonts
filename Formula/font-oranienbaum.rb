@@ -1,10 +1,1 @@
-class FontOranienbaum < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/oranienbaum/Oranienbaum-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Oranienbaum"
-  homepage "https://fonts.google.com/specimen/Oranienbaum"
-  def install
-    (share/"fonts").install "Oranienbaum-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-oranienbaum\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/oranienbaum/Oranienbaum-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Oranienbaum\"", "homepage \"https://fonts.google.com/specimen/Oranienbaum\""@221], :fonts=>["(share/\"fonts\").install \"Oranienbaum-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
