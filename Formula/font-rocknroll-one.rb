@@ -1,10 +1,1 @@
-class FontRocknrollOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/rocknrollone/RocknRollOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "RocknRoll One"
-  homepage "https://fonts.google.com/specimen/RocknRoll+One"
-  def install
-    (share/"fonts").install "RocknRollOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-rocknroll-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rocknrollone/RocknRollOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"RocknRoll One\"", "homepage \"https://fonts.google.com/specimen/RocknRoll+One\""@227], :fonts=>["(share/\"fonts\").install \"RocknRollOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@324}
