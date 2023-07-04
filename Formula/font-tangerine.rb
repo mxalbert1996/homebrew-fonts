@@ -1,11 +1,1 @@
-class FontTangerine < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/tangerine"
-  desc "Tangerine"
-  homepage "https://fonts.google.com/specimen/Tangerine"
-  def install
-    (share/"fonts").install "Tangerine-Bold.ttf"
-    (share/"fonts").install "Tangerine-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-tangerine\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/tangerine\"", "desc \"Tangerine\"", "homepage \"https://fonts.google.com/specimen/Tangerine\""@231], :fonts=>["(share/\"fonts\").install \"Tangerine-Bold.ttf\"", "(share/\"fonts\").install \"Tangerine-Regular.ttf\""], :after=>"# No zap stanza required\n"@349}
