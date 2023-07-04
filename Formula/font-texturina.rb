@@ -1,12 +1,1 @@
-class FontTexturina < Formula
-  head "https://github.com/google/fonts.git", verified: "github.com/google/fonts", branch: "main", only_path: "ofl/texturina"
-  desc "Texturina"
-  desc "Designed by guillermo torres"
-  homepage "https://fonts.google.com/specimen/Texturina"
-  def install
-    (share/"fonts").install "Texturina-Italic[opsz,wght].ttf"
-    (share/"fonts").install "Texturina[opsz,wght].ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-texturina\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", verified: \"github.com/google/fonts\", branch: \"main\", only_path: \"ofl/texturina\"", "desc \"Texturina\"", "desc \"Designed by guillermo torres\""@231, "homepage \"https://fonts.google.com/specimen/Texturina\""@269], :fonts=>["(share/\"fonts\").install \"Texturina-Italic[opsz,wght].ttf\"", "(share/\"fonts\").install \"Texturina[opsz,wght].ttf\""], :after=>"# No zap stanza required\n"@403}
