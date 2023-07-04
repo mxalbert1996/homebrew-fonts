@@ -1,10 +1,1 @@
-class FontNotoSansLepcha < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLepcha-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Lepcha"
-  homepage "https://www.google.com/get/noto/#sans-lepc"
-  def install
-    (share/"fonts").install "NotoSansLepcha-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-lepcha\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansLepcha-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Lepcha\"", "homepage \"https://www.google.com/get/noto/#sans-lepc\""@243], :fonts=>["(share/\"fonts\").install \"NotoSansLepcha-Regular.ttf\""], :after=>"# No zap stanza required\n"@337}
