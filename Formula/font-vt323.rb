@@ -1,10 +1,1 @@
-class FontVt323 < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/vt323/VT323-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "VT323"
-  homepage "https://fonts.google.com/specimen/VT323"
-  def install
-    (share/"fonts").install "VT323-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-vt323\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vt323/VT323-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"VT323\"", "homepage \"https://fonts.google.com/specimen/VT323\""@197], :fonts=>["(share/\"fonts\").install \"VT323-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
