@@ -1,10 +1,1 @@
-class FontLilitaOne < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lilitaone/LilitaOne-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Lilita One"
-  homepage "https://fonts.google.com/specimen/Lilita+One"
-  def install
-    (share/"fonts").install "LilitaOne-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-lilita-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lilitaone/LilitaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lilita One\"", "homepage \"https://fonts.google.com/specimen/Lilita+One\""@215], :fonts=>["(share/\"fonts\").install \"LilitaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
