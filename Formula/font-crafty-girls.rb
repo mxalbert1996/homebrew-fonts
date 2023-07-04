@@ -1,10 +1,1 @@
-class FontCraftyGirls < Formula
-  head "https://github.com/google/fonts/raw/main/apache/craftygirls/CraftyGirls-Regular.ttf", verified: "github.com/google/fonts/"
-  desc "Crafty Girls"
-  homepage "https://fonts.google.com/specimen/Crafty+Girls"
-  def install
-    (share/"fonts").install "CraftyGirls-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-crafty-girls\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/craftygirls/CraftyGirls-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Crafty Girls\"", "homepage \"https://fonts.google.com/specimen/Crafty+Girls\""@226], :fonts=>["(share/\"fonts\").install \"CraftyGirls-Regular.ttf\""], :after=>"# No zap stanza required\n"@321}
