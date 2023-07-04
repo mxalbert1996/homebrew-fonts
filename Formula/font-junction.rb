@@ -1,13 +1,1 @@
-class FontJunction < Formula
-  head "https://github.com/theleagueof/junction/archive/master.zip", verified: "github.com/theleagueof/junction/"
-  desc "Junction"
-  homepage "https://www.theleagueofmoveabletype.com/junction"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}junction-master/Junction-bold.otf"
-    (share/"fonts").install "#{parent}junction-master/Junction-light.otf"
-    (share/"fonts").install "#{parent}junction-master/Junction-regular.otf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-junction\"", :before=>["", "", "head \"https://github.com/theleagueof/junction/archive/master.zip\", verified: \"github.com/theleagueof/junction/\"", "desc \"Junction\"", "homepage \"https://www.theleagueofmoveabletype.com/junction\""@201], :fonts=>["(share/\"fonts\").install \"\#{parent}junction-master/Junction-bold.otf\"", "(share/\"fonts\").install \"\#{parent}junction-master/Junction-light.otf\"", "(share/\"fonts\").install \"\#{parent}junction-master/Junction-regular.otf\""], :after=>"# No zap stanza required\n"@398}
