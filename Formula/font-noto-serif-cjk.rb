@@ -1,10 +1,1 @@
-class FontNotoSerifCjk < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJK.ttc.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Serif CJK"
-  homepage "https://www.google.com/get/noto/help/cjk/"
-  def install
-    (share/"fonts").install "NotoSerifCJK.ttc"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-serif-cjk\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSerifCJK.ttc.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Serif CJK\"", "homepage \"https://www.google.com/get/noto/help/cjk/\""@232], :fonts=>["(share/\"fonts\").install \"NotoSerifCJK.ttc\""], :after=>"# No zap stanza required\n"@315}
