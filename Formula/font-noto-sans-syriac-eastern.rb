@@ -1,10 +1,1 @@
-class FontNotoSansSyriacEastern < Formula
-  head "https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSyriacEastern-unhinted.zip", verified: "noto-website-2.storage.googleapis.com/"
-  desc "Noto Sans Syriac Eastern"
-  homepage "https://www.google.com/get/noto/#sans-syrc-eastern"
-  def install
-    (share/"fonts").install "NotoSansSyriacEastern-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-noto-sans-syriac-eastern\"", :before=>["", "", "head \"https://noto-website-2.storage.googleapis.com/pkgs/NotoSansSyriacEastern-unhinted.zip\", verified: \"noto-website-2.storage.googleapis.com/\"", "desc \"Noto Sans Syriac Eastern\"", "homepage \"https://www.google.com/get/noto/#sans-syrc-eastern\""@266], :fonts=>["(share/\"fonts\").install \"NotoSansSyriacEastern-Regular.ttf\""], :after=>"# No zap stanza required\n"@375}
