@@ -1,14 +1,1 @@
-class FontMigu1p < Formula
-  version "20150712"
-  sha256 "9406399eeb94bb98f0844c2cd6bc94c390d994e6705af56e550d27f2a30b4bd5"
-  url "https://osdn.dl.osdn.jp/mix-mplus-ipa/63545/migu-1p-#{version}.zip"
-  desc "Migu 1P"
-  homepage "https://mix-mplus-ipa.osdn.jp/migu/#migu1p"
-  def install
-    parent = File.dirname(Dir.pwd) != (ENV['HOMEBREW_TEMP'] || '/tmp') ?  '../' : ''
-    (share/"fonts").install "#{parent}migu-1p-#{version}/migu-1p-bold.ttf"
-    (share/"fonts").install "#{parent}migu-1p-#{version}/migu-1p-regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-migu-1p\"", :before=>["version \"20150712\""@25, "sha256 \"9406399eeb94bb98f0844c2cd6bc94c390d994e6705af56e550d27f2a30b4bd5\""@46, "url \"https://osdn.dl.osdn.jp/mix-mplus-ipa/63545/migu-1p-\#{version}.zip\""@123, "desc \"Migu 1P\"", "homepage \"https://mix-mplus-ipa.osdn.jp/migu/#migu1p\""@215], :fonts=>["(share/\"fonts\").install \"\#{parent}migu-1p-\#{version}/migu-1p-bold.ttf\"", "(share/\"fonts\").install \"\#{parent}migu-1p-\#{version}/migu-1p-regular.ttf\""], :after=>"# No zap stanza required\n"@366}
