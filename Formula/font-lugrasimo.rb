@@ -1,11 +1,1 @@
-class FontLugrasimo < Formula
-  head "https://github.com/google/fonts/raw/main/ofl/lugrasimo/Lugrasimo-Regular.ttf"
-  desc "Lugrasimo"
-  desc "Typeface in calligraphic lettering style"
-  homepage "https://github.com/docrepair-fonts/lugrasimo-fonts"
-  def install
-    (share/"fonts").install "Lugrasimo-Regular.ttf"
-  end
-  test do
-  end
-end
+{:name=>"\"font-lugrasimo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lugrasimo/Lugrasimo-Regular.ttf\"", "desc \"Lugrasimo\"", "desc \"Typeface in calligraphic lettering style\""@169, "homepage \"https://github.com/docrepair-fonts/lugrasimo-fonts\""@219], :fonts=>["(share/\"fonts\").install \"Lugrasimo-Regular.ttf\""], :after=>"# No zap stanza required\n"@316}
