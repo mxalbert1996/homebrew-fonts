@@ -1,0 +1,1 @@
+{:name=>"\"font-tektur\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tektur/Tektur%5Bwdth%2Cwght%5D.ttf\"", "desc \"Tektur\"", "desc \"Set high allowing for compact typesetting\""@166, "homepage \"https://github.com/hyvyys/Tektur\""@217], :fonts=>["(share/\"fonts\").install \"Tektur[wdth,wght].ttf\""], :after=>"# No zap stanza required\n"@296}
