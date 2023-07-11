@@ -1,0 +1,1 @@
+{:name=>"\"font-borel\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/borel/Borel-Regular.ttf\"", "desc \"Borel\"", "desc \"French cursive primer\""@153, "homepage \"https://github.com/RosaWagner/Borel\""@184], :fonts=>["(share/\"fonts\").install \"Borel-Regular.ttf\""], :after=>"# No zap stanza required\n"@262}
