@@ -1,0 +1,1 @@
+{:name=>"\"font-adlam-display\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/adlamdisplay/ADLaMDisplay-Regular.ttf\"", "desc \"ADLaM Display\"", "homepage \"https://github.com/microsoft/ADLaM-Display\""@183], :fonts=>["(share/\"fonts\").install \"ADLaMDisplay-Regular.ttf\""], :after=>"# No zap stanza required\n"@275}
