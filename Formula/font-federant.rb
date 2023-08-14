@@ -1,1 +1,0 @@
-{:name=>"\"font-federant\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/federant/Federant-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Federant\"", "homepage \"https://fonts.google.com/specimen/Federant\""@209], :fonts=>["(share/\"fonts\").install \"Federant-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
