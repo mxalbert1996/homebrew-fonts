@@ -1,1 +1,0 @@
-{:name=>"\"font-rock-salt\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/rocksalt/RockSalt-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rock Salt\"", "homepage \"https://fonts.google.com/specimen/Rock+Salt\""@214], :fonts=>["(share/\"fonts\").install \"RockSalt-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
