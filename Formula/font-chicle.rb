@@ -1,1 +1,0 @@
-{:name=>"\"font-chicle\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/chicle/Chicle-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Chicle\"", "homepage \"https://fonts.google.com/specimen/Chicle\""@201], :fonts=>["(share/\"fonts\").install \"Chicle-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
