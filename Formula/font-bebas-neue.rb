@@ -1,1 +1,0 @@
-{:name=>"\"font-bebas-neue\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bebasneue/BebasNeue-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bebas Neue\"", "homepage \"https://fonts.google.com/specimen/Bebas+Neue\""@215], :fonts=>["(share/\"fonts\").install \"BebasNeue-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
