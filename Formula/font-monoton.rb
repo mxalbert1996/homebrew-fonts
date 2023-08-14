@@ -1,1 +1,0 @@
-{:name=>"\"font-monoton\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/monoton/Monoton-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Monoton\"", "homepage \"https://fonts.google.com/specimen/Monoton\""@205], :fonts=>["(share/\"fonts\").install \"Monoton-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
