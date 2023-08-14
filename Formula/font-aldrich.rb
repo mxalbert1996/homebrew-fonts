@@ -1,1 +1,0 @@
-{:name=>"\"font-aldrich\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/aldrich/Aldrich-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Aldrich\"", "homepage \"https://fonts.google.com/specimen/Aldrich\""@205], :fonts=>["(share/\"fonts\").install \"Aldrich-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
