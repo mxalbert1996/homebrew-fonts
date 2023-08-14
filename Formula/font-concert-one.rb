@@ -1,1 +1,0 @@
-{:name=>"\"font-concert-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/concertone/ConcertOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Concert One\"", "homepage \"https://fonts.google.com/specimen/Concert+One\""@219], :fonts=>["(share/\"fonts\").install \"ConcertOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
