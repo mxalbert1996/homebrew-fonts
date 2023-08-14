@@ -1,1 +1,0 @@
-{:name=>"\"font-zeyada\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/zeyada/Zeyada.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Zeyada\"", "homepage \"https://fonts.google.com/specimen/Zeyada\""@193], :fonts=>["(share/\"fonts\").install \"Zeyada.ttf\""], :after=>"# No zap stanza required\n"@269}
