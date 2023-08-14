@@ -1,1 +1,0 @@
-{:name=>"\"font-gruppo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gruppo/Gruppo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gruppo\"", "homepage \"https://fonts.google.com/specimen/Gruppo\""@201], :fonts=>["(share/\"fonts\").install \"Gruppo-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
