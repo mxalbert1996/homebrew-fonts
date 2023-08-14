@@ -1,1 +1,0 @@
-{:name=>"\"font-eater\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/eater/Eater-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Eater\"", "homepage \"https://fonts.google.com/specimen/Eater\""@197], :fonts=>["(share/\"fonts\").install \"Eater-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
