@@ -1,1 +1,0 @@
-{:name=>"\"font-rancho\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/rancho/Rancho-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rancho\"", "homepage \"https://fonts.google.com/specimen/Rancho\""@204], :fonts=>["(share/\"fonts\").install \"Rancho-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
