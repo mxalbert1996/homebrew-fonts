@@ -1,1 +1,0 @@
-{:name=>"\"font-cutive\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cutive/Cutive-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cutive\"", "homepage \"https://fonts.google.com/specimen/Cutive\""@201], :fonts=>["(share/\"fonts\").install \"Cutive-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
