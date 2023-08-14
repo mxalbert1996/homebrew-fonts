@@ -1,1 +1,0 @@
-{:name=>"\"font-reenie-beanie\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/reeniebeanie/ReenieBeanie.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Reenie Beanie\"", "homepage \"https://fonts.google.com/specimen/Reenie+Beanie\""@219], :fonts=>["(share/\"fonts\").install \"ReenieBeanie.ttf\""], :after=>"# No zap stanza required\n"@308}
