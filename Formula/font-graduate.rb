@@ -1,1 +1,0 @@
-{:name=>"\"font-graduate\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/graduate/Graduate-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Graduate\"", "homepage \"https://fonts.google.com/specimen/Graduate\""@209], :fonts=>["(share/\"fonts\").install \"Graduate-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
