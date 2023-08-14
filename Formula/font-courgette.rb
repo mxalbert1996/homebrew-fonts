@@ -1,1 +1,0 @@
-{:name=>"\"font-courgette\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/courgette/Courgette-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Courgette\"", "homepage \"https://fonts.google.com/specimen/Courgette\""@213], :fonts=>["(share/\"fonts\").install \"Courgette-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
