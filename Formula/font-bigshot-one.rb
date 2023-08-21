@@ -1,0 +1,1 @@
+{:name=>"\"font-bigshot-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bigshotone/BigshotOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bigshot One\"", "homepage \"https://fonts.google.com/specimen/Bigshot+One\""@219], :fonts=>["(share/\"fonts\").install \"BigshotOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
