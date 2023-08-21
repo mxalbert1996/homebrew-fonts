@@ -1,0 +1,1 @@
+{:name=>"\"font-gurajada\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gurajada/Gurajada-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gurajada\"", "homepage \"https://fonts.google.com/specimen/Gurajada\""@209], :fonts=>["(share/\"fonts\").install \"Gurajada-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
