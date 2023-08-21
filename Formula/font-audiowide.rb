@@ -1,0 +1,1 @@
+{:name=>"\"font-audiowide\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/audiowide/Audiowide-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Audiowide\"", "homepage \"https://fonts.google.com/specimen/Audiowide\""@213], :fonts=>["(share/\"fonts\").install \"Audiowide-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
