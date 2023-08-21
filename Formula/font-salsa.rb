@@ -1,0 +1,1 @@
+{:name=>"\"font-salsa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/salsa/Salsa-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Salsa\"", "homepage \"https://fonts.google.com/specimen/Salsa\""@197], :fonts=>["(share/\"fonts\").install \"Salsa-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
