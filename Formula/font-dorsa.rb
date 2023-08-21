@@ -1,0 +1,1 @@
+{:name=>"\"font-dorsa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dorsa/Dorsa-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Dorsa\"", "homepage \"https://fonts.google.com/specimen/Dorsa\""@197], :fonts=>["(share/\"fonts\").install \"Dorsa-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
