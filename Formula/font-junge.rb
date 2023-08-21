@@ -1,0 +1,1 @@
+{:name=>"\"font-junge\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/junge/Junge-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Junge\"", "homepage \"https://fonts.google.com/specimen/Junge\""@197], :fonts=>["(share/\"fonts\").install \"Junge-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
