@@ -1,0 +1,1 @@
+{:name=>"\"font-bruno-ace-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/brunoacesc/BrunoAceSC-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bruno Ace SC\"", "homepage \"https://fonts.google.com/specimen/Bruno+Ace+SC\""@221], :fonts=>["(share/\"fonts\").install \"BrunoAceSC-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
