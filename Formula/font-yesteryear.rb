@@ -1,0 +1,1 @@
+{:name=>"\"font-yesteryear\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yesteryear/Yesteryear-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yesteryear\"", "homepage \"https://fonts.google.com/specimen/Yesteryear\""@217], :fonts=>["(share/\"fonts\").install \"Yesteryear-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
