@@ -1,0 +1,1 @@
+{:name=>"\"font-iceland\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/iceland/Iceland-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Iceland\"", "homepage \"https://fonts.google.com/specimen/Iceland\""@205], :fonts=>["(share/\"fonts\").install \"Iceland-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
