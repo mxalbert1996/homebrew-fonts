@@ -1,0 +1,1 @@
+{:name=>"\"font-montez\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/montez/Montez-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Montez\"", "homepage \"https://fonts.google.com/specimen/Montez\""@204], :fonts=>["(share/\"fonts\").install \"Montez-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
