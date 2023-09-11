@@ -1,0 +1,1 @@
+{:name=>"\"font-mooli\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mooli/Mooli-Regular.ttf\"", "desc \"Mooli\"", "desc \"Derived from the mulish font family\""@153, "homepage \"https://github.com/googlefonts/mooliFont\""@198], :fonts=>["(share/\"fonts\").install \"Mooli-Regular.ttf\""], :after=>"# No zap stanza required\n"@281}
