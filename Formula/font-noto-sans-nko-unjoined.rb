@@ -1,0 +1,1 @@
+{:name=>"\"font-noto-sans-nko-unjoined\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notosansnkounjoined/NotoSansNKoUnjoined%5Bwght%5D.ttf\"", "desc \"Noto Sans NKo Unjoined\"", "homepage \"https://github.com/notofonts/nko.git\""@217], :fonts=>["(share/\"fonts\").install \"NotoSansNKoUnjoined[wght].ttf\""], :after=>"# No zap stanza required\n"@308}
