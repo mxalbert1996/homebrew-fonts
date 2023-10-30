@@ -1,0 +1,1 @@
+{:name=>"\"font-afacad\"", :before=>["", "", "head \"https://github.com/google/fonts.git\", branch: \"main\", only_path: \"ofl/afacad\"", "desc \"Afacad\"", "homepage \"https://github.com/Dicotype/Afacad\""@178], :fonts=>["(share/\"fonts\").install \"Afacad-Italic[wght].ttf\"", "(share/\"fonts\").install \"Afacad[wght].ttf\""], :after=>"# No zap stanza required\n"@287}
