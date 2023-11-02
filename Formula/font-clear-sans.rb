@@ -1,1 +1,22 @@
-{:name=>"\"font-clear-sans\"", :before=>["version \"1.00\""@28, "sha256 \"41809a296870dd7b4753d6532b4093821d61f9806281e6c053ccb11083ad1190\""@45, "url \"https://01.org/sites/default/files/downloads/clear-sans/clearsans-\#{version}.zip\""@122, "desc \"Clear Sans\"", "homepage \"https://01.org/clear-sans\""@231], :fonts=>["(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Bold.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-BoldItalic.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Italic.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Light.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Medium.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-MediumItalic.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Regular.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/ClearSans-Thin.ttf\""], :after=>"# No zap stanza required\n"@550}
+class FontClearSans < Formula
+  head "https://github.com/intel/clear-sans.git", branch: "main", only_path: "TTF"
+  desc "Clear Sans"
+  desc "Sans-serif typeface"
+  homepage "https://github.com/intel/clear-sans"
+  def install
+    (share/"fonts").install "ClearSans-Bold.ttf"
+    (share/"fonts").install "ClearSans-BoldItalic.ttf"
+    (share/"fonts").install "ClearSans-Italic.ttf"
+    (share/"fonts").install "ClearSans-Light.ttf"
+    (share/"fonts").install "ClearSans-Medium.ttf"
+    (share/"fonts").install "ClearSans-MediumItalic.ttf"
+    (share/"fonts").install "ClearSans-Regular.ttf"
+    (share/"fonts").install "ClearSans-Thin.ttf"
+  end
+  def creavat; do
+    discontinued
+  end
+  end
+  test do
+  end
+end
