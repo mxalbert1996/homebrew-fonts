@@ -1,1 +1,0 @@
-{:name=>"\"font-lao-muang-don\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/laomuangdon/LaoMuangDon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lao Muang Don\"", "homepage \"https://fonts.google.com/earlyaccess\""@225], :fonts=>["(share/\"fonts\").install \"LaoMuangDon-Regular.ttf\""], :after=>"# No zap stanza required\n"@310}
