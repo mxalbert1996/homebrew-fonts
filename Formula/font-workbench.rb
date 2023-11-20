@@ -1,0 +1,1 @@
+{:name=>"\"font-workbench\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/workbench/Workbench%5BBLED%2CSCAN%5D.ttf\"", "desc \"Workbench\"", "homepage \"https://github.com/jenskutilek/homecomputer-fonts\""@178], :fonts=>["(share/\"fonts\").install \"Workbench[BLED,SCAN].ttf\""], :after=>"# No zap stanza required\n"@277}
