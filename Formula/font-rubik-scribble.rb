@@ -1,0 +1,1 @@
+{:name=>"\"font-rubik-scribble\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikscribble/RubikScribble-Regular.ttf\"", "desc \"Rubik Scribble\"", "homepage \"https://github.com/NaN-xyz/Rubik-Filtered\""@187], :fonts=>["(share/\"fonts\").install \"RubikScribble-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
