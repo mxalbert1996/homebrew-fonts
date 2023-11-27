@@ -1,0 +1,1 @@
+{:name=>"\"font-rubik-lines\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubiklines/RubikLines-Regular.ttf\"", "desc \"Rubik Lines\"", "homepage \"https://github.com/NaN-xyz/Rubik-Filtered\""@175], :fonts=>["(share/\"fonts\").install \"RubikLines-Regular.ttf\""], :after=>"# No zap stanza required\n"@264}
