@@ -1,0 +1,1 @@
+{:name=>"\"font-rubik-broken-fax\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikbrokenfax/RubikBrokenFax-Regular.ttf\"", "desc \"Rubik Broken Fax\"", "homepage \"https://github.com/NaN-xyz/Rubik-Filtered\""@193], :fonts=>["(share/\"fonts\").install \"RubikBrokenFax-Regular.ttf\""], :after=>"# No zap stanza required\n"@286}
