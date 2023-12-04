@@ -1,0 +1,1 @@
+{:name=>"\"font-rubik-glitch-pop\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikglitchpop/RubikGlitchPop-Regular.ttf\"", "desc \"Rubik Glitch Pop\"", "homepage \"https://github.com/NaN-xyz/Rubik-Filtered\""@193], :fonts=>["(share/\"fonts\").install \"RubikGlitchPop-Regular.ttf\""], :after=>"# No zap stanza required\n"@286}
