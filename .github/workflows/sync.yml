@@ -6,12 +6,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_WITHOUT: 'development'
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up Ruby 2.6
+    - uses: actions/checkout@v4
+    - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.6'
+        ruby-version: '3.3'
+        bundler-cache: true
     - name: Configure git
       run: |
         git config user.email 'action@github.com'
@@ -19,9 +22,6 @@ jobs:
     - name: Convert and commit
       run: |
         git submodule update --init --remote
-        gem install bundler
-        bundle config set --local without 'development'
-        bundle install --jobs 4 --retry 3
         bundle exec ruby cask2formula convert
         bundle exec ruby cask2formula commit
     - name: Clean Formula directory
