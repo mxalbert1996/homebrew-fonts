@@ -1,0 +1,1 @@
+{:name=>"\"font-protest-riot\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/protestriot/ProtestRiot-Regular.ttf\"", "desc \"Protest Riot\"", "homepage \"https://github.com/octaviopardo/Protest\""@179], :fonts=>["(share/\"fonts\").install \"ProtestRiot-Regular.ttf\""], :after=>"# No zap stanza required\n"@267}
