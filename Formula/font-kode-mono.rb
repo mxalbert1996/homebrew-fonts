@@ -1,0 +1,1 @@
+{:name=>"\"font-kode-mono\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kodemono/KodeMono%5Bwght%5D.ttf\"", "desc \"Kode Mono\"", "homepage \"https://github.com/isaozler/kode-mono\""@169], :fonts=>["(share/\"fonts\").install \"KodeMono[wght].ttf\""], :after=>"# No zap stanza required\n"@250}
