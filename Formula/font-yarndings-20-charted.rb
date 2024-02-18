@@ -1,0 +1,1 @@
+{:name=>"\"font-yarndings-20-charted\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yarndings20charted/Yarndings20Charted-Regular.ttf\"", "desc \"Yarndings 20 Charted\"", "homepage \"https://github.com/scfried/soft-type-yarndings\""@209], :fonts=>["(share/\"fonts\").install \"Yarndings20Charted-Regular.ttf\""], :after=>"# No zap stanza required\n"@311}
