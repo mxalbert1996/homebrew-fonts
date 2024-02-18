@@ -1,0 +1,1 @@
+{:name=>"\"font-yarndings-12\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yarndings12/Yarndings12-Regular.ttf\"", "desc \"Yarndings 12\"", "homepage \"https://github.com/scfried/soft-type-yarndings\""@179], :fonts=>["(share/\"fonts\").install \"Yarndings12-Regular.ttf\""], :after=>"# No zap stanza required\n"@274}
