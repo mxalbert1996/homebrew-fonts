@@ -1,0 +1,1 @@
+{:name=>"\"font-tac-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tacone/TacOne-Regular.ttf\"", "desc \"Tac One\"", "desc \"Project from afrotype\""@159, "homepage \"https://github.com/Afrotype/tac\""@190], :fonts=>["(share/\"fonts\").install \"TacOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@265}
