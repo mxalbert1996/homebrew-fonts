@@ -1,0 +1,1 @@
+{:name=>"\"font-jacquard-12\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jacquard12/Jacquard12-Regular.ttf\"", "desc \"Jacquard 12\"", "homepage \"https://github.com/scfried/soft-type-jacquard\""@175], :fonts=>["(share/\"fonts\").install \"Jacquard12-Regular.ttf\""], :after=>"# No zap stanza required\n"@268}
