@@ -1,0 +1,1 @@
+{:name=>"\"font-jersey-15\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jersey15/Jersey15-Regular.ttf\"", "desc \"Jersey 15\"", "homepage \"https://github.com/scfried/soft-type-jersey\""@167], :fonts=>["(share/\"fonts\").install \"Jersey15-Regular.ttf\""], :after=>"# No zap stanza required\n"@256}
