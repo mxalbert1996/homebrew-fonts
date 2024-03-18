@@ -1,0 +1,1 @@
+{:name=>"\"font-micro-5-charted\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/micro5charted/Micro5Charted-Regular.ttf\"", "desc \"Micro 5 Charted\"", "homepage \"https://github.com/scfried/soft-type-micro\""@189], :fonts=>["(share/\"fonts\").install \"Micro5Charted-Regular.ttf\""], :after=>"# No zap stanza required\n"@282}
