@@ -1,0 +1,1 @@
+{:name=>"\"font-jacquard-24-charted\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jacquard24charted/Jacquard24Charted-Regular.ttf\"", "desc \"Jacquard 24 Charted\"", "homepage \"https://github.com/scfried/soft-type-jacquard\""@205], :fonts=>["(share/\"fonts\").install \"Jacquard24Charted-Regular.ttf\""], :after=>"# No zap stanza required\n"@305}
