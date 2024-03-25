@@ -1,1 +1,0 @@
-{:name=>"\"font-jersey-25-charted\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jersey25charted/Jersey25Charted-Regular.ttf\"", "desc \"Jersey 25 Charted\"", "homepage \"https://github.com/scfried/soft-type-jersey\""@197], :fonts=>["(share/\"fonts\").install \"Jersey25Charted-Regular.ttf\""], :after=>"# No zap stanza required\n"@293}
