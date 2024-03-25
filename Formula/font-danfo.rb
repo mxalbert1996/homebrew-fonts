@@ -1,0 +1,1 @@
+{:name=>"\"font-danfo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/danfo/Danfo%5BELSH%5D.ttf\"", "desc \"Danfo\"", "desc \"Elsh axis variable font with three main styles at 0,50, and 100\""@155, "homepage \"https://github.com/Afrotype/danfo\""@228], :fonts=>["(share/\"fonts\").install \"Danfo[ELSH].ttf\""], :after=>"# No zap stanza required\n"@302}
