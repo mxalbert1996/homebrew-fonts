@@ -1,0 +1,1 @@
+{:name=>"\"font-jaro\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jaro/Jaro%5Bopsz%5D.ttf\"", "desc \"Jaro\"", "desc \"Global display typeface inspired by the work of jaroslav benda\""@151, "homepage \"https://github.com/agyeiarcher/Jaro\""@223], :fonts=>["(share/\"fonts\").install \"Jaro[opsz].ttf\""], :after=>"# No zap stanza required\n"@298}
