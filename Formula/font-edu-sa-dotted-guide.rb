@@ -1,0 +1,1 @@
+{:name=>"\"font-edu-sa-dotted-guide\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/edusadottedguide/EduSADottedGuide%5Bwght%5D.ttf\"", "desc \"Edu SA Dotted Guide\"", "homepage \"https://github.com/SorkinType/SASchoolHandAustralia\""@205], :fonts=>["(share/\"fonts\").install \"EduSADottedGuide[wght].ttf\""], :after=>"# No zap stanza required\n"@308}
