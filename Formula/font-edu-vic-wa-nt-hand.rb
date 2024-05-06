@@ -1,1 +1,0 @@
-{:name=>"\"font-edu-vic-wa-nt-hand\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/eduvicwanthand/EduVICWANTHand%5Bwght%5D.ttf\"", "desc \"Edu VIC WA NT Hand\"", "homepage \"https://github.com/SorkinType/VICWANTSchoolHandAustralia\""@199], :fonts=>["(share/\"fonts\").install \"EduVICWANTHand[wght].ttf\""], :after=>"# No zap stanza required\n"@305}
