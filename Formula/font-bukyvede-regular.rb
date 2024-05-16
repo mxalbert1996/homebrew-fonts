@@ -1,1 +1,0 @@
-{:name=>"\"font-bukyvede-regular\"", :before=>["", "", "head \"https://kodeks.uni-bamberg.de/aksl/media/BukyVede-Regular.ttf\"", "desc \"BukyVede Regular\"", "homepage \"https://kodeks.uni-bamberg.de/aksl/Schrift/BukyVede.htm\""@168], :fonts=>["(share/\"fonts\").install \"BukyVede-Regular.ttf\""], :after=>"# No zap stanza required\n"@269}
