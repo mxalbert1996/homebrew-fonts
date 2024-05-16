@@ -1,1 +1,0 @@
-{:name=>"\"font-bellefair\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bellefair/Bellefair-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bellefair\"", "homepage \"https://fonts.google.com/specimen/Bellefair\""@213], :fonts=>["(share/\"fonts\").install \"Bellefair-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
