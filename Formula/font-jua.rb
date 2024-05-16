@@ -1,1 +1,0 @@
-{:name=>"\"font-jua\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jua/Jua-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jua\"", "homepage \"https://fonts.google.com/specimen/Jua\""@189], :fonts=>["(share/\"fonts\").install \"Jua-Regular.ttf\""], :after=>"# No zap stanza required\n"@267}
