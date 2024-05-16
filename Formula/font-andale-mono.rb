@@ -1,1 +1,0 @@
-{:name=>"\"font-andale-mono\"", :before=>["", "", "head \"https://downloads.sourceforge.net/corefonts/andale32.exe\"", "desc \"Andale Mono\"", "homepage \"https://sourceforge.net/projects/corefonts/files/the%20fonts/final/\""@153], :fonts=>["(share/\"fonts\").install \"AndaleMo.TTF\""], :after=>"# No zap stanza required\n"@258}
