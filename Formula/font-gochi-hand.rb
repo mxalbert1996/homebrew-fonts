@@ -1,1 +1,0 @@
-{:name=>"\"font-gochi-hand\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gochihand/GochiHand-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gochi Hand\"", "homepage \"https://fonts.google.com/specimen/Gochi+Hand\""@215], :fonts=>["(share/\"fonts\").install \"GochiHand-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
