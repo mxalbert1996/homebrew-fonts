@@ -1,1 +1,0 @@
-{:name=>"\"font-barrio\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/barrio/Barrio-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Barrio\"", "homepage \"https://fonts.google.com/specimen/Barrio\""@201], :fonts=>["(share/\"fonts\").install \"Barrio-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
