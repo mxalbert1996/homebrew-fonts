@@ -1,1 +1,0 @@
-{:name=>"\"font-beth-ellen\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/bethellen/BethEllen-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Beth Ellen\"", "homepage \"https://fonts.google.com/specimen/Beth+Ellen\""@215], :fonts=>["(share/\"fonts\").install \"BethEllen-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
