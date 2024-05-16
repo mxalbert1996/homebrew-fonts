@@ -1,1 +1,0 @@
-{:name=>"\"font-amiri-quran\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/amiriquran/AmiriQuran-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Amiri Quran\"", "homepage \"https://fonts.google.com/specimen/Amiri+Quran\""@219], :fonts=>["(share/\"fonts\").install \"AmiriQuran-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
