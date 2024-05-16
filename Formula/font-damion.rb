@@ -1,1 +1,0 @@
-{:name=>"\"font-damion\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/damion/Damion-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Damion\"", "homepage \"https://fonts.google.com/specimen/Damion\""@201], :fonts=>["(share/\"fonts\").install \"Damion-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
