@@ -1,1 +1,0 @@
-{:name=>"\"font-gabriela\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gabriela/Gabriela-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Gabriela\"", "homepage \"https://fonts.google.com/specimen/Gabriela\""@209], :fonts=>["(share/\"fonts\").install \"Gabriela-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
