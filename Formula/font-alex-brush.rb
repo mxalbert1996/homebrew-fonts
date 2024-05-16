@@ -1,1 +1,0 @@
-{:name=>"\"font-alex-brush\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/alexbrush/AlexBrush-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Alex Brush\"", "homepage \"https://fonts.google.com/specimen/Alex+Brush\""@215], :fonts=>["(share/\"fonts\").install \"AlexBrush-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
