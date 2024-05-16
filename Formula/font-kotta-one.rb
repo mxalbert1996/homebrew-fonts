@@ -1,1 +1,0 @@
-{:name=>"\"font-kotta-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kottaone/KottaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kotta One\"", "homepage \"https://fonts.google.com/specimen/Kotta+One\""@211], :fonts=>["(share/\"fonts\").install \"KottaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
