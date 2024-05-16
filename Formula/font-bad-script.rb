@@ -1,1 +1,0 @@
-{:name=>"\"font-bad-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/badscript/BadScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Bad Script\"", "homepage \"https://fonts.google.com/specimen/Bad+Script\""@215], :fonts=>["(share/\"fonts\").install \"BadScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
