@@ -1,1 +1,0 @@
-{:name=>"\"font-arizonia\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/arizonia/Arizonia-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Arizonia\"", "homepage \"https://fonts.google.com/specimen/Arizonia\""@209], :fonts=>["(share/\"fonts\").install \"Arizonia-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
