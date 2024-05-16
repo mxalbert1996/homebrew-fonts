@@ -1,1 +1,0 @@
-{:name=>"\"font-lacquer\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lacquer/Lacquer-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lacquer\"", "homepage \"https://fonts.google.com/specimen/Lacquer\""@205], :fonts=>["(share/\"fonts\").install \"Lacquer-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
