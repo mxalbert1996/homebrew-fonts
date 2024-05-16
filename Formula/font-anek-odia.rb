@@ -1,1 +1,0 @@
-{:name=>"\"font-anek-odia\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/anekodia/AnekOdia%5Bwdth%2Cwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Anek Odia\"", "homepage \"https://fonts.google.com/specimen/Anek+Odia\""@220], :fonts=>["(share/\"fonts\").install \"AnekOdia[wdth,wght].ttf\""], :after=>"# No zap stanza required\n"@312}
