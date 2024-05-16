@@ -1,1 +1,0 @@
-{:name=>"\"font-farsan\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/farsan/Farsan-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Farsan\"", "homepage \"https://fonts.google.com/specimen/Farsan\""@201], :fonts=>["(share/\"fonts\").install \"Farsan-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
