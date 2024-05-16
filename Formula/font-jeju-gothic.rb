@@ -1,1 +1,0 @@
-{:name=>"\"font-jeju-gothic\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jejugothic/JejuGothic-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jeju Gothic\"", "homepage \"https://fonts.google.com/earlyaccess\""@219], :fonts=>["(share/\"fonts\").install \"JejuGothic-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
