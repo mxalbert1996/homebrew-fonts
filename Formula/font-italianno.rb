@@ -1,1 +1,0 @@
-{:name=>"\"font-italianno\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/italianno/Italianno-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Italianno\"", "homepage \"https://fonts.google.com/specimen/Italianno\""@213], :fonts=>["(share/\"fonts\").install \"Italianno-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
