@@ -1,1 +1,0 @@
-{:name=>"\"font-aoboshi-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/aoboshione/AoboshiOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Aoboshi One\"", "homepage \"https://fonts.google.com/specimen/Aoboshi+One\""@219], :fonts=>["(share/\"fonts\").install \"AoboshiOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
