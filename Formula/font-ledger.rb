@@ -1,1 +1,0 @@
-{:name=>"\"font-ledger\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ledger/Ledger-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ledger\"", "homepage \"https://fonts.google.com/specimen/Ledger\""@201], :fonts=>["(share/\"fonts\").install \"Ledger-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
