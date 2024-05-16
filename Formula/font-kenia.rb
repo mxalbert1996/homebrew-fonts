@@ -1,1 +1,0 @@
-{:name=>"\"font-kenia\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kenia/Kenia-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kenia\"", "homepage \"https://fonts.google.com/specimen/Kenia\""@197], :fonts=>["(share/\"fonts\").install \"Kenia-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
