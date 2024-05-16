@@ -1,1 +1,0 @@
-{:name=>"\"font-jersey-10\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jersey10/Jersey10-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jersey 10\"", "homepage \"https://fonts.google.com/specimen/Jersey+10\""@211], :fonts=>["(share/\"fonts\").install \"Jersey10-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
