@@ -1,1 +1,0 @@
-{:name=>"\"font-convergence\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/convergence/Convergence-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Convergence\"", "homepage \"https://fonts.google.com/specimen/Convergence\""@221], :fonts=>["(share/\"fonts\").install \"Convergence-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
