@@ -1,1 +1,0 @@
-{:name=>"\"font-el-messiri\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/elmessiri/ElMessiri%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"El Messiri\"", "homepage \"https://fonts.google.com/specimen/El+Messiri\""@217], :fonts=>["(share/\"fonts\").install \"ElMessiri[wght].ttf\""], :after=>"# No zap stanza required\n"@306}
