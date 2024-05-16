@@ -1,1 +1,0 @@
-{:name=>"\"font-carter-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/carterone/CarterOne.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Carter One\"", "homepage \"https://fonts.google.com/specimen/Carter+One\""@207], :fonts=>["(share/\"fonts\").install \"CarterOne.ttf\""], :after=>"# No zap stanza required\n"@290}
