@@ -1,1 +1,0 @@
-{:name=>"\"font-dr-sugiyama\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/drsugiyama/DrSugiyama-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Dr Sugiyama\"", "homepage \"https://fonts.google.com/specimen/Dr+Sugiyama\""@219], :fonts=>["(share/\"fonts\").install \"DrSugiyama-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
