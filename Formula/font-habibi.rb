@@ -1,1 +1,0 @@
-{:name=>"\"font-habibi\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/habibi/Habibi-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Habibi\"", "homepage \"https://fonts.google.com/specimen/Habibi\""@201], :fonts=>["(share/\"fonts\").install \"Habibi-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
