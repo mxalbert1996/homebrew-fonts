@@ -1,1 +1,0 @@
-{:name=>"\"font-aubrey\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/aubrey/Aubrey-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Aubrey\"", "homepage \"https://fonts.google.com/specimen/Aubrey\""@201], :fonts=>["(share/\"fonts\").install \"Aubrey-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
