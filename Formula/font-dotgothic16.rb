@@ -1,1 +1,0 @@
-{:name=>"\"font-dotgothic16\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dotgothic16/DotGothic16-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"DotGothic16\"", "homepage \"https://fonts.google.com/specimen/DotGothic16\""@221], :fonts=>["(share/\"fonts\").install \"DotGothic16-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
