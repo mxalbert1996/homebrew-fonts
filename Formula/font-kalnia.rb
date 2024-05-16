@@ -1,1 +1,0 @@
-{:name=>"\"font-kalnia\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kalnia/Kalnia%5Bwdth%2Cwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kalnia\"", "homepage \"https://fonts.google.com/specimen/Kalnia\""@210], :fonts=>["(share/\"fonts\").install \"Kalnia[wdth,wght].ttf\""], :after=>"# No zap stanza required\n"@297}
