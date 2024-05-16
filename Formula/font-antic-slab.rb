@@ -1,1 +1,0 @@
-{:name=>"\"font-antic-slab\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/anticslab/AnticSlab-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Antic Slab\"", "homepage \"https://fonts.google.com/specimen/Antic+Slab\""@215], :fonts=>["(share/\"fonts\").install \"AnticSlab-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
