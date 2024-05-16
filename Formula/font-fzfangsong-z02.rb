@@ -1,1 +1,0 @@
-{:name=>"\"font-fzfangsong-z02\"", :before=>["", "", "head \"https://cdn1.foundertype.com/Public/Uploads/ttf/FZFSK.TTF\"", "desc \"Fangzheng Fangsong GBK\"", "homepage \"https://www.foundertype.com/index.php/FontInfo/index.html?id=128\""@168], :fonts=>["(share/\"fonts\").install \"FZFSK.ttf\""], :after=>"# No zap stanza required\n"@267}
