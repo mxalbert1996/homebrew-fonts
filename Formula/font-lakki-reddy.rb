@@ -1,1 +1,0 @@
-{:name=>"\"font-lakki-reddy\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lakkireddy/LakkiReddy-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lakki Reddy\"", "homepage \"https://fonts.google.com/specimen/Lakki+Reddy\""@219], :fonts=>["(share/\"fonts\").install \"LakkiReddy-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
