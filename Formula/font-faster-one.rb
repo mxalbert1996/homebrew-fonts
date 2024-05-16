@@ -1,1 +1,0 @@
-{:name=>"\"font-faster-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/fasterone/FasterOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Faster One\"", "homepage \"https://fonts.google.com/specimen/Faster+One\""@215], :fonts=>["(share/\"fonts\").install \"FasterOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
