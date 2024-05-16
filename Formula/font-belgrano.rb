@@ -1,1 +1,0 @@
-{:name=>"\"font-belgrano\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/belgrano/Belgrano-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Belgrano\"", "homepage \"https://fonts.google.com/specimen/Belgrano\""@209], :fonts=>["(share/\"fonts\").install \"Belgrano-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
