@@ -1,1 +1,0 @@
-{:name=>"\"font-hannari\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/hannari/Hannari-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Hannari\"", "homepage \"https://fonts.google.com/specimen/Hannari\""@205], :fonts=>["(share/\"fonts\").install \"Hannari-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
