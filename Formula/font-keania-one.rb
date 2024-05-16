@@ -1,1 +1,0 @@
-{:name=>"\"font-keania-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/keaniaone/KeaniaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Keania One\"", "homepage \"https://fonts.google.com/specimen/Keania+One\""@215], :fonts=>["(share/\"fonts\").install \"KeaniaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
