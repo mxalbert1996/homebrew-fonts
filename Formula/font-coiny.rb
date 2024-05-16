@@ -1,1 +1,0 @@
-{:name=>"\"font-coiny\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/coiny/Coiny-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Coiny\"", "homepage \"https://fonts.google.com/specimen/Coiny\""@197], :fonts=>["(share/\"fonts\").install \"Coiny-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
