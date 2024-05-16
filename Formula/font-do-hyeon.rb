@@ -1,1 +1,0 @@
-{:name=>"\"font-do-hyeon\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dohyeon/DoHyeon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Do Hyeon\"", "homepage \"https://fonts.google.com/specimen/Do+Hyeon\""@207], :fonts=>["(share/\"fonts\").install \"DoHyeon-Regular.ttf\""], :after=>"# No zap stanza required\n"@294}
