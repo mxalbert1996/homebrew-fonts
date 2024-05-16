@@ -1,1 +1,0 @@
-{:name=>"\"font-grey-qo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/greyqo/GreyQo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Grey Qo\"", "homepage \"https://fonts.google.com/specimen/Grey+Qo\""@203], :fonts=>["(share/\"fonts\").install \"GreyQo-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
