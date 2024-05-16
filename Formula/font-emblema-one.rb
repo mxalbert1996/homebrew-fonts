@@ -1,1 +1,0 @@
-{:name=>"\"font-emblema-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/emblemaone/EmblemaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Emblema One\"", "homepage \"https://fonts.google.com/specimen/Emblema+One\""@219], :fonts=>["(share/\"fonts\").install \"EmblemaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
