@@ -1,1 +1,0 @@
-{:name=>"\"font-fzkai-z03\"", :before=>["", "", "head \"https://cdn1.foundertype.com/Public/Uploads/ttf/FZKTK.TTF\"", "desc \"Fangzheng Kaiti GBK\"", "homepage \"https://www.foundertype.com/index.php/FontInfo/index.html?id=137\""@160], :fonts=>["(share/\"fonts\").install \"FZKTK.ttf\""], :after=>"# No zap stanza required\n"@259}
