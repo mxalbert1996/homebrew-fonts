@@ -1,1 +1,0 @@
-{:name=>"\"font-amarante\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/amarante/Amarante-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Amarante\"", "homepage \"https://fonts.google.com/specimen/Amarante\""@209], :fonts=>["(share/\"fonts\").install \"Amarante-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
