@@ -1,1 +1,0 @@
-{:name=>"\"font-chilanka\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/chilanka/Chilanka-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Chilanka\"", "homepage \"https://fonts.google.com/specimen/Chilanka\""@209], :fonts=>["(share/\"fonts\").install \"Chilanka-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
