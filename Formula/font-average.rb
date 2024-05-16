@@ -1,1 +1,0 @@
-{:name=>"\"font-average\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/average/Average-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Average\"", "homepage \"https://fonts.google.com/specimen/Average\""@205], :fonts=>["(share/\"fonts\").install \"Average-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
