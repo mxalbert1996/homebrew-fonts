@@ -1,1 +1,0 @@
-{:name=>"\"font-alef\"", :before=>["", "", "head \"http://alef.hagilda.com/Alef.zip\"", "desc \"Alef\"", "homepage \"http://alef.hagilda.com/\""@115], :fonts=>["(share/\"fonts\").install \"\#{parent}TTF/Alef-Bold.ttf\"", "(share/\"fonts\").install \"\#{parent}TTF/Alef-Regular.ttf\""], :after=>"# No zap stanza required\n"@212}
