@@ -1,1 +1,0 @@
-{:name=>"\"font-jomhuria\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jomhuria/Jomhuria-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jomhuria\"", "homepage \"https://fonts.google.com/specimen/Jomhuria\""@209], :fonts=>["(share/\"fonts\").install \"Jomhuria-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
