@@ -1,1 +1,0 @@
-{:name=>"\"font-decovar-alpha\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/decovaralpha/DecovarAlpha-VF.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Decovar Alpha\"", "homepage \"https://fonts.google.com/earlyaccess\""@222], :fonts=>["(share/\"fonts\").install \"DecovarAlpha-VF.ttf\""], :after=>"# No zap stanza required\n"@303}
