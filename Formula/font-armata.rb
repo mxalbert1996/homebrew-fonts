@@ -1,1 +1,0 @@
-{:name=>"\"font-armata\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/armata/Armata-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Armata\"", "homepage \"https://fonts.google.com/specimen/Armata\""@201], :fonts=>["(share/\"fonts\").install \"Armata-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
