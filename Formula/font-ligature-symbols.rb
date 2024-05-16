@@ -1,1 +1,0 @@
-{:name=>"\"font-ligature-symbols\"", :before=>["", "", "head \"https://kudakurage.com/ligature_symbols/LigatureSymbols.zip\"", "desc \"Ligature Symbols\"", "homepage \"https://kudakurage.com/ligature_symbols/\""@166], :fonts=>["(share/\"fonts\").install \"\#{parent}LigatureSymbols/LigatureSymbols-2.11.otf\""], :after=>"# No zap stanza required\n"@272}
