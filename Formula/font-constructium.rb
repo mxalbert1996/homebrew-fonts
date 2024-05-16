@@ -1,1 +1,0 @@
-{:name=>"\"font-constructium\"", :before=>["", "", "head \"https://www.kreativekorp.com/swdownload/fonts/xlang/constructium.zip\", user_agent: :fake", "desc \"Constructium\"", "homepage \"https://www.kreativekorp.com/software/fonts/constructium.shtml\""@192], :fonts=>["(share/\"fonts\").install \"Constructium.ttf\""], :after=>"# No zap stanza required\n"@296}
