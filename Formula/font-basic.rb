@@ -1,1 +1,0 @@
-{:name=>"\"font-basic\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/basic/Basic-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Basic\"", "homepage \"https://fonts.google.com/specimen/Basic\""@197], :fonts=>["(share/\"fonts\").install \"Basic-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
