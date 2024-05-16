@@ -1,1 +1,0 @@
-{:name=>"\"font-changa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/changa/Changa%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Changa\"", "homepage \"https://fonts.google.com/specimen/Changa\""@203], :fonts=>["(share/\"fonts\").install \"Changa[wght].ttf\""], :after=>"# No zap stanza required\n"@285}
