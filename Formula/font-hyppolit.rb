@@ -1,1 +1,0 @@
-{:name=>"\"font-hyppolit\"", :before=>["", "", "head \"https://dl.1001fonts.com/hyppolit.zip\"", "desc \"Hyppolit\"", "homepage \"https://www.1001fonts.com/hyppolit-font.html\""@128], :fonts=>["(share/\"fonts\").install \"Hyppolit.ttf\""], :after=>"# No zap stanza required\n"@210}
