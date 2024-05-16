@@ -1,1 +1,0 @@
-{:name=>"\"font-kavivanar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kavivanar/Kavivanar-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kavivanar\"", "homepage \"https://fonts.google.com/specimen/Kavivanar\""@213], :fonts=>["(share/\"fonts\").install \"Kavivanar-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
