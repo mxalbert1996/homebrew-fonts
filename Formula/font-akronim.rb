@@ -1,1 +1,0 @@
-{:name=>"\"font-akronim\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/akronim/Akronim-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Akronim\"", "homepage \"https://fonts.google.com/specimen/Akronim\""@205], :fonts=>["(share/\"fonts\").install \"Akronim-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
