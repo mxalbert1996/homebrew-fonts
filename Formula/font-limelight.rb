@@ -1,1 +1,0 @@
-{:name=>"\"font-limelight\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/limelight/Limelight-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Limelight\"", "homepage \"https://fonts.google.com/specimen/Limelight\""@213], :fonts=>["(share/\"fonts\").install \"Limelight-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
