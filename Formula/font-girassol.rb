@@ -1,1 +1,0 @@
-{:name=>"\"font-girassol\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/girassol/Girassol-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Girassol\"", "homepage \"https://fonts.google.com/specimen/Girassol\""@209], :fonts=>["(share/\"fonts\").install \"Girassol-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
