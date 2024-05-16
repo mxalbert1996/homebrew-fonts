@@ -1,1 +1,0 @@
-{:name=>"\"font-heebo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/heebo/Heebo%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Heebo\"", "homepage \"https://fonts.google.com/specimen/Heebo\""@199], :fonts=>["(share/\"fonts\").install \"Heebo[wght].ttf\""], :after=>"# No zap stanza required\n"@279}
