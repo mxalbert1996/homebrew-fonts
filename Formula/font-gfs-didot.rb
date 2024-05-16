@@ -1,1 +1,0 @@
-{:name=>"\"font-gfs-didot\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/gfsdidot/GFSDidot-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"GFS Didot\"", "homepage \"https://fonts.google.com/specimen/GFS+Didot\""@211], :fonts=>["(share/\"fonts\").install \"GFSDidot-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
