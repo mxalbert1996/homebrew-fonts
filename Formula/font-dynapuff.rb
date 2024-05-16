@@ -1,1 +1,0 @@
-{:name=>"\"font-dynapuff\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dynapuff/DynaPuff%5Bwdth%2Cwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"DynaPuff\"", "homepage \"https://fonts.google.com/specimen/DynaPuff\""@218], :fonts=>["(share/\"fonts\").install \"DynaPuff[wdth,wght].ttf\""], :after=>"# No zap stanza required\n"@309}
