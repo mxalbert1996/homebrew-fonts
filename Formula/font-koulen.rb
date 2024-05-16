@@ -1,1 +1,0 @@
-{:name=>"\"font-koulen\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/koulen/Koulen-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Koulen\"", "homepage \"https://fonts.google.com/specimen/Koulen\""@201], :fonts=>["(share/\"fonts\").install \"Koulen-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
