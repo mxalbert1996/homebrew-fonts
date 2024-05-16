@@ -1,1 +1,0 @@
-{:name=>"\"font-kurale\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kurale/Kurale-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kurale\"", "homepage \"https://fonts.google.com/specimen/Kurale\""@201], :fonts=>["(share/\"fonts\").install \"Kurale-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
