@@ -1,1 +1,0 @@
-{:name=>"\"font-condiment\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/condiment/Condiment-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Condiment\"", "homepage \"https://fonts.google.com/specimen/Condiment\""@213], :fonts=>["(share/\"fonts\").install \"Condiment-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
