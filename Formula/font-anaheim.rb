@@ -1,1 +1,0 @@
-{:name=>"\"font-anaheim\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/anaheim/Anaheim%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Anaheim\"", "homepage \"https://fonts.google.com/specimen/Anaheim\""@207], :fonts=>["(share/\"fonts\").install \"Anaheim[wght].ttf\""], :after=>"# No zap stanza required\n"@291}
