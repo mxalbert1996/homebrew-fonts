@@ -1,1 +1,0 @@
-{:name=>"\"font-eagle-lake\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/eaglelake/EagleLake-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Eagle Lake\"", "homepage \"https://fonts.google.com/specimen/Eagle+Lake\""@215], :fonts=>["(share/\"fonts\").install \"EagleLake-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
