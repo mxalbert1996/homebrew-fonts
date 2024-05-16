@@ -1,1 +1,0 @@
-{:name=>"\"font-dangrek\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dangrek/Dangrek-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Dangrek\"", "homepage \"https://fonts.google.com/specimen/Dangrek\""@205], :fonts=>["(share/\"fonts\").install \"Dangrek-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
