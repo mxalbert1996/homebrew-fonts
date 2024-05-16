@@ -1,1 +1,0 @@
-{:name=>"\"font-domine\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/domine/Domine%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Domine\"", "homepage \"https://fonts.google.com/specimen/Domine\""@203], :fonts=>["(share/\"fonts\").install \"Domine[wght].ttf\""], :after=>"# No zap stanza required\n"@285}
