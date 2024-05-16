@@ -1,1 +1,0 @@
-{:name=>"\"font-butcherman\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/butcherman/Butcherman-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Butcherman\"", "homepage \"https://fonts.google.com/specimen/Butcherman\""@217], :fonts=>["(share/\"fonts\").install \"Butcherman-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
