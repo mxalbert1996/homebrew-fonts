@@ -1,1 +1,0 @@
-{:name=>"\"font-caveat\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/caveat/Caveat%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Caveat\"", "homepage \"https://fonts.google.com/specimen/Caveat\""@203], :fonts=>["(share/\"fonts\").install \"Caveat[wght].ttf\""], :after=>"# No zap stanza required\n"@285}
