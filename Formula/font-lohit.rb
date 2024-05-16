@@ -1,1 +1,0 @@
-{:name=>"\"font-lohit\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lohitdevanagari/Lohit-Devanagari.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lohit\"", "homepage \"https://fonts.google.com/earlyaccess\""@210], :fonts=>["(share/\"fonts\").install \"Lohit-Devanagari.ttf\""], :after=>"# No zap stanza required\n"@292}
