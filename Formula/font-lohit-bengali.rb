@@ -1,1 +1,0 @@
-{:name=>"\"font-lohit-bengali\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lohitbengali/Lohit-Bengali.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lohit Bengali\"", "homepage \"https://fonts.google.com/specimen/Lohit+Bengali\""@220], :fonts=>["(share/\"fonts\").install \"Lohit-Bengali.ttf\""], :after=>"# No zap stanza required\n"@310}
