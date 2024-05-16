@@ -1,1 +1,0 @@
-{:name=>"\"font-baumans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/baumans/Baumans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Baumans\"", "homepage \"https://fonts.google.com/specimen/Baumans\""@205], :fonts=>["(share/\"fonts\").install \"Baumans-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
