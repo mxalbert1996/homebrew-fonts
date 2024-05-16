@@ -1,1 +1,0 @@
-{:name=>"\"font-inspiration\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/inspiration/Inspiration-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Inspiration\"", "homepage \"https://fonts.google.com/specimen/Inspiration\""@221], :fonts=>["(share/\"fonts\").install \"Inspiration-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
