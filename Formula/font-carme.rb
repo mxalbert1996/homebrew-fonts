@@ -1,1 +1,0 @@
-{:name=>"\"font-carme\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/carme/Carme-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Carme\"", "homepage \"https://fonts.google.com/specimen/Carme\""@197], :fonts=>["(share/\"fonts\").install \"Carme-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
