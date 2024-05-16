@@ -1,1 +1,0 @@
-{:name=>"\"font-chonburi\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/chonburi/Chonburi-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Chonburi\"", "homepage \"https://fonts.google.com/specimen/Chonburi\""@209], :fonts=>["(share/\"fonts\").install \"Chonburi-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
