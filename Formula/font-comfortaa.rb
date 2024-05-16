@@ -1,1 +1,0 @@
-{:name=>"\"font-comfortaa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/comfortaa/Comfortaa%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Comfortaa\"", "homepage \"https://fonts.google.com/specimen/Comfortaa\""@215], :fonts=>["(share/\"fonts\").install \"Comfortaa[wght].ttf\""], :after=>"# No zap stanza required\n"@303}
