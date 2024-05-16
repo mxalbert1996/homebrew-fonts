@@ -1,1 +1,0 @@
-{:name=>"\"font-katibeh\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/katibeh/Katibeh-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Katibeh\"", "homepage \"https://fonts.google.com/specimen/Katibeh\""@205], :fonts=>["(share/\"fonts\").install \"Katibeh-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
