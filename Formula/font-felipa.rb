@@ -1,1 +1,0 @@
-{:name=>"\"font-felipa\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/felipa/Felipa-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Felipa\"", "homepage \"https://fonts.google.com/specimen/Felipa\""@201], :fonts=>["(share/\"fonts\").install \"Felipa-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
