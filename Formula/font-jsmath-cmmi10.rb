@@ -1,1 +1,0 @@
-{:name=>"\"font-jsmath-cmmi10\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/jsmathcmmi10/jsMath-cmmi10.ttf\", verified: \"github.com/google/fonts/\"", "desc \"jsMath cmmi10\"", "homepage \"https://fonts.google.com/specimen/jsMath+cmmi10\""@223], :fonts=>["(share/\"fonts\").install \"jsMath-cmmi10.ttf\""], :after=>"# No zap stanza required\n"@313}
