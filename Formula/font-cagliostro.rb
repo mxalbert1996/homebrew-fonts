@@ -1,1 +1,0 @@
-{:name=>"\"font-cagliostro\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cagliostro/Cagliostro-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cagliostro\"", "homepage \"https://fonts.google.com/specimen/Cagliostro\""@217], :fonts=>["(share/\"fonts\").install \"Cagliostro-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
