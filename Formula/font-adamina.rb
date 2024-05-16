@@ -1,1 +1,0 @@
-{:name=>"\"font-adamina\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/adamina/Adamina-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Adamina\"", "homepage \"https://fonts.google.com/specimen/Adamina\""@205], :fonts=>["(share/\"fonts\").install \"Adamina-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
