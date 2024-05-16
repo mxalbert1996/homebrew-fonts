@@ -1,1 +1,0 @@
-{:name=>"\"font-krona-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kronaone/KronaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Krona One\"", "homepage \"https://fonts.google.com/specimen/Krona+One\""@211], :fonts=>["(share/\"fonts\").install \"KronaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
