@@ -1,1 +1,0 @@
-{:name=>"\"font-forum\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/forum/Forum-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Forum\"", "homepage \"https://fonts.google.com/specimen/Forum\""@197], :fonts=>["(share/\"fonts\").install \"Forum-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
