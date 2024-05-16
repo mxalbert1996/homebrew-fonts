@@ -1,1 +1,0 @@
-{:name=>"\"font-jura\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/jura/Jura%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Jura\"", "homepage \"https://fonts.google.com/specimen/Jura\""@195], :fonts=>["(share/\"fonts\").install \"Jura[wght].ttf\""], :after=>"# No zap stanza required\n"@273}
