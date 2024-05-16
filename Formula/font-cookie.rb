@@ -1,1 +1,0 @@
-{:name=>"\"font-cookie\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cookie/Cookie-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cookie\"", "homepage \"https://fonts.google.com/specimen/Cookie\""@201], :fonts=>["(share/\"fonts\").install \"Cookie-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
