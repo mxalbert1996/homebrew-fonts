@@ -1,1 +1,0 @@
-{:name=>"\"font-cantora-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cantoraone/CantoraOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cantora One\"", "homepage \"https://fonts.google.com/specimen/Cantora+One\""@219], :fonts=>["(share/\"fonts\").install \"CantoraOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
