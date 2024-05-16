@@ -1,1 +1,0 @@
-{:name=>"\"font-cambo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cambo/Cambo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cambo\"", "homepage \"https://fonts.google.com/specimen/Cambo\""@197], :fonts=>["(share/\"fonts\").install \"Cambo-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
