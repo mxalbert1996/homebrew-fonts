@@ -1,1 +1,0 @@
-{:name=>"\"font-denk-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/denkone/DenkOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Denk One\"", "homepage \"https://fonts.google.com/specimen/Denk+One\""@207], :fonts=>["(share/\"fonts\").install \"DenkOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@294}
