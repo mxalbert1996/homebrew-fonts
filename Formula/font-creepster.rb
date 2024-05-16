@@ -1,1 +1,0 @@
-{:name=>"\"font-creepster\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/creepster/Creepster-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Creepster\"", "homepage \"https://fonts.google.com/specimen/Creepster\""@213], :fonts=>["(share/\"fonts\").install \"Creepster-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
