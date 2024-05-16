@@ -1,1 +1,0 @@
-{:name=>"\"font-cute-font\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/cutefont/CuteFont-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Cute Font\"", "homepage \"https://fonts.google.com/specimen/Cute+Font\""@211], :fonts=>["(share/\"fonts\").install \"CuteFont-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
