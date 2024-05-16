@@ -1,1 +1,0 @@
-{:name=>"\"font-lexend-mega\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lexendmega/LexendMega%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lexend Mega\"", "homepage \"https://fonts.google.com/specimen/Lexend+Mega\""@221], :fonts=>["(share/\"fonts\").install \"LexendMega[wght].ttf\""], :after=>"# No zap stanza required\n"@312}
