@@ -1,1 +1,0 @@
-{:name=>"\"font-lohit-tamil\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/lohittamil/Lohit-Tamil.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Lohit Tamil\"", "homepage \"https://fonts.google.com/specimen/Lohit+Tamil\""@212], :fonts=>["(share/\"fonts\").install \"Lohit-Tamil.ttf\""], :after=>"# No zap stanza required\n"@298}
