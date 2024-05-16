@@ -1,1 +1,0 @@
-{:name=>"\"font-asar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/asar/Asar-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Asar\"", "homepage \"https://fonts.google.com/specimen/Asar\""@193], :fonts=>["(share/\"fonts\").install \"Asar-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
