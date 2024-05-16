@@ -1,1 +1,0 @@
-{:name=>"\"font-dekko\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/dekko/Dekko-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Dekko\"", "homepage \"https://fonts.google.com/specimen/Dekko\""@197], :fonts=>["(share/\"fonts\").install \"Dekko-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
