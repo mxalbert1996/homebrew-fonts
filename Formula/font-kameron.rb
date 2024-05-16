@@ -1,1 +1,0 @@
-{:name=>"\"font-kameron\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kameron/Kameron%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kameron\"", "homepage \"https://fonts.google.com/specimen/Kameron\""@207], :fonts=>["(share/\"fonts\").install \"Kameron[wght].ttf\""], :after=>"# No zap stanza required\n"@291}
