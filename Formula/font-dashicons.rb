@@ -1,1 +1,0 @@
-{:name=>"\"font-dashicons\"", :before=>["", "", "head \"https://github.com/WordPress/dashicons/raw/master/icon-font/fonts/dashicons.ttf\", verified: \"github.com/WordPress/dashicons/\"", "desc \"Dashicons\"", "homepage \"https://developer.wordpress.org/resource/dashicons\""@223], :fonts=>["(share/\"fonts\").install \"dashicons.ttf\""], :after=>"# No zap stanza required\n"@312}
