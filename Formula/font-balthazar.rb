@@ -1,1 +1,0 @@
-{:name=>"\"font-balthazar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/balthazar/Balthazar-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Balthazar\"", "homepage \"https://fonts.google.com/specimen/Balthazar\""@213], :fonts=>["(share/\"fonts\").install \"Balthazar-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
