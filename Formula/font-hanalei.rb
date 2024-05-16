@@ -1,1 +1,0 @@
-{:name=>"\"font-hanalei\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/hanalei/Hanalei-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Hanalei\"", "homepage \"https://fonts.google.com/specimen/Hanalei\""@205], :fonts=>["(share/\"fonts\").install \"Hanalei-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
