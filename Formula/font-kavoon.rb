@@ -1,1 +1,0 @@
-{:name=>"\"font-kavoon\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/kavoon/Kavoon-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Kavoon\"", "homepage \"https://fonts.google.com/specimen/Kavoon\""@201], :fonts=>["(share/\"fonts\").install \"Kavoon-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
