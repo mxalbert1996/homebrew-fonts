@@ -1,1 +1,0 @@
-{:name=>"\"font-pompiere\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/pompiere/Pompiere-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Pompiere\"", "homepage \"https://fonts.google.com/specimen/Pompiere\""@209], :fonts=>["(share/\"fonts\").install \"Pompiere-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
