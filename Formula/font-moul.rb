@@ -1,1 +1,0 @@
-{:name=>"\"font-moul\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/moul/Moul-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Moul\"", "homepage \"https://fonts.google.com/specimen/Moul\""@193], :fonts=>["(share/\"fonts\").install \"Moul-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
