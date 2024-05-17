@@ -1,1 +1,0 @@
-{:name=>"\"font-sancreek\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sancreek/Sancreek-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sancreek\"", "homepage \"https://fonts.google.com/specimen/Sancreek\""@209], :fonts=>["(share/\"fonts\").install \"Sancreek-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
