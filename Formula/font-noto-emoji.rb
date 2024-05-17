@@ -1,1 +1,0 @@
-{:name=>"\"font-noto-emoji\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notoemoji/NotoEmoji%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Emoji\"", "homepage \"https://fonts.google.com/specimen/Noto+Emoji\""@217], :fonts=>["(share/\"fonts\").install \"NotoEmoji[wght].ttf\""], :after=>"# No zap stanza required\n"@306}
