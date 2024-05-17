@@ -1,1 +1,0 @@
-{:name=>"\"font-romanesco\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/romanesco/Romanesco-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Romanesco\"", "homepage \"https://fonts.google.com/specimen/Romanesco\""@213], :fonts=>["(share/\"fonts\").install \"Romanesco-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
