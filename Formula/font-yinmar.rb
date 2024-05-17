@@ -1,1 +1,0 @@
-{:name=>"\"font-yinmar\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yinmar/Yinmar-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yinmar\"", "homepage \"https://fonts.google.com/specimen/Yinmar\""@201], :fonts=>["(share/\"fonts\").install \"Yinmar-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
