@@ -1,1 +1,0 @@
-{:name=>"\"font-pigmo00\"", :before=>["", "", "head \"https://moji-waku.com/download/pigmo00.zip\"", "desc \"Pigmo 00\"", "desc \"Cute drawing styled Japanese font\""@132, "homepage \"https://moji-waku.com/pigmo/index.html\""@175], :fonts=>["(share/\"fonts\").install \"\#{parent}pigmo00/Pigmo-00.otf\""], :after=>"# No zap stanza required\n"@259}
