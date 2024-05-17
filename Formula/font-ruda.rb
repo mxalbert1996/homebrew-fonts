@@ -1,1 +1,0 @@
-{:name=>"\"font-ruda\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ruda/Ruda%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ruda\"", "homepage \"https://fonts.google.com/specimen/Ruda\""@195], :fonts=>["(share/\"fonts\").install \"Ruda[wght].ttf\""], :after=>"# No zap stanza required\n"@273}
