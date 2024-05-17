@@ -1,1 +1,0 @@
-{:name=>"\"font-sansita-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sansitaone/SansitaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sansita One\"", "homepage \"https://fonts.google.com/specimen/Sansita+One\""@219], :fonts=>["(share/\"fonts\").install \"SansitaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
