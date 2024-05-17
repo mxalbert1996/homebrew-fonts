@@ -1,1 +1,0 @@
-{:name=>"\"font-mate-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/matesc/MateSC-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Mate SC\"", "homepage \"https://fonts.google.com/specimen/Mate+SC\""@203], :fonts=>["(share/\"fonts\").install \"MateSC-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
