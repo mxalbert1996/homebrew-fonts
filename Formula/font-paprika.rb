@@ -1,1 +1,0 @@
-{:name=>"\"font-paprika\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/paprika/Paprika-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Paprika\"", "homepage \"https://fonts.google.com/specimen/Paprika\""@205], :fonts=>["(share/\"fonts\").install \"Paprika-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
