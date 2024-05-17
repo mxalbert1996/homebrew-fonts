@@ -1,1 +1,0 @@
-{:name=>"\"font-teko\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/teko/Teko%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Teko\"", "homepage \"https://fonts.google.com/specimen/Teko\""@195], :fonts=>["(share/\"fonts\").install \"Teko[wght].ttf\""], :after=>"# No zap stanza required\n"@273}
