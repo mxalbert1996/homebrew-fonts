@@ -1,1 +1,0 @@
-{:name=>"\"font-xkcd-script\"", :before=>["", "", "head \"https://github.com/ipython/xkcd-font/raw/master/xkcd-script/font/xkcd-script.ttf\"", "desc \"xkcd-script\"", "homepage \"https://github.com/ipython/xkcd-font\""@177], :fonts=>["(share/\"fonts\").install \"xkcd-script.ttf\""], :after=>"# No zap stanza required\n"@254}
