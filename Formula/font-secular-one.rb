@@ -1,1 +1,0 @@
-{:name=>"\"font-secular-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/secularone/SecularOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Secular One\"", "homepage \"https://fonts.google.com/specimen/Secular+One\""@219], :fonts=>["(share/\"fonts\").install \"SecularOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
