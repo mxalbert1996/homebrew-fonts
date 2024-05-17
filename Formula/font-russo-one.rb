@@ -1,1 +1,0 @@
-{:name=>"\"font-russo-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/russoone/RussoOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Russo One\"", "homepage \"https://fonts.google.com/specimen/Russo+One\""@211], :fonts=>["(share/\"fonts\").install \"RussoOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
