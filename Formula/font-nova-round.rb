@@ -1,1 +1,0 @@
-{:name=>"\"font-nova-round\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/novaround/NovaRound.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nova Round\"", "homepage \"https://fonts.google.com/specimen/Nova+Round\""@207], :fonts=>["(share/\"fonts\").install \"NovaRound.ttf\""], :after=>"# No zap stanza required\n"@290}
