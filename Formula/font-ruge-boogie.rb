@@ -1,1 +1,0 @@
-{:name=>"\"font-ruge-boogie\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rugeboogie/RugeBoogie-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ruge Boogie\"", "homepage \"https://fonts.google.com/specimen/Ruge+Boogie\""@219], :fonts=>["(share/\"fonts\").install \"RugeBoogie-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
