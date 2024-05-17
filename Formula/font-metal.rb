@@ -1,1 +1,0 @@
-{:name=>"\"font-metal\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/metal/Metal-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Metal\"", "homepage \"https://fonts.google.com/specimen/Metal\""@197], :fonts=>["(share/\"fonts\").install \"Metal-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
