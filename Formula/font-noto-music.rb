@@ -1,1 +1,0 @@
-{:name=>"\"font-noto-music\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/notomusic/NotoMusic-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Noto Music\"", "homepage \"https://fonts.google.com/specimen/Noto+Music\""@215], :fonts=>["(share/\"fonts\").install \"NotoMusic-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
