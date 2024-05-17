@@ -1,1 +1,0 @@
-{:name=>"\"font-wendy-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/wendyone/WendyOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Wendy One\"", "homepage \"https://fonts.google.com/specimen/Wendy+One\""@211], :fonts=>["(share/\"fonts\").install \"WendyOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
