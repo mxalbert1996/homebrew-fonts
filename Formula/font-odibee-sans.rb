@@ -1,1 +1,0 @@
-{:name=>"\"font-odibee-sans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/odibeesans/OdibeeSans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Odibee Sans\"", "homepage \"https://fonts.google.com/specimen/Odibee+Sans\""@219], :fonts=>["(share/\"fonts\").install \"OdibeeSans-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
