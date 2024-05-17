@@ -1,1 +1,0 @@
-{:name=>"\"font-pushster\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/pushster/Pushster-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Pushster\"", "homepage \"\""@209], :fonts=>["(share/\"fonts\").install \"Pushster-Regular.ttf\""], :after=>"# No zap stanza required\n"@255}
