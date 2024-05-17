@@ -1,1 +1,0 @@
-{:name=>"\"font-playwrite-fr-trad\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/playwritefrtrad/PlaywriteFRTrad%5Bwght%5D.ttf\"", "desc \"Playwrite FR Trad\"", "homepage \"https://github.com/TypeTogether/Playwrite/\""@199], :fonts=>["(share/\"fonts\").install \"PlaywriteFRTrad[wght].ttf\""], :after=>"# No zap stanza required\n"@292}
