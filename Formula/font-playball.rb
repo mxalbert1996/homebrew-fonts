@@ -1,1 +1,0 @@
-{:name=>"\"font-playball\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/playball/Playball-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Playball\"", "homepage \"https://fonts.google.com/specimen/Playball\""@209], :fonts=>["(share/\"fonts\").install \"Playball-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
