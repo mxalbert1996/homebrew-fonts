@@ -1,1 +1,0 @@
-{:name=>"\"font-oldenburg\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/oldenburg/Oldenburg-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Oldenburg\"", "homepage \"https://fonts.google.com/specimen/Oldenburg\""@213], :fonts=>["(share/\"fonts\").install \"Oldenburg-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
