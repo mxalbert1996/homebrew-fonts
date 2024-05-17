@@ -1,1 +1,0 @@
-{:name=>"\"font-pirata-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/pirataone/PirataOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Pirata One\"", "homepage \"https://fonts.google.com/specimen/Pirata+One\""@215], :fonts=>["(share/\"fonts\").install \"PirataOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
