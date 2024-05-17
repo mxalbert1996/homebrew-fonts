@@ -1,1 +1,0 @@
-{:name=>"\"font-train-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/trainone/TrainOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Train One\"", "homepage \"https://fonts.google.com/specimen/Train+One\""@211], :fonts=>["(share/\"fonts\").install \"TrainOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
