@@ -1,1 +1,0 @@
-{:name=>"\"font-ovo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ovo/Ovo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ovo\"", "homepage \"https://fonts.google.com/specimen/Ovo\""@189], :fonts=>["(share/\"fonts\").install \"Ovo-Regular.ttf\""], :after=>"# No zap stanza required\n"@267}
