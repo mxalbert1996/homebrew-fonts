@@ -1,1 +1,0 @@
-{:name=>"\"font-phudu\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/phudu/Phudu%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Phudu\"", "homepage \"https://fonts.google.com/specimen/Phudu\""@199], :fonts=>["(share/\"fonts\").install \"Phudu[wght].ttf\""], :after=>"# No zap stanza required\n"@279}
