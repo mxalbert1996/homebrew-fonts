@@ -1,1 +1,0 @@
-{:name=>"\"font-splash\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/splash/Splash-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Splash\"", "homepage \"https://fonts.google.com/specimen/Splash\""@201], :fonts=>["(share/\"fonts\").install \"Splash-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
