@@ -1,1 +1,0 @@
-{:name=>"\"font-molengo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/molengo/Molengo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Molengo\"", "homepage \"https://fonts.google.com/specimen/Molengo\""@205], :fonts=>["(share/\"fonts\").install \"Molengo-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
