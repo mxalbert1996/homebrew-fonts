@@ -1,1 +1,0 @@
-{:name=>"\"font-monda\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/monda/Monda%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Monda\"", "homepage \"https://fonts.google.com/specimen/Monda\""@199], :fonts=>["(share/\"fonts\").install \"Monda[wght].ttf\""], :after=>"# No zap stanza required\n"@279}
