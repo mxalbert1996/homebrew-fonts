@@ -1,1 +1,0 @@
-{:name=>"\"font-sarina\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sarina/Sarina-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sarina\"", "homepage \"https://fonts.google.com/specimen/Sarina\""@201], :fonts=>["(share/\"fonts\").install \"Sarina-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
