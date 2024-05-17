@@ -1,1 +1,0 @@
-{:name=>"\"font-rubik-vinyl\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikvinyl/RubikVinyl-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rubik Vinyl\"", "homepage \"https://fonts.google.com/specimen/Rubik+Vinyl\""@219], :fonts=>["(share/\"fonts\").install \"RubikVinyl-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
