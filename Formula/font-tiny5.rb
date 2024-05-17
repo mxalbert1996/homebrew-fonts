@@ -1,1 +1,0 @@
-{:name=>"\"font-tiny5\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tiny5/Tiny5-Regular.ttf\"", "desc \"Tiny5\"", "homepage \"https://github.com/Gissio/font_tiny5\""@153], :fonts=>["(share/\"fonts\").install \"Tiny5-Regular.ttf\""], :after=>"# No zap stanza required\n"@232}
