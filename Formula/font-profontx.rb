@@ -1,1 +1,0 @@
-{:name=>"\"font-profontx\"", :before=>["", "", "head \"http://faisal.com/software/profontx/ProFontX.zip\"", "desc \"ProFontX\"", "homepage \"http://faisal.com/software/profontx/\""@139], :fonts=>["(share/\"fonts\").install \"\#{parent}ProFontX/ProFontX\""], :after=>"# No zap stanza required\n"@218}
