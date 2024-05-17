@@ -1,1 +1,0 @@
-{:name=>"\"font-seymour-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/seymourone/SeymourOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Seymour One\"", "homepage \"https://fonts.google.com/specimen/Seymour+One\""@219], :fonts=>["(share/\"fonts\").install \"SeymourOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
