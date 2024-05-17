@@ -1,1 +1,0 @@
-{:name=>"\"font-ruthie\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ruthie/Ruthie-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ruthie\"", "homepage \"https://fonts.google.com/specimen/Ruthie\""@201], :fonts=>["(share/\"fonts\").install \"Ruthie-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
