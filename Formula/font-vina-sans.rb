@@ -1,1 +1,0 @@
-{:name=>"\"font-vina-sans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vinasans/VinaSans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vina Sans\"", "homepage \"https://fonts.google.com/specimen/Vina+Sans\""@211], :fonts=>["(share/\"fonts\").install \"VinaSans-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
