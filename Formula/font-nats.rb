@@ -1,1 +1,0 @@
-{:name=>"\"font-nats\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/nats/NATS-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"NATS\"", "homepage \"https://fonts.google.com/specimen/NATS\""@193], :fonts=>["(share/\"fonts\").install \"NATS-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
