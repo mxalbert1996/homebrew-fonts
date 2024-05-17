@@ -1,1 +1,0 @@
-{:name=>"\"font-mr-bedfort\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mrbedfort/MrBedfort-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Mr Bedfort\"", "homepage \"https://fonts.google.com/specimen/Mr+Bedfort\""@215], :fonts=>["(share/\"fonts\").install \"MrBedfort-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
