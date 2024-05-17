@@ -1,1 +1,0 @@
-{:name=>"\"font-madimi-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/madimione/MadimiOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Madimi One\"", "homepage \"https://fonts.google.com/specimen/Madimi+One\""@215], :fonts=>["(share/\"fonts\").install \"MadimiOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
