@@ -1,1 +1,0 @@
-{:name=>"\"font-peralta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/peralta/Peralta-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Peralta\"", "homepage \"https://fonts.google.com/specimen/Peralta\""@205], :fonts=>["(share/\"fonts\").install \"Peralta-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
