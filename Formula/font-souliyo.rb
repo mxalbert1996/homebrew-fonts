@@ -1,1 +1,0 @@
-{:name=>"\"font-souliyo\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/souliyo/Souliyo-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Souliyo\"", "homepage \"https://fonts.google.com/earlyaccess\""@205], :fonts=>["(share/\"fonts\").install \"Souliyo-Regular.ttf\""], :after=>"# No zap stanza required\n"@286}
