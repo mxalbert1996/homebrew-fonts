@@ -1,1 +1,0 @@
-{:name=>"\"font-snippet\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/snippet/Snippet.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Snippet\"", "homepage \"https://fonts.google.com/specimen/Snippet\""@197], :fonts=>["(share/\"fonts\").install \"Snippet.ttf\""], :after=>"# No zap stanza required\n"@275}
