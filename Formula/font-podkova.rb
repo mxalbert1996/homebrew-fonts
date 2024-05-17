@@ -1,1 +1,0 @@
-{:name=>"\"font-podkova\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/podkova/Podkova%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Podkova\"", "homepage \"https://fonts.google.com/specimen/Podkova\""@207], :fonts=>["(share/\"fonts\").install \"Podkova[wght].ttf\""], :after=>"# No zap stanza required\n"@291}
