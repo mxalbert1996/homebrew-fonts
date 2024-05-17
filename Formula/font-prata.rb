@@ -1,1 +1,0 @@
-{:name=>"\"font-prata\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/prata/Prata-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Prata\"", "homepage \"https://fonts.google.com/specimen/Prata\""@197], :fonts=>["(share/\"fonts\").install \"Prata-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
