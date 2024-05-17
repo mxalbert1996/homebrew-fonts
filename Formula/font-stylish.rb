@@ -1,1 +1,0 @@
-{:name=>"\"font-stylish\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/stylish/Stylish-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Stylish\"", "homepage \"https://fonts.google.com/specimen/Stylish\""@205], :fonts=>["(share/\"fonts\").install \"Stylish-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
