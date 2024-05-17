@@ -1,1 +1,0 @@
-{:name=>"\"font-shizuru\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/shizuru/Shizuru-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Shizuru\"", "homepage \"https://fonts.google.com/specimen/Shizuru\""@205], :fonts=>["(share/\"fonts\").install \"Shizuru-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
