@@ -1,1 +1,0 @@
-{:name=>"\"font-titan-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/titanone/TitanOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Titan One\"", "homepage \"https://fonts.google.com/specimen/Titan+One\""@211], :fonts=>["(share/\"fonts\").install \"TitanOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
