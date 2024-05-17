@@ -1,1 +1,0 @@
-{:name=>"\"font-playwrite-vn\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/playwritevn/PlaywriteVN%5Bwght%5D.ttf\"", "desc \"Playwrite VN\"", "homepage \"https://github.com/vv-monsalve/Playwrite\""@181], :fonts=>["(share/\"fonts\").install \"PlaywriteVN[wght].ttf\""], :after=>"# No zap stanza required\n"@268}
