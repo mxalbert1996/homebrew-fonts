@@ -1,1 +1,0 @@
-{:name=>"\"font-qahiri\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/qahiri/Qahiri-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Qahiri\"", "homepage \"https://fonts.google.com/specimen/Qahiri\""@201], :fonts=>["(share/\"fonts\").install \"Qahiri-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
