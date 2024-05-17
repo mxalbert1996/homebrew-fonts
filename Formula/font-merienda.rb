@@ -1,1 +1,0 @@
-{:name=>"\"font-merienda\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/merienda/Merienda%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Merienda\"", "homepage \"https://fonts.google.com/specimen/Merienda\""@211], :fonts=>["(share/\"fonts\").install \"Merienda[wght].ttf\""], :after=>"# No zap stanza required\n"@297}
