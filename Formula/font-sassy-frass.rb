@@ -1,1 +1,0 @@
-{:name=>"\"font-sassy-frass\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sassyfrass/SassyFrass-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sassy Frass\"", "homepage \"https://fonts.google.com/specimen/Sassy+Frass\""@219], :fonts=>["(share/\"fonts\").install \"SassyFrass-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
