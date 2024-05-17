@@ -1,1 +1,0 @@
-{:name=>"\"font-yeon-sung\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/yeonsung/YeonSung-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yeon Sung\"", "homepage \"https://fonts.google.com/specimen/Yeon+Sung\""@211], :fonts=>["(share/\"fonts\").install \"YeonSung-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
