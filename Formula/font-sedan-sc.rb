@@ -1,1 +1,0 @@
-{:name=>"\"font-sedan-sc\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sedansc/SedanSC-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sedan SC\"", "homepage \"https://fonts.google.com/specimen/Sedan+SC\""@207], :fonts=>["(share/\"fonts\").install \"SedanSC-Regular.ttf\""], :after=>"# No zap stanza required\n"@294}
