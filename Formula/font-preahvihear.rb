@@ -1,1 +1,0 @@
-{:name=>"\"font-preahvihear\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/preahvihear/Preahvihear-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Preahvihear\"", "homepage \"https://fonts.google.com/specimen/Preahvihear\""@221], :fonts=>["(share/\"fonts\").install \"Preahvihear-Regular.ttf\""], :after=>"# No zap stanza required\n"@315}
