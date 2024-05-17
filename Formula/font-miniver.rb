@@ -1,1 +1,0 @@
-{:name=>"\"font-miniver\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/miniver/Miniver-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Miniver\"", "homepage \"https://fonts.google.com/specimen/Miniver\""@205], :fonts=>["(share/\"fonts\").install \"Miniver-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
