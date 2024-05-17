@@ -1,1 +1,0 @@
-{:name=>"\"font-prosto-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/prostoone/ProstoOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Prosto One\"", "homepage \"https://fonts.google.com/specimen/Prosto+One\""@215], :fonts=>["(share/\"fonts\").install \"ProstoOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
