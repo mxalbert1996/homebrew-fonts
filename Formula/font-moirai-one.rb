@@ -1,1 +1,0 @@
-{:name=>"\"font-moirai-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/moiraione/MoiraiOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Moirai One\"", "homepage \"https://fonts.google.com/specimen/Moirai+One\""@215], :fonts=>["(share/\"fonts\").install \"MoiraiOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
