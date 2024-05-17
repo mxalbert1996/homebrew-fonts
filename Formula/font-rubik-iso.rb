@@ -1,1 +1,0 @@
-{:name=>"\"font-rubik-iso\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rubikiso/RubikIso-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rubik Iso\"", "homepage \"https://fonts.google.com/specimen/Rubik+Iso\""@211], :fonts=>["(share/\"fonts\").install \"RubikIso-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
