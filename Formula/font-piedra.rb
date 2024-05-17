@@ -1,1 +1,0 @@
-{:name=>"\"font-piedra\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/piedra/Piedra-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Piedra\"", "homepage \"https://fonts.google.com/specimen/Piedra\""@201], :fonts=>["(share/\"fonts\").install \"Piedra-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
