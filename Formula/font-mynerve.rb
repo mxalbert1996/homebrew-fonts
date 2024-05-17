@@ -1,1 +1,0 @@
-{:name=>"\"font-mynerve\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/mynerve/Mynerve-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Mynerve\"", "homepage \"https://fonts.google.com/specimen/Mynerve\""@205], :fonts=>["(share/\"fonts\").install \"Mynerve-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
