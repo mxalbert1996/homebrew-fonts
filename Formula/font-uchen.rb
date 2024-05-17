@@ -1,1 +1,0 @@
-{:name=>"\"font-uchen\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/uchen/Uchen-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Uchen\"", "homepage \"https://fonts.google.com/specimen/Uchen\""@197], :fonts=>["(share/\"fonts\").install \"Uchen-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
