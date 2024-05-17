@@ -1,1 +1,0 @@
-{:name=>"\"font-risque\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/risque/Risque-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Risque\"", "homepage \"https://fonts.google.com/specimen/Risque\""@201], :fonts=>["(share/\"fonts\").install \"Risque-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
