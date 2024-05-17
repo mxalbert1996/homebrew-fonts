@@ -1,1 +1,0 @@
-{:name=>"\"font-single-day\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/singleday/SingleDay-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Single Day\"", "homepage \"https://fonts.google.com/specimen/Single+Day\""@215], :fonts=>["(share/\"fonts\").install \"SingleDay-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
