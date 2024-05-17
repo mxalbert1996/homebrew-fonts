@@ -1,1 +1,0 @@
-{:name=>"\"font-meie-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/meiescript/MeieScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Meie Script\"", "homepage \"https://fonts.google.com/specimen/Meie+Script\""@219], :fonts=>["(share/\"fonts\").install \"MeieScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
