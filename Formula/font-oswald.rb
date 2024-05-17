@@ -1,1 +1,0 @@
-{:name=>"\"font-oswald\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/oswald/Oswald%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Oswald\"", "homepage \"https://fonts.google.com/specimen/Oswald\""@203], :fonts=>["(share/\"fonts\").install \"Oswald[wght].ttf\""], :after=>"# No zap stanza required\n"@285}
