@@ -1,1 +1,0 @@
-{:name=>"\"font-voces\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/voces/Voces-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Voces\"", "homepage \"https://fonts.google.com/specimen/Voces\""@197], :fonts=>["(share/\"fonts\").install \"Voces-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
