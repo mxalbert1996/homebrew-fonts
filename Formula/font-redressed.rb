@@ -1,1 +1,0 @@
-{:name=>"\"font-redressed\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/redressed/Redressed-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Redressed\"", "homepage \"https://fonts.google.com/specimen/Redressed\""@216], :fonts=>["(share/\"fonts\").install \"Redressed-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
