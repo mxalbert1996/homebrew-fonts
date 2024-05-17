@@ -1,1 +1,0 @@
-{:name=>"\"font-orienta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/orienta/Orienta-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Orienta\"", "homepage \"https://fonts.google.com/specimen/Orienta\""@205], :fonts=>["(share/\"fonts\").install \"Orienta-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
