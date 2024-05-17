@@ -1,1 +1,0 @@
-{:name=>"\"font-viga\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/viga/Viga-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Viga\"", "homepage \"https://fonts.google.com/specimen/Viga\""@193], :fonts=>["(share/\"fonts\").install \"Viga-Regular.ttf\""], :after=>"# No zap stanza required\n"@273}
