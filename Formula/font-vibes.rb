@@ -1,1 +1,0 @@
-{:name=>"\"font-vibes\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vibes/Vibes-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vibes\"", "homepage \"https://fonts.google.com/specimen/Vibes\""@197], :fonts=>["(share/\"fonts\").install \"Vibes-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
