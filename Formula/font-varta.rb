@@ -1,1 +1,0 @@
-{:name=>"\"font-varta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/varta/Varta%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Varta\"", "homepage \"https://fonts.google.com/specimen/Varta\""@199], :fonts=>["(share/\"fonts\").install \"Varta[wght].ttf\""], :after=>"# No zap stanza required\n"@279}
