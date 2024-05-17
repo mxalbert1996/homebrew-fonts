@@ -1,1 +1,0 @@
-{:name=>"\"font-trade-winds\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/tradewinds/TradeWinds-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Trade Winds\"", "homepage \"https://fonts.google.com/specimen/Trade+Winds\""@219], :fonts=>["(share/\"fonts\").install \"TradeWinds-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
