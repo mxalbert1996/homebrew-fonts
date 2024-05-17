@@ -1,1 +1,0 @@
-{:name=>"\"font-ramabhadra\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ramabhadra/Ramabhadra-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ramabhadra\"", "homepage \"https://fonts.google.com/specimen/Ramabhadra\""@217], :fonts=>["(share/\"fonts\").install \"Ramabhadra-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
