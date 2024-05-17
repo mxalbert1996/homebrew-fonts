@@ -1,1 +1,0 @@
-{:name=>"\"font-oxanium\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/oxanium/Oxanium%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Oxanium\"", "homepage \"https://fonts.google.com/specimen/Oxanium\""@207], :fonts=>["(share/\"fonts\").install \"Oxanium[wght].ttf\""], :after=>"# No zap stanza required\n"@291}
