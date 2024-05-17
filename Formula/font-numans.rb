@@ -1,1 +1,0 @@
-{:name=>"\"font-numans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/numans/Numans-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Numans\"", "homepage \"https://fonts.google.com/specimen/Numans\""@201], :fonts=>["(share/\"fonts\").install \"Numans-Regular.ttf\""], :after=>"# No zap stanza required\n"@285}
