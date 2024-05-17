@@ -1,1 +1,0 @@
-{:name=>"\"font-moulpali\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/moulpali/Moulpali-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Moulpali\"", "homepage \"https://fonts.google.com/specimen/Moulpali\""@209], :fonts=>["(share/\"fonts\").install \"Moulpali-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
