@@ -1,1 +1,0 @@
-{:name=>"\"font-medula-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/medulaone/MedulaOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Medula One\"", "homepage \"https://fonts.google.com/specimen/Medula+One\""@215], :fonts=>["(share/\"fonts\").install \"MedulaOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
