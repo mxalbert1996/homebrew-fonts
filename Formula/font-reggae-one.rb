@@ -1,1 +1,0 @@
-{:name=>"\"font-reggae-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/reggaeone/ReggaeOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Reggae One\"", "homepage \"https://fonts.google.com/specimen/Reggae+One\""@215], :fonts=>["(share/\"fonts\").install \"ReggaeOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
