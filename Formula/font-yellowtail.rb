@@ -1,1 +1,0 @@
-{:name=>"\"font-yellowtail\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/apache/yellowtail/Yellowtail-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Yellowtail\"", "homepage \"https://fonts.google.com/specimen/Yellowtail\""@220], :fonts=>["(share/\"fonts\").install \"Yellowtail-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
