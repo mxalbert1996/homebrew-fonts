@@ -1,1 +1,0 @@
-{:name=>"\"font-ranchers\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/ranchers/Ranchers-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Ranchers\"", "homepage \"https://fonts.google.com/specimen/Ranchers\""@209], :fonts=>["(share/\"fonts\").install \"Ranchers-Regular.ttf\""], :after=>"# No zap stanza required\n"@297}
