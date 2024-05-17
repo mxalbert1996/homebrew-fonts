@@ -1,1 +1,0 @@
-{:name=>"\"font-medievalsharp\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/medievalsharp/MedievalSharp.ttf\", verified: \"github.com/google/fonts/\"", "desc \"MedievalSharp\"", "homepage \"https://fonts.google.com/specimen/MedievalSharp\""@221], :fonts=>["(share/\"fonts\").install \"MedievalSharp.ttf\""], :after=>"# No zap stanza required\n"@311}
