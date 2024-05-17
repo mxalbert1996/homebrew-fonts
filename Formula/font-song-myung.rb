@@ -1,1 +1,0 @@
-{:name=>"\"font-song-myung\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/songmyung/SongMyung-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Song Myung\"", "homepage \"https://fonts.google.com/specimen/Song+Myung\""@215], :fonts=>["(share/\"fonts\").install \"SongMyung-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
