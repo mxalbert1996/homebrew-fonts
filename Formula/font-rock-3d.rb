@@ -1,1 +1,0 @@
-{:name=>"\"font-rock-3d\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rock3d/Rock3D-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rock 3D\"", "homepage \"https://fonts.google.com/specimen/Rock+3D\""@203], :fonts=>["(share/\"fonts\").install \"Rock3D-Regular.ttf\""], :after=>"# No zap stanza required\n"@288}
