@@ -1,1 +1,0 @@
-{:name=>"\"font-offside\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/offside/Offside-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Offside\"", "homepage \"https://fonts.google.com/specimen/Offside\""@205], :fonts=>["(share/\"fonts\").install \"Offside-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
