@@ -1,1 +1,0 @@
-{:name=>"\"font-vast-shadow\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/vastshadow/VastShadow-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Vast Shadow\"", "homepage \"https://fonts.google.com/specimen/Vast+Shadow\""@219], :fonts=>["(share/\"fonts\").install \"VastShadow-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
