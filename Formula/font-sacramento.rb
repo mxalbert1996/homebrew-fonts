@@ -1,1 +1,0 @@
-{:name=>"\"font-sacramento\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sacramento/Sacramento-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sacramento\"", "homepage \"https://fonts.google.com/specimen/Sacramento\""@217], :fonts=>["(share/\"fonts\").install \"Sacramento-Regular.ttf\""], :after=>"# No zap stanza required\n"@309}
