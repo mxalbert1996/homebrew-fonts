@@ -1,1 +1,0 @@
-{:name=>"\"font-nico-moji\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/nicomoji/NicoMoji-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nico Moji\"", "homepage \"https://fonts.google.com/specimen/Nico+Moji\""@211], :fonts=>["(share/\"fonts\").install \"NicoMoji-Regular.ttf\""], :after=>"# No zap stanza required\n"@300}
