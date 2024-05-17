@@ -1,1 +1,0 @@
-{:name=>"\"font-spinnaker\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/spinnaker/Spinnaker-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Spinnaker\"", "homepage \"https://fonts.google.com/specimen/Spinnaker\""@213], :fonts=>["(share/\"fonts\").install \"Spinnaker-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
