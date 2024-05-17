@@ -1,1 +1,0 @@
-{:name=>"\"font-poor-story\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/poorstory/PoorStory-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Poor Story\"", "homepage \"https://fonts.google.com/specimen/Poor+Story\""@215], :fonts=>["(share/\"fonts\").install \"PoorStory-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
