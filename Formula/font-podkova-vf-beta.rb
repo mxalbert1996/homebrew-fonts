@@ -1,1 +1,0 @@
-{:name=>"\"font-podkova-vf-beta\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/podkovavfbeta/PodkovaVFBeta.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Podkova VF Beta\"", "homepage \"https://fonts.google.com/earlyaccess\""@225], :fonts=>["(share/\"fonts\").install \"PodkovaVFBeta.ttf\""], :after=>"# No zap stanza required\n"@304}
