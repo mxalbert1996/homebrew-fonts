@@ -1,1 +1,0 @@
-{:name=>"\"font-smooch-sans\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/smoochsans/SmoochSans%5Bwght%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Smooch Sans\"", "homepage \"https://fonts.google.com/specimen/Smooch+Sans\""@221], :fonts=>["(share/\"fonts\").install \"SmoochSans[wght].ttf\""], :after=>"# No zap stanza required\n"@312}
