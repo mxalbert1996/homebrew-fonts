@@ -1,1 +1,0 @@
-{:name=>"\"font-miama\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/miama/Miama-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Miama\"", "homepage \"https://fonts.google.com/specimen/Miama\""@197], :fonts=>["(share/\"fonts\").install \"Miama-Regular.ttf\""], :after=>"# No zap stanza required\n"@279}
