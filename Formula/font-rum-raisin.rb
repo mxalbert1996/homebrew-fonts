@@ -1,1 +1,0 @@
-{:name=>"\"font-rum-raisin\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/rumraisin/RumRaisin-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Rum Raisin\"", "homepage \"https://fonts.google.com/specimen/Rum+Raisin\""@215], :fonts=>["(share/\"fonts\").install \"RumRaisin-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
