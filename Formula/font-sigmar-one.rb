@@ -1,1 +1,0 @@
-{:name=>"\"font-sigmar-one\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sigmarone/SigmarOne-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sigmar One\"", "homepage \"https://fonts.google.com/specimen/Sigmar+One\""@215], :fonts=>["(share/\"fonts\").install \"SigmarOne-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
