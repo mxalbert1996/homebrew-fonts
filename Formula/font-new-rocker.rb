@@ -1,1 +1,0 @@
-{:name=>"\"font-new-rocker\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/newrocker/NewRocker-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"New Rocker\"", "homepage \"https://fonts.google.com/specimen/New+Rocker\""@215], :fonts=>["(share/\"fonts\").install \"NewRocker-Regular.ttf\""], :after=>"# No zap stanza required\n"@306}
