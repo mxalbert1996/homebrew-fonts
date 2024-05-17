@@ -1,1 +1,0 @@
-{:name=>"\"font-trocchi\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/trocchi/Trocchi-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Trocchi\"", "homepage \"https://fonts.google.com/specimen/Trocchi\""@205], :fonts=>["(share/\"fonts\").install \"Trocchi-Regular.ttf\""], :after=>"# No zap stanza required\n"@291}
