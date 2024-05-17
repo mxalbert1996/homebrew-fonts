@@ -1,1 +1,0 @@
-{:name=>"\"font-nova-script\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/novascript/NovaScript-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Nova Script\"", "homepage \"https://fonts.google.com/specimen/Nova+Script\""@219], :fonts=>["(share/\"fonts\").install \"NovaScript-Regular.ttf\""], :after=>"# No zap stanza required\n"@312}
