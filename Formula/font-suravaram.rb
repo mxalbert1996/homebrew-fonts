@@ -1,1 +1,0 @@
-{:name=>"\"font-suravaram\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/suravaram/Suravaram-Regular.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Suravaram\"", "homepage \"https://fonts.google.com/specimen/Suravaram\""@213], :fonts=>["(share/\"fonts\").install \"Suravaram-Regular.ttf\""], :after=>"# No zap stanza required\n"@303}
