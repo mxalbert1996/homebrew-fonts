@@ -1,1 +1,0 @@
-{:name=>"\"font-sixtyfour\"", :before=>["", "", "head \"https://github.com/google/fonts/raw/main/ofl/sixtyfour/Sixtyfour%5BBLED%2CSCAN%5D.ttf\", verified: \"github.com/google/fonts/\"", "desc \"Sixtyfour\"", "homepage \"https://fonts.google.com/specimen/Sixtyfour\""@222], :fonts=>["(share/\"fonts\").install \"Sixtyfour[BLED,SCAN].ttf\""], :after=>"# No zap stanza required\n"@315}
